@@ -2,7 +2,7 @@
 layout: post
 title:  "Opertaing Systems"
 date:   2021-01-24 12:00:00 -0000
-categories: OS Mac Linux Windows
+tags:  [OS, Mac, Linux, Windows]
 ---
 
 My thoughts on Operating Systems
