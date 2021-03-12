@@ -23,7 +23,7 @@ url: "stuff.kryton.me.uk" # the base hostname & protocol for your site, e.g. htt
 github_username:  kryton-me
 
 # Build settings
-# markdown: kramdown
+markdown: kramdown
 theme: jekyll-theme-midnight
 # plugins: - jekyll-feed
 
@@ -38,3 +38,19 @@ theme: jekyll-theme-midnight
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
