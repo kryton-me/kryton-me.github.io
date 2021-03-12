@@ -25,7 +25,8 @@ github_username:  kryton-me
 # Build settings
 markdown: kramdown
 theme: null #jekyll-theme-midnight
-#plugins: - jekyll-feed
+plugins: 
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -39,18 +40,20 @@ theme: null #jekyll-theme-midnight
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#defaults:
-#  -
-#    scope:
-#      type: posts
-#      path: _posts
-#    values:
-#      is_post: true
-#      layout: post
-#  -
-#    scope:
-#      type: pages
-#      path: _pages
-#    values:
-#      is_post: false
-#      layout: default
+# defaults for pages
+
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
