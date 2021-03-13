@@ -61,5 +61,3 @@ defaults:
     values:
       is_post: false
       layout: default
-
-theme: jekyll-theme-midnight
