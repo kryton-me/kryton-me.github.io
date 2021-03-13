@@ -2,6 +2,7 @@
 
 layout: home
 permalink: /
+title: Kryton
 
 ---
 
