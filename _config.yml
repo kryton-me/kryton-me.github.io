@@ -43,21 +43,21 @@
 
 # defaults for pages
 
-defaults:
-  -
-    scope:
-      type: posts
-      path: _posts
-    values:
-      is_post: true
-      layout: post
-      permalink: /blog/:title/
-  -
-    scope:
-      type: pages
-      path: _pages
-    values:
-      is_post: false
-      layout: default
+#defaults:
+# -
+#    scope:
+#     type: posts
+#     path: _posts
+#     values:
+#     is_post: true
+#      layout: post
+#      permalink: /blog/:title/
+#  -
+#    scope:
+#      type: pages
+#      path: _pages
+#    values:
+#      is_post: false
+#      layout: default
 
 theme: jekyll-theme-cayman
