@@ -1,8 +1,6 @@
 title: The stuff of Kryton
-description: >- # this means to ignore newlines until "baseurl:"
-An eclectic selection of Technology, Reading & Cookery.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://stuff.kryton.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
-
+description: An eclectic selection of Technology, Reading & Cookery.
+baseurl: "/"
+url: "https://stuff.kryton.me.uk"
 
 theme: jekyll-theme-midnight
