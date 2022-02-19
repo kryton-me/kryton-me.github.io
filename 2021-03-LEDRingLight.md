@@ -1,8 +1,9 @@
 ---
-title: LED ring light
 date: 2021-03-23 12:00:00 -0000
 tags: [LED, Photography, Macro, Light]
 ---
+
+% LED ring light
 
 # Why?
 One hobby of mine is Macro Photography and light is always a strughle. I get my idea to do this from a bigclive.com video. After some explermemting with a set of LED lights on a copper string I got a good result with just leds and no deffuser.

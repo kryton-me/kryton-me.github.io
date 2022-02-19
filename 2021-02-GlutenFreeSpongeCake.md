@@ -1,67 +1,74 @@
-Gluten Free Sponge Cake
+% Gluten Free Sponge Cake
 
-All measurements are in Small / Large mix
+# All measurements are in Small / Large mix
 
-Small = x2 18cm tin for x8 slices
-Large = x2 20cm tin for x12 slices
-Required equipment
++ Small = x2 18cm tin for x8 slices
++ Large = x2 20cm tin for x12 slices
 
-Food mixer (Kenwood chef)
-Accurate scales
-X2 18cm or 20cm round baking tin
-Cooling rack
-Fan oven
-Set oven to 170°C assuming fan oven
+# Required equipment
 
-Mix cake
++ Food mixer (Kenwood chef)
++ Accurate scales
++ X2 18cm or 20cm round baking tin
++ Cooling rack
++ Fan oven
+++ Set oven to 170°C assuming fan oven
 
-Cream together (fast mix)
+# Mix cake
 
-150g / 225g Margarine
-150g / 225g castor sugar
-Beat in (reasonably fast)
+## Cream together (fast mix)
 
-2/3 eggs
-2/3 drops of vanilla extract
-Fold in (slow) then beat well (fast)
++ 150g / 225g Margarine
++ 150g / 225g castor sugar
 
-150g / 225g GF self raising flour
-5ml / 7.5ml baking powder
-Mix in (reasonably fast)
+## Beat in (reasonably fast)
+
++ 2/3 eggs
++ 2/3 drops of vanilla extract
+
+## Fold in (slow) then beat well (fast)
+
++ 150g / 225g GF self raising flour
++ 5ml / 7.5ml baking powder
+
+## Mix in (reasonably fast)
 
 May be sloppy but don’t worry this is normal
 
-45ml / 67.5ml milk
-2.5ml / 3.75ml Xanthan gum
-Pour in to cake tins
++ 45ml / 67.5ml milk
++ 2.5ml / 3.75ml Xanthan gum
 
-Small mix in to x2 18cm tin
-Large mix in to x2 20cm tin
-Bake cake
+## Pour in to cake tins
 
-In Preheated 170°C fan oven for 15min
-Wish mixer bowl and beater for butter cream
-Stab with skewer, if clean its done!
-Cool cake
++ Small mix in to x2 18cm tin
++ Large mix in to x2 20cm tin
 
-Cool in tins for first 10min
-Cool on cooling rack till room temperature
-Make butter cream
+## Bake cake
 
-Warm butter in microwave 
++ In Preheated 170°C fan oven for 15min
++ Wish mixer bowl and beater for butter cream
++ Stab with skewer, if clean its done!
++ Cool cake
+++ Cool in tins for first 10min
+++ Cool on cooling rack till room temperature
 
-75g of Butter
-20s full power 900W
+#Make butter cream
+
+## Warm butter in microwave 
+
++ 75g of Butter
++ 20s full power 900W
 Assuming its from the fridge, if room temp don’t bother
 
-Mix
+## Mix
 
-175g of Icing Sugar
-75g of Butter
-Dress cake
++ 175g of Icing Sugar
++ 75g of Butter
 
-Put down base
-Put butter cream on top
-Put on top layer
-Put butter cream on top
-Add 100’s & 1000’s on top.
+#Dress cake
+
++ Put down base
++ Put butter cream on top
++ Put on top layer
++ Put butter cream on top
++ Add 100’s & 1000’s on top.
