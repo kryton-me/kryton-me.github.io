@@ -62,3 +62,6 @@ Having done your planned tour now you need to see how you did.
   * Defaults to today even though the gpx format includes the date.
 * Change the sport type.
 * Tap "Continue"
+
+[/](/)
+Keywords: Garmin, komoot, eTrex

@@ -28,5 +28,6 @@ Mag = V/U
 ## Image size:
 I = Mag x S
 
-
+[/](/)
+Keywords: Macro
 
