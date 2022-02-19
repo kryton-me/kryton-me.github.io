@@ -48,4 +48,5 @@ I started this research in order to see if I wanted to buy an e-reader, I’m st
 * Fiery Feeds for news
 * Instapaper App for reading long articles but only because I can’t find an alternative with Open dyslexic.
 
-TAGS: APPLICATION SOFTWARE, DYSLEXIATAGS: DYSLEXIA, IRLEN
+[/](/)
+Keywords: APPLICATION SOFTWARE, DYSLEXIATAGS: DYSLEXIA, IRLEN

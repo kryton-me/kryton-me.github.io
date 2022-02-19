@@ -1,6 +1,6 @@
 ---
 date: 2021-03-23 12:00:00 -0000
-tags: [LED, Photography, Macro, Light]
+
 ---
 
 LED ring light
@@ -28,3 +28,6 @@ One hobby of mine is Macro Photography and light is always a strughle. I get my 
 # Design:
 * LED driver
   * MAX6971ANG+
+
+[/](/)
+Keywords: LED, Photography, Macro, Light

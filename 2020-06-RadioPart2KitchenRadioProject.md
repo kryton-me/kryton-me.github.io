@@ -26,4 +26,5 @@ I got the Majority Robinson and I have to say it’s OK at best. It has two draw
 # Conclusion
 To be honest if I’d known what I know now I’d have carried on looking for another solution. I may have looked at having an old computer running in the kitchen acting as a radio. Others like it as they worry far less about quality and love the random streams you can listen to on it with ease. I can only hope for what a future software update may bring.
 
-TAGS: ELECTRONICS ENTERTAINMENTTAGS: AAC, BBC, DAB, JBL, MP3, OCEAN, ROBINSON, TPA3116
+[/](/)
+Keywords: ELECTRONICS ENTERTAINMENTTAGS: AAC, BBC, DAB, JBL, MP3, OCEAN, ROBINSON, TPA3116

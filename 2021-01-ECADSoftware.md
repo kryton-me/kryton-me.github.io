@@ -46,4 +46,5 @@ Other tools I’m aware of but have no experience of / ability to test:
 * Allegro
 * Design Spark
 
-TAGS: DIPTRACE, ECAD, KICAD, MACOS
+[/](/)
+Keywords: DIPTRACE, ECAD, KICAD, MACOS

@@ -134,4 +134,5 @@ Cropping, when I tried this I used a non 1920×1080 camera so needed to crop the
 ffmpeg -framerate 15 -pattern_type glob -i "*.JPG" -s:v 1920x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p -filter:v "crop=3000:2000:0:160" "$projectName.mp4"
 ~~~
 
-TAGS: FFMPEG, MACOS, MP4, TIME LAPSE
+[/](/)
+Keywords:: FFMPEG, MACOS, MP4, TIME LAPSE

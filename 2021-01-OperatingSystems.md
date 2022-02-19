@@ -1,9 +1,3 @@
----
-title:  "Opertaing Systems"
-date:   2021-01-24 12:00:00 -0000
-tags:  [OS, Mac, Linux, Windows]
----
-
 Opertaing Systems
 =================
 
@@ -98,3 +92,6 @@ Fundamentally would I use iOS: Yes. Decent hardware although I’ve seen better 
 # Conclution 
 
 I hate to say it but Apple Software just works, No random system bricking and no needing to use vim / vi commands. I'd love to move away from Apple's tied in eco system but life is just to easy and the lenght of hardware support is great compair to other systems.
+
+[/](/)
+Keywords: OS, Mac, Linux, Windows
