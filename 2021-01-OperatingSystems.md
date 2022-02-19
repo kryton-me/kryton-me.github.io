@@ -1,13 +1,15 @@
 ---
-layout: post
 title:  "Opertaing Systems"
 date:   2021-01-24 12:00:00 -0000
 tags:  [OS, Mac, Linux, Windows]
 ---
 
+Opertaing Systems
+=================
+
 My thoughts on Operating Systems
 
-#Criteria
+# Criteria
 
 Below is my list of criteria for an operating system. Items 1 to 5 are critical for every one the rest is my preference.
 
@@ -19,9 +21,9 @@ Below is my list of criteria for an operating system. Items 1 to 5 are critical 
 6. Desktop has bash command line
 7. A means of getting away from dark on light text.
 
-#Desktop Operating Systems
+# Desktop Operating Systems
 
-##Windows
+## Windows
 
 1.Windows update – good life to each build & easy upgrade path (when it does not brick).
 2. Not sure on this
@@ -35,7 +37,7 @@ It’s getting much less irritating over time although having said that my Windo
 
 Fundamentally yes I’d use it but only if I had to and certainly not by choice, it has a reasonably long OS update coverage for your hardware which is good regards security but it still does brake badly for me as of Win10. Fundamentally I don’t know it will last long term as it’s very much proprietary and driven by one company when the rest of the world drawing from open source unix / unix like platforms.
 
-#Linux
+## Linux
 
 1. All distros I’ve used recently have very comprehensive install and update tools that make it easy to keep your system patched and up to date.
 2. I’ve not looked in to back up / recovery
@@ -49,7 +51,7 @@ Great platform, it’s amazing what you can get for free and you normally get an
 
 Fundamentally would I use it: Yes and I have done on and off since and late 1990s. Being Unix like it’s a similar platform to all modern operating systems and is complied for pretty much every processor architecture going depending on distro.
 
-##MacOS
+## MacOS
 
 1. MacOS is regular patched by Apple
 2. Time Machine and iCloud.
@@ -63,9 +65,9 @@ As much as I like Linux MacOS just works. Having ran a MacOS system since the mi
 
 Fundamentally do I use MacOS Yes and I plan to carry on doing so however I keep an eye on the Linux world as one day I will get on a par and I suspect it’s not far off. One issue is the hardware is getting more and more fixed which makes a mid life RAM upgrade impossible however this does add to the general robustness of the design. Their integration to other Apple systems is also very hard to beat.
 
-#Mobile Operating Systems
+# Mobile Operating Systems
 
-##Android
+## Android
 
 1. 18 months at best so no.
 2. Google’s cloud
@@ -79,7 +81,7 @@ I’ve only had a brief experience of Android and it put me off. I’d only had 
 
 Fundamentally would I use Android: No, Although I believe updates are more forthcoming you don’t get them for long. I think 18months from launch is a rough guide as to how long you can expect your system to get security parches. Most manufacturers won’t even publish this time scale. I simply can’t afford to buy a newly released phone every 18months. It’s also a horrendous environment impact trowing that much hardware away.
 
-##iOS
+## iOS
 
 1. Personal experience suggests 6 years
 2. iCloud or Finder sync
@@ -92,3 +94,7 @@ Fundamentally would I use Android: No, Although I believe updates are more forth
 I’ve ran iOS devices since the late 2000s and have to say I’m impressed with the ease of use and quality of the hardware. The support is amazing, I have a device that 6 years after launch is still getting patches pushed out meaning I still use the hardware and don’t need to bin it, yes the original battery is still going strong.
 
 Fundamentally would I use iOS: Yes. Decent hardware although I’ve seen better cameras on Android but having smashed my fair share of phone I’ve never done more than a small dent on an iOS device and the life time of support is pretty amazing. One other very important factor to me is the privacy in iOS. As of iOS14 You really get control of your data and can limit every app as you want. As an aside I believe the devices to be very cost effective as you can get 6 years use compared to say 18months on Android as I’d never run an unpatched system and would strongly recommend no one does.
+
+# Conclution 
+
+I hate to say it but Apple Software just works, No random system bricking and no needing to use vim / vi commands. I'd love to move away from Apple's tied in eco system but life is just to easy and the lenght of hardware support is great compair to other systems.
