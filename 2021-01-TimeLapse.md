@@ -1,31 +1,33 @@
 
-# Time lapse
+Time lapse
+==========
 
 # The problem
 
-I have a couple of cameras which can be configured to take timelapse as JPEG files. Previously I used a piece of software from the camera manufacturer to turn them in to MP4 files. This software has finally stopped working due to an OS update having gone unsupported a few years ago.
+I have a couple of cameras which can be configured to take timelapse as JPEG files. Previously I used a piece of software from the camera manufacturer to turn them in to MP4 files. This software has finally stopped working due to an OS update (the software having gone unsupported a few years ago).
 
 How should I go about making time lapses from these files now that the accompanying software no longer works.
 
-Finding a solution
+# Finding a solution
 
 Looking around various app stores I found a lot of software pro-porting to do the job and a lots of reviews suggesting they did not. Then looked at the history to see it had not been updated in 4 years so was unlikely to be maintained going forward. I decided to give up on this sort of proprietary software and look towards open source.
 
 I found a few mentions of open source software that did this but the only ones under active development where ffmpeg and virtualdub. Sadly my Windows system is still bricked 🧱 so ffmpeg it is.
 
-Installing ffmpeg
+# Installing ffmpeg
 
-Using brew to install on my Mac.
+Using brew to install on my Mac. PC still 🧱ed
 
-brew install ffmpeg
+
+     brew install ffmpeg
 
 test the install by calling ffmpeg
 
-ffmpeg
+     ffmpeg
 
 I got a version statement followed by a list of options, this suggests its working.
 
-Time Lapse settings
+# Time Lapse settings
 
 Rahul Sekhar has a great article on using ffmpeg for time lapses. I largely followed this article to set up my on own arguments and settings:
 
@@ -33,21 +35,47 @@ The full documentation can be found here
 
 I picked the following settings:
 
--framerate 25 I tend to shoot in 25fps anyway for flicker reasons and it keeps the file size / bitrate lower than 30fps. I can’t tell the difference and it’s still better than cinema! If I want to go faster I’ll speed it up in the edit suite.
+~~~
+-framerate 25 
+~~~
 
--pattern_type glob -i "*.JPG" use a “glob” pattern to find all the .JPG files in the current folder. The Pattern being “*.JPG”.
+I tend to shoot in 25fps anyway for flicker reasons and it keeps the file size / bitrate lower than 30fps. I can’t tell the difference and it’s still better than cinema! If I want to go faster I’ll speed it up in the edit suite.
 
--s:v 1920x1080 set frame size on the video stream. I want to show this on 16:9 1080p screens and it’s the native resolution of the time lapse files from my camera anyway. Guess i could just go -autoscale but I may change camera and I want a fixed 1080p set up.
+~~~
+-pattern_type glob -i "*.JPG"
+~~~
 
--c:v libx264 Use h264 codec on the video stream. I know, not very open source but I want my TV and Phone to play this.
+use a “glob” pattern to find all the .JPG files in the current folder. The Pattern being “*.JPG”
 
--crf 17 Constant rate factor, For x264 this is 0 lossless 51 terrible, at 17 my camera put out around 500kBps on lower light images
+~~~
+-s:v 1920x1080 
+~~~
 
--pix_fmt yuv420p Set pixel format as yuv420p which has 12 bits per pixel. I don’t know the in’s and out’s of this but I do know I need to do this for compatibility with Apple software.
+set frame size on the video stream. I want to show this on 16:9 1080p screens and it’s the native resolution of the time lapse files from my camera anyway. Guess i could just go -autoscale but I may change camera and I want a fixed 1080p set up.
+
+~~~
+-c:v libx264
+~~~
+
+Use h264 codec on the video stream. I know, not very open source but I want my TV and Phone to play this.
+
+~~~
+-crf 17 
+~~~
+
+Constant rate factor, For x264 this is 0 lossless 51 terrible, at 17 my camera put out around 500kBps on lower light images
+
+~~~
+-pix_fmt yuv420p 
+~~~
+
+Set pixel format as yuv420p which has 12 bits per pixel. I don’t know the in’s and out’s of this but I do know I need to do this for compatibility with Apple software.
 
 So this results in a command along the lines of:
 
+~~~
 ffmpeg -framerate 25 -pattern_type glob -i "*.JPG" -s:v 1920x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p timelapse1080p25fps.mp4
+~~~
 
 The Problem with using file names
 

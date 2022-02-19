@@ -13,7 +13,7 @@ Gluten Free Sponge Cake
 * X2 18cm or 20cm round baking tin
 * Cooling rack
 * Fan oven
-+ Set oven to 170°C assuming fan oven
+  * Set oven to 170°C assuming fan oven
 
 # Mix cake
 
@@ -50,10 +50,10 @@ May be sloppy but don’t worry this is normal
 * Wish mixer bowl and beater for butter cream
 * Stab with skewer, if clean its done!
 * Cool cake
-+ Cool in tins for first 10min
-+ Cool on cooling rack till room temperature
+  * Cool in tins for first 10min
+  * Cool on cooling rack till room temperature
 
-#Make butter cream
+# Make butter cream
 
 ## Warm butter in microwave 
 
@@ -66,7 +66,7 @@ Assuming its from the fridge, if room temp don’t bother
 * 175g of Icing Sugar
 * 75g of Butter
 
-#Dress cake
+# Dress cake
 
 * Put down base
 * Put butter cream on top
