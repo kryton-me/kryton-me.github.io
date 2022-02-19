@@ -1,6 +1,8 @@
+—-
 layout: page
 title: "Welcome"
-permalink: /welcome/
+permalink: /welcome
+—-
 
 Hello and welcome to my Eclectic site of random toughts.
 
