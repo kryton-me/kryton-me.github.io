@@ -2,8 +2,6 @@
 title: "Welcome"
 permalink: /welcome
 —--
-Welcome
-===
 
 Some of my random toughts, currently being migrated so sorry for the lack of links
 
