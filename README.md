@@ -1,8 +1,3 @@
----
-title: "Welcome"
-permalink: /welcome
-—--
-
 Some of my random toughts, currently being migrated so sorry for the lack of links
 
 * [LED Ring Light](/2021-03-LEDRingLight.md)
