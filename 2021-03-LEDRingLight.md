@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "LED ring light"
-date:   2021-03-23 12:00:00 -0000
-tags:  [LED, Photography, Macro, Light]
+title: LED ring light
+date: 2021-03-23 12:00:00 -0000
+tags: [LED, Photography, Macro, Light]
 ---
 
 # Why?
