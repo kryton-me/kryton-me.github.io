@@ -8,7 +8,7 @@ tags: [LED, Photography, Macro, Light]
 One hobby of mine is Macro Photography and light is always a strughle. I get my idea to do this from a bigclive.com video. After some explermemting with a set of LED lights on a copper string I got a good result with just leds and no deffuser.
 
 # Requirments:
-*High CRI rated LEDs >90
+* High CRI rated LEDs >90
 ** best for accurate photograpy results
 * 3000k Colour Tempriture
 ** 4000k keeping my awake is using in the evening
