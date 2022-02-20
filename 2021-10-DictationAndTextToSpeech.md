@@ -38,8 +38,16 @@ If you're not the quickest on a keyboard or ar reading text here are a couple of
 * Single tap Fn to stop.
 
 # Windows TTS
-The software is in the OS but it's not configrable without some code. I get it to work I wrote a python script.
+The software is in the Windows but it's not configrable without some code. There are a few ways to solve this, a Python script is one possibility. Do not install this unless you have knowledge/ approval of System Administrators. This implementation has known issues with unicode characters, some common characters have been dealt with but the script may still hang.
 
+## Windows python libraries
+* Windows
+  * not sure on this library?
+  Api call to copy buffer
+* Windows speech
+  * pyttsx-1.0.win32.exe (BSD License)
+
+## Python script
 ~~~
 #!/usr/python
 # -*- coding: utf-8 -*-
@@ -99,4 +107,13 @@ if __name__ == '__main__':
     say_it(text)
 ~~~
 
+## Shortcut
+* create a link file on the desktop 
+* set the target as the above script
+* set a keyboard shortcut in the link file as: crtl + ⬆️ + C
+
 Last tested in Windows 7
+
+
+[/](/)
+Keywords: Dyslexia, TTS, Python

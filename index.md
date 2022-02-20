@@ -1,5 +1,6 @@
 Some of my random toughts, currently being migrated so sorry for the lack of links
 
+* [Macro Lens Calculations](https://stuff.kryton.me.uk/2021-02-MacroLensCalculations)
 * [LED ring light](/2021-03-LEDRingLight.md)
 * [Gluten free sponge cake](/2021-02-GlutenFreeSpongeCake.md)
 * [Time Lapse](/2021-01-TimeLapse.md)

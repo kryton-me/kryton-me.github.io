@@ -1,4 +1,4 @@
-Opertaing Systems
+Operating Systems
 =================
 
 My thoughts on Operating Systems
@@ -12,17 +12,17 @@ Below is my list of criteria for an operating system. Items 1 to 5 are critical 
 3. Has native hard disk / SSD encryption
 4. Application / package manager to keep software patched.
 5. Quick to recover a broken system
-6. Desktop has bash command line
+6. Desktop has bash or similar command line
 7. A means of getting away from dark on light text.
 
 # Desktop Operating Systems
 
 ## Windows
 
-1.Windows update – good life to each build & easy upgrade path (when it does not brick).
+1. Windows update – good life to each build & easy upgrade path (when it does not brick).
 2. Not sure on this
 3. BitLocker
-4.Windows store bit it’s a bit limited as to what software is in there. No Notepad++ or Cygwin
+4. Windows store bit it’s a bit limited as to what software is in there. No Notepad++ or Cygwin
 5. I’ve still had Windows 10 brick a system during an upgrade and not be able to recover the system with the options the system gives me.
 6. Need to install and maintain Cygwin
 7. Windows used to be very good at this but as of 10 it’s all been down graded and I can’t set things as I like without designing a scheme
@@ -55,14 +55,14 @@ Fundamentally would I use it: Yes and I have done on and off since and late 1990
 6. default command line in MacOS
 7. MacOS used to be terrible at this until "Dark Mode" came out recently
 
-As much as I like Linux MacOS just works. Having ran a MacOS system since the mid 2000’s I’ve never had a system down for more than about 30min and that’s only because I broke it doing something stupid or upgraded a hard drive and had to re-install. I’d love to run Linux but Mac’s have proven to be very reliable and easy to fix. Don’t get me wrong they have bugs and your at the whim of Apple as to when it’s fixed but it’s normally liveable with.
+As much as I like Linux, MacOS just works. Having ran a MacOS system since the mid 2000’s I’ve never had a system down for more than about 30min and that’s only because I broke it doing something stupid or upgraded a hard drive and had to re-install. I’d love to run Linux but Mac’s have proven to be very reliable and easy to fix. Don’t get me wrong they have bugs and your at the whim of Apple as to when it’s fixed but it’s normally liveable with.
 
-Fundamentally do I use MacOS Yes and I plan to carry on doing so however I keep an eye on the Linux world as one day I will get on a par and I suspect it’s not far off. One issue is the hardware is getting more and more fixed which makes a mid life RAM upgrade impossible however this does add to the general robustness of the design. Their integration to other Apple systems is also very hard to beat.
+## Conclusion
+Fundamentally do I use MacOS and I plan to carry on doing so however I keep an eye on the Linux world as one day I will get on a par and I suspect it’s not far off. One issue is the Apple hardware is getting more and more fixed which makes a mid life RAM upgrade impossible however this does add to the general robustness of the design. Their integration to other Apple systems is also very hard to beat.
 
 # Mobile Operating Systems
 
 ## Android
-
 1. 18 months at best so no.
 2. Google’s cloud
 3. Not sure on this as I’ve not played with recent hardware.
@@ -89,9 +89,10 @@ I’ve ran iOS devices since the late 2000s and have to say I’m impressed with
 
 Fundamentally would I use iOS: Yes. Decent hardware although I’ve seen better cameras on Android but having smashed my fair share of phone I’ve never done more than a small dent on an iOS device and the life time of support is pretty amazing. One other very important factor to me is the privacy in iOS. As of iOS14 You really get control of your data and can limit every app as you want. As an aside I believe the devices to be very cost effective as you can get 6 years use compared to say 18months on Android as I’d never run an unpatched system and would strongly recommend no one does.
 
-# Conclution 
+# Conclusion 
 
 I hate to say it but Apple Software just works, No random system bricking and no needing to use vim / vi commands. I'd love to move away from Apple's tied in eco system but life is just to easy and the lenght of hardware support is great compair to other systems.
 
 [/](/)
+
 Keywords: OS, Mac, Linux, Windows
