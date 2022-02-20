@@ -18,9 +18,6 @@ Distance from the subject to a point in the lens. This is not the same a MFD.
 Distance from the projected image to the to a point in the lens. This is not necessarily the same point U and depends on lens design. 
 
 ## Mag = Magnification of lens
-Greater than 1, Subject size is less than the image size.
-1 = Image size = Subject size 
-Less than 1 = Image size is smaller than subject size.
 To be considered “[macro](https://en.m.wikipedia.org/wiki/Macro_photography)” this needs to be 1 or greater.
 
 ## LT = Lenght of Extension tube
@@ -58,5 +55,7 @@ Fundamentally the smallest focal length lens will always win however minimum foc
 For my 35mm sensor camera I can obtain a magnification factor of just over 1 using my 24mm and 28mm lenses with 26mm of extension tubes.
 
 For my APS-C sensor camera I can obtain a factor of just over 1 with a 16mm lens and a 16mm extension tube. If however I use 26mm of tubes I can get a factor of around 1.7.
+
+Of course 1.7 sounds better than 1 however it needs to be as a 35mm sensor is 1.5 times bigger than an APS-C. Also for a given number of pixels the 35mm sensor will have bigger pixels so will be less prone to noise.
 
 [/](/)
