@@ -72,8 +72,8 @@ Cyber Security standards for internet of things
 * In Vitro Diagnostic Medical Devices 2017/746 🇪🇺
   * IEC / EN60601-1 Medical electrical equipment. General requirements for basic safety and essential performance
 Tricky to find on BSI shop due to a quirk of their search engine.
-  * IEC / EN60601-1-2 Medical electrical equipment. General requirements for basic safety and essential performance. Collateral Standard. Electromagnetic disturbances. Requirements and tests
-  * CISPR 11 / EN55011 Industrial, scientific and medical equipment. Radio-frequency disturbance characteristics. Limits and methods of measurement
+    * IEC / EN60601-1-2 Medical electrical equipment. General requirements for basic safety and essential performance. Collateral Standard. Electromagnetic disturbances. Requirements and tests
+      * CISPR 11 / EN55011 Industrial, scientific and medical equipment. Radio-frequency disturbance characteristics. Limits and methods of measurement
   * ISO 13485 Medical devices — Quality management systems — Requirements for regulatory purposes 🌍
 If your PCB is going in a Medical product your Manufacture will need this to make your life easy.
 * FDA Title 22 CFR part 11 – ELECTRONIC RECORDS; ELECTRONIC SIGNATURES 🇺🇸
@@ -87,7 +87,7 @@ Type approval for Vehicles
   * E43 Japan
 * CISPR 12 / EN55012 Vehicles, boats and internal combustion engines. Radio disturbance characteristics. Limits and methods of measurement for the protection of off-board receivers
 
-#Household
+# Household
 * IEC/EN60335 Household and similar electrical appliances
   * CISPR 14 part 1 / EN55014-1 Electromagnetic compatibility. Requirements for household appliances, electric tools and similar apparatus. Emission
   * CISPR 14 part 2 / EN55014-2 Electromagnetic compatibility. Requirements for household appliances, electric tools and similar apparatus. Immunity.
@@ -102,7 +102,7 @@ Type approval for Vehicles
 * IEC/EN 60130-9 Connectors for frequencies below 3 MHz. Circular connectors for radio and associated sound equipment
 Formally DIN 41524 AKA “DIN connector” which is now an IEC / European standard.
 
-#Radio Equipment
+# Radio Equipment
 * Radio Equipment Directive 2014/53/EU
 If its got a radio in (not counting noise PSUs with unterminated tracks) it’s cover by RED
 Yes even your Wi-Fi connected Dishwasher.
@@ -111,7 +111,7 @@ Power Supplies specifically
   * IEC/EN61558-2-16 Safety of transformers, reactors, power supply units and similar products for supply voltages up to 1 100 V. Particular requirements and tests for switch mode power supply units and transformers for switch mode power supply units
   * IEC/EN61204-3 Low-voltage switch mode power supplies. Electromagnetic compatibility (EMC)
 
-#Flamability testting
+# Flamability testting
 * UL94 Standard for Tests for Flammability of Plastic Materials for Parts in Devices and Appliances
 See also:
   * ISO 9772 Cellular plastics — Determination of horizontal burning characteristics of small specimens subjected to a small flame
@@ -133,11 +133,12 @@ Cook the Cables
 * IEC/EN61000-4-8 Electromagnetic compatibility (EMC). Testing and measurement techniques. Power frequency magnetic field immunity test
 Cook Lab staff
 * IEC/EN61000-4-11 Electromagnetic compatibility (EMC). Testing and measurement techniques. Voltage dips, short interruptions and voltage variations immunity tests for equipment with input current up to 16 A per phase
-* IEC/EN61000-3-3 Tracked Changes. Electromagnetic compatibility (EMC). Limits. Limitation of voltage changes, voltage fluctuations and flicker in public low-voltage supply systems, for equipment with rated current <= 16 A per phase and not subject to conditional connection
+* IEC/EN61000-3-3 Tracked Changes. Electromagnetic compatibility (EMC). Limits. Limitation of voltage changes, voltage fluctuations and flicker in public low-voltage supply systems, for equipment with rated current less than 16 A per phase and not subject to conditional connection
 
 ## EMC USA 🇺🇸
 * FCC Title 47 CFR Part 15 Subpart B – Unintentional Radiators
 * IEEE/ANSI C63.4, conducted emission testing, conducting ground plane, digital equipment, electric field measurement, line impedance stabilization network, low-voltage electrical equipment, low-voltage electronic equipment, magnetic field measurement, normalized site attenuation, radiated emission testing, radio-noise emissions, radio-noise power, site attenuation, unintentional radiators
 
 [/](/)
+
 Keywords: CONFORMITY, BS, CE, CISPR, DIN, EN, EU, FDA, STANDARDS
