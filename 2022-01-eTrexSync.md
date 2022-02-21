@@ -1,28 +1,27 @@
 eTrex sync
 ===
-Syncing an old Garmin eTrex with modern fitness tracker apps. Yes I coild buy a modern device but where is the fun in that.
+Syncing an old Garmin eTrex with modern fitness tracker apps. Yes I could buy a modern device but that seems a bit wastefull.
 
 # Needed equipment
-* Garmin eTrex assuming pre Bluetooth model
-  * Tested on an eTrex 30
+* Garmin eTrex 20/30 or simular 
 * Apple iPad / iPhone
 * iPhone / some iPads: Lightning port to USB-A port adapter
 * some iPads: USB-C to USB-A
 * USB-A to USB-B Mini lead.
-* Komoot app installed
+* Komoot app installed 
 
 # set up eTrex (do this once)
 * On your eTrex, press back until you get the main menu
 * Confirm the following settings 
 * "Setup" -> "System" -> "USB Mode" -> Select "Garmin"
-  * This enables access to the files on the eTrex
+  * This enables access to the GPX files on the eTrex
 * "Setup" -> "Tracks" -> "Auto Archive" -> Select "Daily"
   * This is optional
   * This splits the track up each day which is handy for finding a tour by date
   * If you do more than one tour a day or multi day trips probably best to manage this manually.
 
 # Komoot Tour to eTrex
-Being able to get a planned tour on your eTrex ready for your ride
+Being able to get a planned tour on your eTrex ready for your ride.
 * Plug USB lead between iPad/iPhone & eTrex
 * "USB cable detected, Would you like to go to Mass Storage?" select "Yes"
 * Open Komoot app
@@ -64,4 +63,5 @@ Having done your planned tour now you need to see how you did.
 * Tap "Continue"
 
 [/](/)
+
 Keywords: Garmin, komoot, eTrex
