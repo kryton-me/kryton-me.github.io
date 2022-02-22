@@ -27,10 +27,11 @@ Are there any aspects that differ from my iPhone bench mark? Given the “easy t
 
 I’ll bench mark to the closest price iPhone with 256GB.
 
-| Model | inbuilt memory | connector | Price | period supported | IP rating | Screen ppi | Screen size | iFixit |
+| Model | inbuilt memory | connector | Price | IP rating | Screen ppi | Screen size | iFixit |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | iPhone 13 mini | 256GB | lightning | €929/£779 | IP68 | 467 | 5.4” | 6? |
-| Fairphone 4 | 256GB | USB-C | €649/£569 | IP54 | 410 | 6.3” | 10 | 
+| Fairphone 4 | 256GB | USB-C | €649/£569 | IP54 | 410 | 6.3” | 10 |
+
 iFixit score assumed based on iPhone 12 mini & 13 pro both being 6
 
 [Fairphone 4 spec](https://shop.fairphone.com/en/buy-fairphone-4)
