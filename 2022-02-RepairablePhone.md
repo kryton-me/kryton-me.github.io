@@ -7,7 +7,7 @@ Given my biggest gripe about Android handsets is there short life due to poor so
 In the table below I’ve added iPhone models resealed the same month or prior to the release of the handsets listed.
 
 | Model | release date | lates software | date issued | period supported |
-| —- | —- | —- | —- |
+| --- | --- | --- | --- | --- |
 | Fairphone 1 | 2013-12 | Android 4.2.2 (fairphone OS)| 2013-11 | -1? |
 | iPhone 5S | 2013-09 | iOS 12.5.5 | 2021-09 | 8 years |
 | Fairphone 2 | 2015-12 | Android 10 | 2022-02 | 7+ years |
@@ -28,8 +28,8 @@ Are there any aspects that differ from my iPhone bench mark? Given the “easy t
 I’ll bench mark to the closest price iPhone with 256GB.
 
 | Model | inbuilt memory | connector | Price | period supported | IP rating | Screen ppi | Screen size | iFixit |
-| —- | —- | —- | —- | —- |
-| iPhone 13 mini | 256GB | lightning | €929/£779 | IP68 | 467 | 5.4” | 6?
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| iPhone 13 mini | 256GB | lightning | €929/£779 | IP68 | 467 | 5.4” | 6? |
 | Fairphone 4 | 256GB | USB-C | €649/£569 | IP54 | 410 | 6.3” | 10 | 
 iFixit score assumed based on iPhone 12 mini & 13 pro both being 6
 
