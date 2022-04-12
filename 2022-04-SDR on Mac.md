@@ -4,6 +4,11 @@ SDR on MacOS
 # Introduction
 I have a basic RTL-SDR dongle I had the idea to use as a poor mans spectrum analyser. Out of intrest I thought i'd try it out as an SDR radio first to see what I can pick up and as a quick memory refresh regards radio. Researching how to set this up I discovered there's a great dearth of information about running STR software on Apple Mac computers. I thought I'd put my notes together in the hope it my help somewone else.
 
+# Hardware
+I used a RTL-SDR blog v3
+
+One thing to note is for anything between 500kHz to 25MHz put the dongle (RTL-SDR) in to Direct sampling (Q branch works best for me). Also don't forget to put it back or you might find Short wave broadcasts appearing in 100MHz bands!
+
 # Software Clients
 I got 3 Client working on my Mac
 
@@ -13,12 +18,12 @@ I have to say I do like the ability to scrole the spectrum if a signal is a few 
 
 	sudo port install SDRPlusPlus
 
-# Cubicsdr
-Looks prity comprihensive although both my Mac and the RTL-SDR dongle got very hot when using it. 
+## Cubicsdr
+Looks prity comprihensive although both my Mac and dongle got very hot when using it. 
 
 	brew install --cask cubicsdr
 
-# Sdrdx
+## Sdrdx
 Simple and easy to use, possibly a good starting point but lacks the features of other tools.
 
 	brew install --cask sdrdx
@@ -32,35 +37,143 @@ I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an ob
 * DAB radio broadcasts
 * PMR446 radio
 
-It has two 1.5m teluscopic arials set vertically and a durectional loop antenna with a bilt in amplifier.
+It has two 1m ish telescopic vertically antennas and a durectional loop antenna. it has a built in amplifier with adjustable gain.
 
-# What can you listen to?
+# Terestrial Broadcast radio
+For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial Broadcasting Services page](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/Bands.aspx)
 
-## Short wave (SW) broadcasts
-For anything under 25MHz put the dongle (RTL-SDR) in to Direct sampling Q branch. Also don't forget to put it back or you might find Short wave broadcasts heading up in to the 100s of MHz.
+## MF Medium Wave 
 
-There is still a lots of signals on varous SW bands to listen two. I did find dropping the bandwidth to 9kHz helped clen up the sound quality by cutting out high end noise.
+* Modulation mode: AM
+* Channel spacing: 9kHz
+* SDR Bandwidth: ?kHz
+* Dongle mode: Direct sampling (Q branch)
+* ITU bands: "Low frequency (LF) and Medium frequency (MF) Bands"
+	* Upper of the two bands
+* Wavelenght(s): 370m
 
-For global allocations for SW and other bands see the
+## HF National shortwave (SW)
 
-* 🇺🇳 [ITU Frequency Bands allocated to Terrestrial Broadcasting Services page](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/Bands.aspx)
+* Modulation mode: AM 
+* Channel spacing: 5kHz
+* SDR Bandwidth: 9kHz
+* Dongle mode: Direct sampling (Q branch)
+* ITU bands: "High Frequency (HF) Bands for national broadcasting"
+* Wavelenght(s): 125m, 90m, 75m, 60m, 59m
 
-## Frequency Modulation VHF broadcasts
-Normal radio, which is probably easier over the Internet although possibly not better quality unless it's the BBC. 
+## HF International shortwave (SW)
 
-## Amature / Ham radio transmissions 
-I guess this is more relvent if your in to the hobby and know what to listen out for. In which case you probably know way more than me. I did manage to hear a transmition from a local repeater. I get the impression the point of the hobby is to see how many people you can talk to and how far away. From this I guess I should not feel to guilty about listening in.
+* Modulation mode: AM 
+* Channel spacing: 5kHz
+* SDR Bandwidth: 9kHz
+* Dongle mode: Direct sampling (Q branch)
+* ITU bands: "High Frequency (HF) Bands for international broadcasting under RR12"
+* Wavelenght(s): 49m, 41m, 31m, 25m, 22m, 19m, 16m, 15m, 13m, & 11m
+
+## VHF "FM radio"
+
+* Modulation mode: WFM
+* Channel spacing: 
+* SDR bandwidth:
+* Dongle mode: Direct off
+* ITU bands: "Very High frequency (VHF) Bands"
+* Wavelenght(s): 3m
+
+The SDR software dose a good job of reciving thease signals with very good sound quality. Much better than DAB and some internet streams. 
+
+## DAB broadcasts
+
+* Modulation mode: DAB/DAB+
+* Mux spacing: 1.712MHz
+* SDR bandwidth: N/A
+* Dongle mode: Direct off
+* ITU bands: "Very High frequency (VHF) Bands
+* Wavelenght(s): 1.5m, & 1.3m
+
+SDR plus plus does not pick these up directly however you can install a dedicated piece of DAB software to decode the signals. I used welle.io.
+
+	sudo port install welle.io
+	
+Worked really well although it listed the configuration of each stream and made it clear why DAB can sound so terrible. 32kHz sample rate any one?
+
+## VHF / UHF / Satellite TV
+This is what the RTL–SDR chipset originally designed to do recive terastrial TV broadcasts. In theory it's also possible to recive some of the lower frequencies from a satelite LNB (assuming the bias T coupuld power it) I don't have an intrest in exploring TV Broadcasts.
+
+# 2-way radio comunications
+
+## Amature / Ham radio transmissions
+
+* Modulation mode: lots
+* Channel spacing: ?
+* SDR bandwidth: ?
+* Dongle mode: Direct sampling (Q branch) & Direct off (28.8MHz in middle of 10m band)
+* ITU bands: see link below
+* Wavelenght(s): see varous links below.
+
+I guess this is more relvent if your in to the hobby and know what to listen out for. In which case you probably know way more than me. I did manage to hear a transmition from a local repeater. 
 
 For a list of amatur bands see the ITU Radio regulation site. 
 
 * 🇺🇳 [ITU amature radio regulations](https://life.itu.int/radioclub/rr/rindex.htm)
 
-Not entirely sure I can take the frames site seriously. Most countries then have band allocation lists with more detail:
+Not entirely sure I can take the frames site seriously. Most countries then have band allocation lists with more detail and some contries have adtional bands such as the UKs 4m band. 
 
-* [Radio Society of Great Britain band plan](http://rsgb.org/main/operating/band-plans/)
+* 🇬🇧 [Radio Society of Great Britain band plan](http://rsgb.org/main/operating/band-plans/)
 * 🇳🇿 [New Zeland Association of Radio Transmitters](https://www.nzart.org.nz/info/band-plan/)
 * 🇨🇦 [Radio Association of Canada band plan](https://www.rac.ca/operating/bandplans/)
 * 🇺🇸 [nathional association of amature radio band plan](https://www.arrl.org/band-plan)
 
 ### Space
 Within the Amature bands there are also transmissions from the international space station as well as amature satellite transmissions.
+
+## CB 
+* Modulation mode: FM / PM / AM / DSB / SSB
+* Channel spacing: 10k
+* SDR bandwidth: ?
+* Dongle mode: Direct sampling (Q branch)
+* band: [around 27MHz but varies by country](https://en.m.wikipedia.org/wiki/Citizens_band_radio)
+	* 🇺🇸 [FCC allocations](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)
+	* 🇬🇧 & 🇪🇺 [Ofcom channel alocation uk & CEPT/EU](https://www.ofcom.org.uk/__data/assets/pdf_file/0022/84406|/citizens-band.pdf)
+		* UK channels FM/PM only
+	* 🇳🇿 [rms' allocation of CB & PRS](https://rrf.rsm.govt.nz/smart-web/smart/page/-smart/domain/licence/LicenceSummary.wdk?id=146140)
+* Wavelenght(s): 11m 
+
+## 🇪🇺 PMR446 analouge
+* Modulation mode: FM
+* Channel spacing: 12.5kHz
+* SDR bandwidth: ?
+* Dongle mode: Direct off
+* band: 446.0 to 446.2 MHz
+* Wavelenght(s): 67cm
+
+[decision](https://docdb.cept.org/download/1491)
+
+## 🇪🇺 PMR446 Digital
+* Modulation mode: dPMR
+* Channel spacing: 6.25kHz
+* SDR bandwidth: N/A
+* Dongle mode: Direct off
+* band: UHF 446.0 to 446.2 MHz
+* Wavelenght(s): 67cm
+
+[decision](https://docdb.cept.org/download/1491)
+
+## 🇺🇸🇨🇦 FRS
+* Modulation" mode: NBFM
+* Channel spacing: 12.5kHz
+* SDR bandwidth: ?
+* Dongle mode: Direct off
+* band: UHF 462 to 467 MHz
+* Wavelenght(s): 65cm
+
+[fcc frs](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)
+
+## 🇳🇿🇦🇺 PRS / UHF CB
+* Modulation mode: FM/PM
+* Channel spacing: 12.5kHz / 25kHz (telemetry)
+* SDR bandwidth: ?
+* Dongle mode: Direct off
+* band: UHF 476.4250 to 477.4125 MHz
+* Wavelenght(s): 65cm
+
+[rms' allocation of CB & PRS](https://rrf.rsm.govt.nz/smart-web/smart/page/-smart/domain/licence/LicenceSummary.wdk?id=146140)
