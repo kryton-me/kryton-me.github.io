@@ -134,9 +134,10 @@ Within the Amature bands there are also transmissions from the international spa
 * band: [around 27MHz but varies by country](https://en.m.wikipedia.org/wiki/Citizens_band_radio)
 	* 🇺🇸 [FCC allocations](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)
 	* 🇬🇧 & 🇪🇺 [Ofcom channel alocation uk & CEPT/EU](https://www.ofcom.org.uk/__data/assets/pdf_file/0022/84406|/citizens-band.pdf)
-		* UK channels FM/PM only
 	* 🇳🇿 [rms' allocation of CB & PRS](https://rrf.rsm.govt.nz/smart-web/smart/page/-smart/domain/licence/LicenceSummary.wdk?id=146140)
-* Wavelenght(s): 11m 
+* Wavelenght(s): 11m
+
+UK channels CB channels only permit FM/PM only
 
 ## 🇪🇺 PMR446 analouge
 * Modulation mode: FM
