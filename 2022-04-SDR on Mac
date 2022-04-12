@@ -1,0 +1,49 @@
+SDR on MacOS
+---
+
+# Introduction
+I had a basic RTL-SDR dongle I had the idea to use as a poor mans spectrum analyser. Out of intrest I thought i'd try it out as an SDR radio first to see what I can pick up and as a quick memory refresh regards radio.
+
+# Software Clients
+I got 3 Client working on my Mac
+
+## SDR++
+By far the best, relativly easy to use (as SDR goes) and so far very reliable. the only down side being its on Mac ports not Home Brew so needs sudo to install. I have a rather uneasy feeling every time I use Mac Ports.
+I have to say I do like the ability to scrole the spectrum if a signal is a few MHz away.
+
+'''bash
+sudo port install SDRPlusPlus
+'''
+
+# Cubicsdr
+Looks prity comprihensive although both my Mac and the RTL-SDR dongle got very hot when using it. 
+
+'''bash
+brew install --cask cubicsdr
+'''
+
+# Sdrdx
+Needto confirm this is the one I tested?
+
+Simple and easy to use, good starting point?
+
+'''bash
+brew install --cask sdrdx
+'''
+
+# Antenna
+I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an obvius choice it seems to get good signals across a wide spectrum and I happened to have it to hand. It has good reception of most of the following signals:
+* Short wave AM broadcasts
+* 2m Amature / HAM radio 
+* FM radio broadcasts
+* DAB radio broadcasts
+* PMR446 radio
+
+# What can you listen to?
+
+## Short wave (SW) broadcasts
+For anything under 25MHz put the dongle in to Direct sampling Q branch. Also don't forget to put it back or you might find Short wave broadcasts heading up in to the 100s of MHz.
+
+There is still a lots of signals on varour SW bands.
+
+## 
