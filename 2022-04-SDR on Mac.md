@@ -31,8 +31,8 @@ Simple and easy to use, possibly a good starting point but lacks the features of
 # Antenna
 I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an obvius choice it seems to get good signals across a wide spectrum and I happened to have it to hand. I've had it working on the following bands with resnable signal quality:
 
-* Short wave AM broadcasts
-* 2m Amature / HAM radio 
+* Short wave AM broadcasts 75m & up
+* 80m Amature / HAM radio & up
 * FM radio broadcasts
 * DAB radio broadcasts
 * PMR446 radio
@@ -52,6 +52,8 @@ For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial
 	* Upper of the two bands
 * Wavelenght(s): 370m
 
+I've not been able to pick this up, I suspect this is down to my Antenna.
+
 ## HF National shortwave (SW)
 
 * Modulation mode: AM 
@@ -59,7 +61,12 @@ For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial
 * SDR Bandwidth: 9kHz
 * Dongle mode: Direct sampling (Q branch)
 * ITU bands: "High Frequency (HF) Bands for national broadcasting"
-* Wavelenght(s): 125m, 90m, 75m, 60m, 59m
+* Wavelenght(s): 
+	* 125m 2.4MHz
+	* 90m 3.3MHz
+	* 75m 4MHz
+	* 60m 4.9MHz
+	* 59m 5.0MHz
 
 ## HF International shortwave (SW)
 
@@ -68,7 +75,17 @@ For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial
 * SDR Bandwidth: 9kHz
 * Dongle mode: Direct sampling (Q branch)
 * ITU bands: "High Frequency (HF) Bands for international broadcasting under RR12"
-* Wavelenght(s): 49m, 41m, 31m, 25m, 22m, 19m, 16m, 15m, 13m, & 11m
+* Wavelenght(s): 
+	* 49m 6MHz
+	* 41m 7.3MHz
+	* 31m 9.7MHz
+	* 25m 12MHz
+	* 22m 14MHz
+	* 19m 15MHz
+	* 16m 18MHz
+	* 15m 19MHz
+	* 13m 22MHz
+	* 11m 26MHz
 
 ## VHF "FM radio"
 
@@ -94,7 +111,7 @@ SDR plus plus does not pick these up directly however you can install a dedicate
 
 	sudo port install welle.io
 	
-Worked really well although it listed the configuration of each stream and made it clear why DAB can sound so terrible. 32kHz sample rate any one?
+Worked really well although it listed the configuration of each stream and made it clear why DAB can sound so terrible. 32kHz sample rate on 40kbit/s AAC or 80kbit/s Mpeg 1 layer II any one?
 
 ## VHF / UHF / Satellite TV
 This is what the RTL–SDR chipset originally designed to do recive terastrial TV broadcasts. In theory it's also possible to recive some of the lower frequencies from a satelite LNB (assuming the bias T coupuld power it) I don't have an intrest in exploring TV Broadcasts.
@@ -105,7 +122,7 @@ This is what the RTL–SDR chipset originally designed to do recive terastrial T
 
 * Modulation mode: lots
 * Channel spacing: ?
-* SDR bandwidth: ?
+* SDR bandwidth: 6kHz on fm
 * Dongle mode: Direct sampling (Q branch) & Direct off (28.8MHz in middle of 10m band)
 * ITU bands: see link below
 * Wavelenght(s): see varous links below.
@@ -142,7 +159,7 @@ UK channels CB channels only permit FM/PM only
 ## 🇪🇺 PMR446 analouge
 * Modulation mode: FM
 * Channel spacing: 12.5kHz
-* SDR bandwidth: ?
+* SDR bandwidth: 12kHz
 * Dongle mode: Direct off
 * band: 446.0 to 446.2 MHz
 * Wavelenght(s): 67cm
