@@ -2,7 +2,7 @@ Windows Tools
 ---
 
 # Intro
-If I need to use windows what tools do I need to install to make it more usefull
+If I need to use windows what tools do I need to install to make it more usefull. In the Unix / Linux word a lots of this would be built in / avalabe via a package manager. 
 
 # Text Editor - Notepad++
 [Download exe here](https://notepad-plus-plus.org/downloads/)
@@ -35,4 +35,7 @@ Host Name:\tab\protect <Host Name>\protect0\par
 IP Address:\tab\protect <IP Address>\protect0\par
 Network Card:\tab\protect <Network Card>\protect0\par
 '''
+
+# Octave
+
 
