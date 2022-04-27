@@ -117,15 +117,6 @@ Personaly I don't like the idea of listening in to peoples personal conversation
 
 ## Amature / Ham radio transmissions
 
-* Modulation mode: lots
-* Channel spacing: many?
-* SDR bandwidth: 6kHz on fm
-* Dongle mode: Direct sampling (Q branch) & Direct off (28.8MHz in middle of 10m band)
-* ITU bands: see link below
-* Wavelenght(s): see varous links below.
-
-I have not explored thease bands yet but I plan to see if I can pick up the International space station.
-
 For a list of amatur bands see the ITU Radio regulation site. 
 
 * 🇺🇳 [ITU amature radio regulations](https://life.itu.int/radioclub/rr/rindex.htm)
@@ -137,7 +128,33 @@ Not entirely sure I can take the frames site seriously. Most countries then have
 * 🇨🇦 [Radio Association of Canada band plan](https://www.rac.ca/operating/bandplans/)
 * 🇺🇸 [nathional association of amature radio band plan](https://www.arrl.org/band-plan)
 
-## CB 
+### Ham FT8
+
+One thing that was of interest was listening in to the FT8 protocol and seeing how far away you can pick a signal up from. I managed to pick up stations pretty much the other side of the plant from me. you will need the following software.
+
+* Sound flower (audio loopback software)
+	* brew install soundflower
+	* developer needs authorising in the system preferences
+* SDR++ (SDR software discussed above)
+	* sudo port install SDRPlusPlus
+	* Need to set to “direct sampling, Q branch”
+	* 20m band seems most popular
+	* Modulation = Upper Side band
+	* bandwidth = 1k5
+	* audio sink = Soundflour (2ch)
+* WSJT-X (decoding software)
+	* brew install wsjtx
+	* Audio input = soundflower (2ch)
+	* Set radio as “Hamlib NET rigctl
+	* “Localhost:4532” (broken at time of writing)
+	* Check volume is in green
+* Gridtracker (plot stations)
+	* brew install gridtracker
+	* Automatically connects to WSJT-X logs
+	* Extend contact fade to 24hr to view last days worth of results.
+
+## CB
+
 * Modulation mode: FM / PM / AM / DSB / SSB
 * Channel spacing: 10k
 * SDR bandwidth: ?
