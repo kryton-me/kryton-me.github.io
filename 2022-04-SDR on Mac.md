@@ -32,7 +32,6 @@ Simple and easy to use, possibly a good starting point but lacks the features of
 I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an obvius choice it seems to get good signals across a wide spectrum and I happened to have it to hand. I've had it working on the following bands with resnable signal quality:
 
 * Short wave AM broadcasts 75m & up
-* 80m Amature / HAM radio & up
 * FM radio broadcasts
 * DAB radio broadcasts
 * PMR446 radio
@@ -43,7 +42,6 @@ It has two 1m ish telescopic vertically antennas and a durectional loop antenna.
 For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial Broadcasting Services page](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/Bands.aspx)
 
 ## MF Medium Wave 
-
 * Modulation mode: AM
 * Channel spacing: 9kHz
 * SDR Bandwidth: ?kHz
@@ -52,10 +50,9 @@ For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial
 	* Upper of the two bands
 * Wavelenght(s): 370m
 
-I've not been able to pick this up, I suspect this is down to my Antenna.
+I've not been able to pick this up, I suspect this is down to my Antenna choice.
 
 ## HF National shortwave (SW)
-
 * Modulation mode: AM 
 * Channel spacing: 5kHz
 * SDR Bandwidth: 9kHz
@@ -69,7 +66,6 @@ I've not been able to pick this up, I suspect this is down to my Antenna.
 	* 59m 5.0MHz
 
 ## HF International shortwave (SW)
-
 * Modulation mode: AM 
 * Channel spacing: 5kHz
 * SDR Bandwidth: 9kHz
@@ -87,8 +83,9 @@ I've not been able to pick this up, I suspect this is down to my Antenna.
 	* 13m 22MHz
 	* 11m 26MHz
 
-## VHF "FM radio"
+This is the area I have found most intresting as I used to listen to SW radio as a child, either on when away to get news from home or to get a diffrent opnion of the world from my local media. Although there are still plenty of station it feels in decline.
 
+## VHF "FM radio"
 * Modulation mode: WFM
 * Channel spacing: 
 * SDR bandwidth:
@@ -96,10 +93,9 @@ I've not been able to pick this up, I suspect this is down to my Antenna.
 * ITU bands: "Very High frequency (VHF) Bands"
 * Wavelenght(s): 3m
 
-The SDR software dose a good job of reciving thease signals with very good sound quality. Much better than DAB and some internet streams. 
+The SDR software dose a good job of reciving thease signals with very good sound quality. Much better than DAB and some internet streams so still worth listening to.
 
 ## DAB broadcasts
-
 * Modulation mode: DAB/DAB+
 * Mux spacing: 1.712MHz
 * SDR bandwidth: N/A
@@ -117,17 +113,18 @@ Worked really well although it listed the configuration of each stream and made 
 This is what the RTL–SDR chipset originally designed to do recive terastrial TV broadcasts. In theory it's also possible to recive some of the lower frequencies from a satelite LNB (assuming the bias T coupuld power it) I don't have an intrest in exploring TV Broadcasts.
 
 # 2-way radio comunications
+Personaly I don't like the idea of listening in to peoples personal conversations. I feel it's not unresnable to listen to some Ham band broadcasts i.e. signals from the International space station. Otherwies I've only used it to recive radio equipment I own to improve my technological undersatnding though practial aplication.
 
 ## Amature / Ham radio transmissions
 
 * Modulation mode: lots
-* Channel spacing: ?
+* Channel spacing: many?
 * SDR bandwidth: 6kHz on fm
 * Dongle mode: Direct sampling (Q branch) & Direct off (28.8MHz in middle of 10m band)
 * ITU bands: see link below
 * Wavelenght(s): see varous links below.
 
-I guess this is more relvent if your in to the hobby and know what to listen out for. In which case you probably know way more than me. I did manage to hear a transmition from a local repeater. 
+I have not explored thease bands yet but I plan to see if I can pick up the International space station.
 
 For a list of amatur bands see the ITU Radio regulation site. 
 
@@ -139,9 +136,6 @@ Not entirely sure I can take the frames site seriously. Most countries then have
 * 🇳🇿 [New Zeland Association of Radio Transmitters](https://www.nzart.org.nz/info/band-plan/)
 * 🇨🇦 [Radio Association of Canada band plan](https://www.rac.ca/operating/bandplans/)
 * 🇺🇸 [nathional association of amature radio band plan](https://www.arrl.org/band-plan)
-
-### Space
-Within the Amature bands there are also transmissions from the international space station as well as amature satellite transmissions.
 
 ## CB 
 * Modulation mode: FM / PM / AM / DSB / SSB
@@ -155,6 +149,20 @@ Within the Amature bands there are also transmissions from the international spa
 * Wavelenght(s): 11m
 
 UK channels CB channels only permit FM/PM only
+
+## 49MHz License free band
+You used to have 2-way radios that used this band but as I belive it's mostly used for baby moniotrs now so I've not investigated. From memory you where lucky to get 10m with a resnable signal.
+
+## LPD433
+* Modulation mode: FM
+* Channel spacing: 25kHz
+* Max broadcast power: 0.01W
+* SDR bandwidth: ?
+* Dongle mode: Direct off
+* band: UHF 433 to 434 MHz
+* Wavelenght(s): 70cm
+
+Not sure I've ever head of anyone who owned the quipment let alone used it, Given the 10mW power it's not surprising. I've included this out of curiosity.
 
 ## 🇪🇺 PMR446 analouge
 * Modulation mode: FM
