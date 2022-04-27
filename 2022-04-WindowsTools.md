@@ -10,6 +10,9 @@ If I need to use windows what tools do I need to install to make it more usefull
 # Shell - cygwin
 [Set up instructions](https://www.cygwin.com/install.html)
 
+# robust remote terminal - mosh
+“mosh” package in cygwin
+
 # X client - cygwimX
 [Set up intructions](http://x.cygwin.com/)
 
@@ -37,5 +40,5 @@ Network Card:\tab\protect <Network Card>\protect0\par
 '''
 
 # Octave
-
+[Octave wiki](https://wiki.octave.org/Octave_for_Microsoft_Windows)
 
