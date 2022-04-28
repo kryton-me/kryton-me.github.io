@@ -38,10 +38,10 @@ If you're not the quickest on a keyboard or at reading text here are a couple of
 * Single tap Fn to stop
 
 # Windows TTS
-Windows has a built in Text To Speech tool but there is no way to access it without using some form of code / software. To get around this I have released a basic Python script to do this. A copy of the script can be found on [GitHub](https://github.com/kryton-me/PyWinTTS). I've not been able to test this as I don't have a Windows system to debug it on. I know if you used unicode characters it would hang on windows 7 which I have attempted to mitigate. The script is cross platform and is known to run on MacOS. I have released this under the MIT license for maximum compatibility.
+Windows has a built in Text To Speech tool but there is no way to access it without using some form of software. To get around this I have released a basic Python script, A copy of the script can be found on [GitHub](https://github.com/kryton-me/PyWinTTS). I've not been able to test this as I don't have a Windows system to debug it on. I know if you used unicode characters it would hang on windows 7 which I have attempted to mitigate. The script is cross platform and is known to run on MacOS. I have released this under the MIT license for maximum compatibility.
 
 ## Install Python
-This script has bern tested on Python 3.9 & 3.10
+This script has been tested on Python 3.9 & 3.10
 
 ## libraries required
 Command syntax for Windows users
