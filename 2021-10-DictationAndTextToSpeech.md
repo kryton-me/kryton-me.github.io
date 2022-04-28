@@ -38,81 +38,30 @@ If you're not the quickest on a keyboard or ar reading text here are a couple of
 * Single tap Fn to stop.
 
 # Windows TTS
-The software is in the Windows but it's not configrable without some code. There are a few ways to solve this, a Python script is one possibility. Do not install this unless you have knowledge/ approval of System Administrators. This implementation has known issues with unicode characters, some common characters have been dealt with but the script may still hang.
+The software is in Windows but it's not configurable without some code. There are a few ways to solve this, a Python script is one possibility. Do not install this unless you have knowledge/ approval of System Administrators. This implementation has known issues with unicode characters, some common characters have been dealt with but the script may still hang.
 
-## Windows python libraries
-* Windows
-  * not sure on this library?
-  Api call to copy buffer
-* Windows speech
-  * pyttsx-1.0.win32.exe (BSD License)
+## libraries required 
+### Copy buffer access
+This is cross platform so should work on Linux / MacOS as well.
+'''
+pip install pyperclip
+'''
+### Text to speech tool
+This is also cross platfor so should work on Linux / MacOS as well.
+'''
+pip install pyttsx
+'''
+### Unicode
 
 ## Python script
-~~~
-#!/usr/python
-# -*- coding: utf-8 -*-
-
-import win32clipboard
-import pyttsx
-import sys
-import unicodedata
-
-def get_copy_buffer():
-    try:
-        win32clipboard.OpenClipboard()
-        data = win32clipboard.GetClipboardData()
-        win32clipboard.CloseClipboard()
-    except:
-        win32clipboard.CloseClipboard()
-        data = sys.exc_info()[0]
-    return data
-
-def refine_text(data):
-    if isinstance(data, basestring):
-        # convert a few known unicodes to words
-        #data = data.replace(u"€", 'Euros')
-        #data = data.replace(u"£", 'Pounds')
-        #data = data.replace(u"Ω", 'Ohms')
-        #data = data.replace(u"Ω", 'Ohms')
-        #data = data.replace(u"μ", 'Mu')
-
-        # Normalize the rest
-        #text = unicodedata.normalize('NFKD', data).encode('ascii','ignore')
-
-        text = data
-
-        #print "have cleaned text"
-        return text
-    else:
-        #print
-        return "not text"
-
-def say_it(text):
-    # Set up the voise engine
-    engine = pyttsx.init()
-    # Slow it down a bit as you listing for accuracy not comprehension. (defult = 200)
-    engine.rate = 120
-    # load the text
-    engine.say(text)
-    # run it and hang around to confirm all is well.
-    engine.runAndWait()
-    # confirm it's over
-    print "done"
-
-if __name__ == '__main__':
-
-    data = get_copy_buffer()
-    text = refine_text(data)
-    print text
-    say_it(text)
-~~~
+A copy of the script can be found on (github)[https://github.com/kryton-me/PyWinTTS]
 
 ## Shortcut
 * create a link file on the desktop 
 * set the target as the above script
 * set a keyboard shortcut in the link file as: crtl + ⬆️ + C
 
-Last tested in Windows 7
+
 
 
 [/](/)

@@ -2,7 +2,7 @@ Windows Tools
 ---
 
 # Intro
-If I need to use windows what tools do I need to install to make it more usefull. In the Unix / Linux word a lots of this would be built in / avalabe via a package manager. 
+If I need to use windows what tools do I need to install to make it more useful. In the Unix / Linux word a lots of this would be built in / available via a package manager. 
 
 # Text Editor - Notepad++
 [Download exe here](https://notepad-plus-plus.org/downloads/)
@@ -18,7 +18,22 @@ If I need to use windows what tools do I need to install to make it more usefull
 
 # Scripting - Python
 
+## Install python
+Natively in to Windows not via Cygwin
+[Download direct from Python.org](https://www.python.org/downloads/windows/)
+
 ## PYPI
+PIP should install with python via the above installer, con firm it's installed
+'''
+py -m pip --version
+'''
+Then to install a package use the following:
+'''
+py -m pip install "SomeProject"
+'''
+
+For more help see [the help page](https://packaging.python.org/en/latest/tutorials/installing-packages/). 
+
 
 # Info - BGinfo
 [Instuction & Download](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo)
