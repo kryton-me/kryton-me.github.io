@@ -13,7 +13,7 @@ If I need to use windows what tools do I need to install to make it more useful.
 # robust remote terminal - mosh
 “mosh” package in cygwin
 
-# X client - cygwimX
+# X client - cygwinX
 [Set up intructions](http://x.cygwin.com/)
 
 # Scripting - Python
@@ -24,13 +24,13 @@ Natively in to Windows not via Cygwin
 
 ## PYPI
 PIP should install with python via the above installer, con firm it's installed
-'''
-py -m pip --version
-'''
+
+    py -m pip —version
+
 Then to install a package use the following:
-'''
-py -m pip install "SomeProject"
-'''
+
+    py -m pip install “SomeProject”
+
 
 For more help see [the help page](https://packaging.python.org/en/latest/tutorials/installing-packages/). 
 
@@ -40,13 +40,11 @@ For more help see [the help page](https://packaging.python.org/en/latest/tutoria
 
 ## BG INFo shut down time stamp
 
-'''
-C:\Windows\System32\catroot2\edb.chk "Time stampt of File"
-'''
+    C:\Windows\System32\catroot2\edb.chk “Time stampt of File”
 
 ## BGinfo settings
 
-'''
+‘’’
 \viewkind4\uc1\pard\fi-2880\li2880\tx2880\cf1\b\fs24 Shutdown Time:\tab\protect <Shutdown Time>\protect0\par
 Boot Time:\tab\protect <Boot Time>\protect0\par
 Host Name:\tab\protect <Host Name>\protect0\par
