@@ -2,7 +2,7 @@ Windows Tools
 ---
 
 # Intro
-If I need to use windows what tools do I need to install to make it more useful. In the Unix / Linux word a lots of this would be built in / available via a package manager. 
+If I need to use windows what tools do I need to install to make it more useful. In the Unix / Linux world a lots of this would be built in or available via a package manager. 
 
 # Text Editor - Notepad++
 [Download exe here](https://notepad-plus-plus.org/downloads/)
@@ -44,7 +44,8 @@ For more help see [the help page](https://packaging.python.org/en/latest/tutoria
 
 ## BGinfo settings
 ~~~
-\viewkind4\uc1\pard\fi-2880\li2880\tx2880\cf1\b\fs24 Shutdown Time:\tab\protect <Shutdown Time>\protect0\par
+\viewkind4\uc1\pard\fi-2880\li2880\tx2880\cf1\b\fs24
+Shutdown Time:\tab\protect <Shutdown Time>\protect0\par
 Boot Time:\tab\protect <Boot Time>\protect0\par
 Host Name:\tab\protect <Host Name>\protect0\par
 IP Address:\tab\protect <IP Address>\protect0\par
