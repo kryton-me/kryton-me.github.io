@@ -1,6 +1,6 @@
 Dictation and Text to Speech (TTS)
 ===
-If you're not the quickest on a keyboard or ar reading text here are a couple of hacks to speed up life.
+If you're not the quickest on a keyboard or at reading text here are a couple of hacks to speed up life.
 
 #iOS TTS
 * Select the text
@@ -41,7 +41,7 @@ If you're not the quickest on a keyboard or ar reading text here are a couple of
 Windows has a built in Text To Speech tool but there is no way to access it without using some form of code / software. To get around this I have released a basic Python script to do this. A copy of the script can be found on (github)[https://github.com/kryton-me/PyWinTTS]. I've not been able to test this as I don't have a Windows system to debug it on. I know if you used unicode characters it would hang on windows 7 which I have attempted to mitigate. The script is cross platform and is known to run on MacOS. I have released this under the MIT license for maximum compatibility.
 
 ## Install Python
-This script works on Python 3.9 or later
+This script has bern tested on Python 3.9 & 3.10
 
 ## libraries required
 ### Copy buffer access

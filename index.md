@@ -1,5 +1,6 @@
 Some of my random toughts, currently being migrated so sorry for the lack of links
 
+* [Dictation & Text to Speech](/2021-10-DictationAndTextToSpeech)
 * [eTrex Sync](/2022-01-eTrexSync)
 * [Macro Lens Calculations](/2021-02-MacroLensCalculations)
 * [LED ring light](/2021-03-LEDRingLight)
