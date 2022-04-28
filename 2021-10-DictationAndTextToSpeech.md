@@ -2,12 +2,12 @@ Dictation and Text to Speech (TTS)
 ===
 If you're not the quickest on a keyboard or at reading text here are a couple of hacks to speed up life.
 
-#iOS TTS
+# iOS TTS
 * Select the text
 * On the pop up menu tap the right arrow
 * Tap speak
 
-#iOS Dictation
+# iOS Dictation
 * Place the curser where you want the text
 * Tap the microphone symbol on the keyboard
 * Dictate what you want
@@ -45,15 +45,15 @@ This script has bern tested on Python 3.9 & 3.10
 
 ## libraries required
 ### Copy buffer access
-'''
-pip install pyperclip
-'''
+
+    pip install pyperclip
+
 This uses the BSD Licence
 
 ### Text to speech tool access
-'''
-pip install pyttsx3
-'''
+
+    pip install pyttsx3
+
 This uses the MIT License
 
 ## Shortcut
