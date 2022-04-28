@@ -19,7 +19,7 @@ If you're not the quickest on a keyboard or ar reading text here are a couple of
 
 # MacOS TTS keyboard shortcut
 
-## set up
+## Set up
 * System preferences -> Keyboard -> Shortcuts -> App Shortc...
 * click "+" (below the list on the right)
 * Application = "All Applications"
@@ -27,7 +27,7 @@ If you're not the quickest on a keyboard or ar reading text here are a couple of
 * Keyboard Shortcut = cmd + shift + C
 * click "add"
 
-## to use
+## To use
 * select the text on the screen, 
 * press "cmd + shift + C"
 
@@ -35,34 +35,36 @@ If you're not the quickest on a keyboard or ar reading text here are a couple of
 * Place the curser where you want the text
 * Double tap the Fn key
 * Dictate what you want
-* Single tap Fn to stop.
+* Single tap Fn to stop
 
 # Windows TTS
-The software is in Windows but it's not configurable without some code. There are a few ways to solve this, a Python script is one possibility. Do not install this unless you have knowledge/ approval of System Administrators. This implementation has known issues with unicode characters, some common characters have been dealt with but the script may still hang.
+Windows has a built in Text To Speech tool but there is no way to access it without using some form of code / software. To get around this I have released a basic Python script to do this. A copy of the script can be found on (github)[https://github.com/kryton-me/PyWinTTS]. I've not been able to test this as I don't have a Windows system to debug it on. I know if you used unicode characters it would hang on windows 7 which I have attempted to mitigate. The script is cross platform and is known to run on MacOS. I have released this under the MIT license for maximum compatibility.
 
-## libraries required 
+## Install Python
+This script works on Python 3.9 or later
+
+## libraries required
 ### Copy buffer access
-This is cross platform so should work on Linux / MacOS as well.
 '''
 pip install pyperclip
 '''
-### Text to speech tool
-This is also cross platfor so should work on Linux / MacOS as well.
-'''
-pip install pyttsx
-'''
-### Unicode
+This uses the BSD Licence
 
-## Python script
-A copy of the script can be found on (github)[https://github.com/kryton-me/PyWinTTS]
+### Text to speech tool access
+'''
+pip install pyttsx3
+'''
+This uses the MIT License
 
 ## Shortcut
-* create a link file on the desktop 
+In order to use this in windows with a key combination a shortcut file is needed. 
+* create a link file on the desktop to the script
 * set the target as the above script
 * set a keyboard shortcut in the link file as: crtl + ⬆️ + C
 
-
-
+## Using the script
+* Select the text to want read then press ctrl + C to copy it.
+* Press the keyboard combination crtl + ⬆️ + C to have it read back.
 
 [/](/)
 Keywords: Dyslexia, TTS, Python
