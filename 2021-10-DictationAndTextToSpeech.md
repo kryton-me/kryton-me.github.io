@@ -44,15 +44,17 @@ Windows has a built in Text To Speech tool but there is no way to access it with
 This script has bern tested on Python 3.9 & 3.10
 
 ## libraries required
+Command syntax for Windows users
+
 ### Copy buffer access
 
-    pip install pyperclip
+    py -m pip install pyperclip
 
 This uses the BSD Licence
 
 ### Text to speech tool access
 
-    pip install pyttsx3
+    py -m pip install pyttsx3
 
 This uses the MIT License
 
