@@ -54,7 +54,7 @@ This uses the BSD Licence
 
 ### Text to speech tool access
 
-    py -m pip install pyttsx3
+    py -m pip install easy_pyttsx3
 
 This uses the MIT License
 
