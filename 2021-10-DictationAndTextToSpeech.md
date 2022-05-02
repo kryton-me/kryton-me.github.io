@@ -38,13 +38,15 @@ If you're not the quickest on a keyboard or at reading text here are a couple of
 * Single tap Fn to stop
 
 # Windows TTS
-Windows has a built in Text To Speech tool but there is no way to access it without using some form of software. To get around this I have released a basic Python script, A copy of the script can be found on [GitHub](https://github.com/kryton-me/PyWinTTS). I've not been able to test this as I don't have a Windows system to debug it on. I know if you used unicode characters it would hang on windows 7 which I have attempted to mitigate. The script is cross platform and is known to run on MacOS. I have released this under the MIT license for maximum compatibility.
+Windows has a built in Text To Speech tool but there is no way to access it without using some form of software. To get around this I have released a basic Python script, A copy of the script can be found on [GitHub](https://github.com/kryton-me/PyWinTTS). It has been tested on Windows 10 and MacOS 11. I have released this under the MIT license for maximum compatibility.
+
+As an aside although this tool is written expressly with Windows in mind I have also tested it on MacOS 11, interestingly MacOS fully supports utf8 where as it falls over in windows if you don’t strip utf8 out characters. For this reason inside the script is a list of common utf8 characters and english words to represent them. You may wish to add to this list if your missing regular characters. Although this tool supports MacOS I’d advise using the built in tool listed above. 
 
 ## Install Python
-This script has been tested on Python 3.9 & 3.10
+This script has been tested on Python 3.10
 
 ## libraries required
-Command syntax for Windows users
+Command syntax for Windows users if your on a Mac / Linux try “pip3 install” instead.
 
 ### Copy buffer access
 
@@ -59,10 +61,13 @@ This uses the BSD Licence
 This uses the MIT License
 
 ## Shortcut
-In order to use this in windows with a key combination a shortcut file is needed. 
+In order to use this in windows with a key combination a shortcut file is needed.
+
 * create a link file on the desktop to the script
 * set the target as the above script
 * set a keyboard shortcut in the link file as: crtl + ⬆️ + C
+
+In with the python script is a windows shortcut file with a key combination already set up. Although I’m not convinced it will work on other systems.
 
 ## Using the script
 * Select the text to want read then press ctrl + C to copy it.
