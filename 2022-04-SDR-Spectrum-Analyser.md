@@ -19,14 +19,14 @@ Then to plot the waterfall graph I pass the output file to heatmap.py specifying
 
 In the end I wrote a shell script to do this for me naming the files by date:
 
-'''
+~~~
 dateTime=$(date +"%Y-%m-%d_%H-%M-%S")
 outputData="$dateTime.csv"
 outputImg="$dateTime.png"
 rtl_power -f 25M:100M:10k -i 0.5s -e 2m $outputData
 ./heatmap2.py $outputData $outputImg
 open $outputImg
-'''
+~~~
 
 In principle having a highly configurable command line tool sounded amazing but in reality using a heatmap was not very helpfull as you only have the brightness levels of you monitor to indicate if you have an issue. If I could find a different method of plotting the information it would be idea even plotting a quasi peak. I'm not sure I have the skill / imagination to do this myself.
 
