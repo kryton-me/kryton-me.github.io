@@ -169,7 +169,7 @@ One thing that was of interest was listening in to the FT8 protocol and seeing h
 * Dongle mode: Direct sampling (Q branch)
 * band: [around 27MHz but varies by country](https://en.m.wikipedia.org/wiki/Citizens_band_radio)
 	* 🇺🇸 [FCC allocations](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)
-	* 🇬🇧 & 🇪🇺 [Ofcom channel alocation uk & CEPT/EU](https://www.ofcom.org.uk/__data/assets/pdf_file/0022/84406|/citizens-band.pdf)
+	* 🇬🇧 & 🇪🇺 [Ofcom channel alocation uk & CEPT/EU](https://www.ofcom.org.uk/__data/assets/pdf_file/0022/84406/citizens-band.pdf)
 	* 🇳🇿 [rms' allocation of CB & PRS](https://rrf.rsm.govt.nz/smart-web/smart/page/-smart/domain/licence/LicenceSummary.wdk?id=146140)
 * Wavelenght(s): 11m
 
