@@ -1,6 +1,6 @@
 SDR-Spectrum-Analyser
 ---
-Is it possible to use a basic RTL-SDR dongle as a halfway decent spectrum analyser. The brief being I have a PCB I want to do some pre-cert testing / sniffing on my desk without speeding a lot of money on chamber hire and or giving Rohde & Schwarz a lot of money for one of their lovely boxes (wipes dribble from mouth). Clearly this is going to be no substitute for a chamber and an RTL-SDR dongle has only a 2.4MHz bandwidth so a lot of samples are going to be required. Also nothing is going to be calibrated so it's only good for "that annoying spike at 36MHz has gone" type of analysis. you will still need a chamber. 
+Is it possible to use a basic RTL-SDR dongle as a halfway decent spectrum analyser. The brief being I have a PCB I want to do some pre-cert testing / sniffing on my desk without speeding a lot of money on chamber hire and or giving Rohde & Schwarz a lot of money for one of their lovely boxes (wipes dribble from mouth). Clearly this is going to be no substitute for a chamber and an RTL-SDR dongle has only a 2.4MHz bandwidth so a lot of samples are going to be required. Also nothing is going to be calibrated so it's only good for "that annoying spike at 36MHz has gone" type of analysis.
 
 # ["rtl_power"](http://kmkeen.com/rtl-power/)
 My first pice of research lead me to discover that a pice of software for just this exists and comes with the rtl-sdr driver. The problem (advantage?) being it outputs in csv data not a visual graph electronics engineers are used to, however their is help at hand if you run the help command.
@@ -48,11 +48,10 @@ Again not sure how alive this is. the only reference to age is Unbuntu 17 which 
 Looks like a dead project as not touched since 2017
 
 ## [RTLSDR Scanner](https://sourceforge.net/projects/rtlsdrscanner/)
-Looks cool but a bit dead and the project site is down and it's not been updated since 2016
+Looks cool but a bit dead and the project site is down. It's not been updated since 2016
 
 ## [Touchstone](http://rfexplorer.com/touchstone/)
 Not 100% sure this is compatible with the RTL-SDR, I’ve not tried this but it looks OK from the images. Interestingly even for a “pro” tool it lacks a logarithmic frequency spectrum. (Windows Only)
-
 
 ## [retrogram-rtlsdr](https://github.com/r4d10n/retrogram-rtlsdr)
 I'm a fan of ASCII art however possible lacks a little in detail.
