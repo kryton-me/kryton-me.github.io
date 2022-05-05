@@ -1,5 +1,6 @@
 Some of my random toughts, currently being migrated so sorry for the lack of links
 
+* [Software Defined Radio on a Mac](/2022-04-SDRonMac)
 * [Window tools](/2022-04-WindowsTools)
 * [Dictation & Text to Speech](/2021-10-DictationAndTextToSpeech)
 * [eTrex Sync](/2022-01-eTrexSync)

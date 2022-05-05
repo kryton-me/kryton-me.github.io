@@ -2,12 +2,12 @@ SDR on MacOS
 ---
 
 # Introduction
-I have a basic RTL-SDR dongle I had the idea to use as a poor mans spectrum analyser. Out of intrest I thought i'd try it out as an SDR radio first to see what I can pick up and as a quick memory refresh regards radio. Researching how to set this up I discovered there's a great dearth of information about running STR software on Apple Mac computers. I thought I'd put my notes together in the hope it my help somewone else.
+I have a basic RTL-SDR dongle I had the idea to use as a poor mans spectrum analyser. Out of intrest I thought i'd try it out as an SDR radio first to see what I can pick up and as a quick memory refresh regards radio. Researching how to set this up I discovered there's a great dearth of information about running SDR software on Apple Mac computers. I thought I'd put my notes together in the hope it my help somewone else.
 
 # Hardware
 I used a RTL-SDR blog v3
 
-One thing to note is for anything between 500kHz to 25MHz put the dongle (RTL-SDR) in to Direct sampling (Q branch works best for me). Also don't forget to put it back or you might find Short wave broadcasts appearing in 100MHz bands!
+One thing to note is for anything between 500kHz to 25MHz put the dongle (RTL-SDR) in to Direct sampling Q branch. Also don't forget to put it back or you might find Short wave broadcasts appearing in 100MHz bands.
 
 # Software Clients
 I got 3 Client working on my Mac
@@ -28,6 +28,9 @@ Simple and easy to use, possibly a good starting point but lacks the features of
 
 	brew install --cask sdrdx
 
+## SDR#
+Although a PC only tool I did give it a quick go on an old PC as it has lots of good reviews. Personally I struggled to a good broadcast FM signal out of it where as SDR++ did a much better job on the same PC. As for the install process, lets just say I’m sticking to my Mac, argh drivers.
+
 # Antenna
 I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an obvius choice it seems to get good signals across a wide spectrum and I happened to have it to hand. I've had it working on the following bands with resnable signal quality:
 
@@ -37,6 +40,8 @@ I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an ob
 * PMR446 radio
 
 It has two 1m ish telescopic vertically antennas and a durectional loop antenna. it has a built in amplifier with adjustable gain.
+
+I’ve since built some custom antennas which are better but it was a good starting place.
 
 # Terestrial Broadcast radio
 For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial Broadcasting Services page](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/Bands.aspx)
@@ -83,7 +88,7 @@ I've not been able to pick this up, I suspect this is down to my Antenna choice.
 	* 13m 22MHz
 	* 11m 26MHz
 
-This is the area I have found most intresting as I used to listen to SW radio as a child, either on when away to get news from home or to get a diffrent opnion of the world from my local media. Although there are still plenty of station it feels in decline.
+I found this still to be quite interesting although it seems in decline.
 
 ## VHF "FM radio"
 * Modulation mode: WFM
@@ -106,17 +111,16 @@ The SDR software dose a good job of reciving thease signals with very good sound
 SDR plus plus does not pick these up directly however you can install a dedicated piece of DAB software to decode the signals. I used welle.io.
 
 	sudo port install welle.io
-	
+
 Worked really well although it listed the configuration of each stream and made it clear why DAB can sound so terrible. 32kHz sample rate on 40kbit/s AAC or 80kbit/s Mpeg 1 layer II any one?
 
 ## VHF / UHF / Satellite TV
-This is what the RTL–SDR chipset originally designed to do recive terastrial TV broadcasts. In theory it's also possible to recive some of the lower frequencies from a satelite LNB (assuming the bias T coupuld power it) I don't have an intrest in exploring TV Broadcasts.
+I’ve not explored this.
 
-# 2-way radio comunications
-Personaly I don't like the idea of listening in to peoples personal conversations. I feel it's not unresnable to listen to some Ham band broadcasts i.e. signals from the International space station. Otherwies I've only used it to recive radio equipment I own to improve my technological undersatnding though practial aplication.
+# 2-way radio communications
+There are a few things of interest, mainly in the amateur band such as FT8 and down links from the International Space Station. Otherwise I’ve only found this of interest to test out equipment I own to confirm it’s operation.
 
 ## Amature / Ham radio transmissions
-
 For a list of amatur bands see the ITU Radio regulation site. 
 
 * 🇺🇳 [ITU amature radio regulations](https://life.itu.int/radioclub/rr/rindex.htm)
@@ -128,30 +132,38 @@ Not entirely sure I can take the frames site seriously. Most countries then have
 * 🇨🇦 [Radio Association of Canada band plan](https://www.rac.ca/operating/bandplans/)
 * 🇺🇸 [nathional association of amature radio band plan](https://www.arrl.org/band-plan)
 
-### Ham FT8
+There are also broadcasts from the International Space Station which may be of interest.
 
-One thing that was of interest was listening in to the FT8 protocol and seeing how far away you can pick a signal up from. I managed to pick up stations pretty much the other side of the plant from me. you will need the following software.
+### Ham FT8
+One thing that was of interest was listening in to the FT8 protocol and seeing how far away you can pick a signal up from. I managed to pick up stations pretty much the other side of the plant from me. You will need the following software.
 
 * Sound flower (audio loopback software)
-	* brew install soundflower
 	* developer needs authorising in the system preferences
+
+	brew install soundflower
+
 * SDR++ (SDR software discussed above)
-	* sudo port install SDRPlusPlus
 	* Need to set to “direct sampling, Q branch”
 	* 20m band seems most popular
 	* Modulation = Upper Side band
 	* bandwidth = 1k5
 	* audio sink = Soundflour (2ch)
+
+	sudo port install SDRPlusPlus
+
 * WSJT-X (decoding software)
-	* brew install wsjtx
 	* Audio input = soundflower (2ch)
 	* Set radio as “Hamlib NET rigctl
 	* “Localhost:4532” (broken at time of writing)
 	* Check volume is in green
-* Gridtracker (plot stations)
-	* brew install gridtracker
+
+	brew install wsjtx
+
+* Gridtracker (plot stations on a map)
 	* Automatically connects to WSJT-X logs
 	* Extend contact fade to 24hr to view last days worth of results.
+
+	brew install gridtracker
 
 ## CB
 
@@ -168,7 +180,7 @@ One thing that was of interest was listening in to the FT8 protocol and seeing h
 UK channels CB channels only permit FM/PM only
 
 ## 49MHz License free band
-You used to have 2-way radios that used this band but as I belive it's mostly used for baby moniotrs now so I've not investigated. From memory you where lucky to get 10m with a resnable signal.
+I used to have 2-way radios that used this band but as I belive it's mostly used for baby moniotrs now so I've not investigated. From memory you where lucky to get 10m with a resnable signal.
 
 ## LPD433
 * Modulation mode: FM
@@ -179,7 +191,7 @@ You used to have 2-way radios that used this band but as I belive it's mostly us
 * band: UHF 433 to 434 MHz
 * Wavelenght(s): 70cm
 
-Not sure I've ever head of anyone who owned the quipment let alone used it, Given the 10mW power it's not surprising. I've included this out of curiosity.
+Not sure I've ever head of anyone who owned the equipment let alone used it, Given the 10mW power it's not surprising. I've included this out of curiosity.
 
 ## 🇪🇺 PMR446 analouge
 * Modulation mode: FM
