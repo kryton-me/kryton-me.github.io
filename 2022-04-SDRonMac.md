@@ -1,7 +1,5 @@
 SDR on MacOS
 ---
-
-# Introduction
 I have a basic RTL-SDR dongle I had the idea to use as a poor mans spectrum analyser. Out of intrest I thought i'd try it out as an SDR radio first to see what I can pick up and as a quick memory refresh regards radio. Researching how to set this up I discovered there's a great dearth of information about running SDR software on Apple Mac computers. I thought I'd put my notes together in the hope it my help somewone else.
 
 # Hardware
@@ -39,9 +37,7 @@ I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an ob
 * DAB radio broadcasts
 * PMR446 radio
 
-It has two 1m ish telescopic vertically antennas and a durectional loop antenna. it has a built in amplifier with adjustable gain.
-
-I’ve since built some custom antennas which are better but it was a good starting place.
+It has two 1m ish telescopic vertically antennas and a durectional loop antenna. It has a built in amplifier with adjustable gain. I’ve since built some custom antennas which are better but it was a good starting place.
 
 # Terestrial Broadcast radio
 For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial Broadcasting Services page](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/Bands.aspx)
@@ -108,7 +104,7 @@ The SDR software dose a good job of reciving thease signals with very good sound
 * ITU bands: "Very High frequency (VHF) Bands
 * Wavelenght(s): 1.5m, & 1.3m
 
-SDR plus plus does not pick these up directly however you can install a dedicated piece of DAB software to decode the signals. I used welle.io.
+SDR++ does not pick these up directly however you can install a dedicated piece of DAB software to decode the signals. I used welle.io.
 
 	sudo port install welle.io
 
