@@ -27,7 +27,7 @@ Simple and easy to use, possibly a good starting point but lacks the features of
 	brew install --cask sdrdx
 
 ## SDR#
-Although a PC only tool I did give it a quick go on an old PC as it has lots of good reviews. Personally I struggled to a good broadcast FM signal out of it where as SDR++ did a much better job on the same PC. As for the install process, lets just say I’m sticking to my Mac, argh drivers.
+Although a PC only tool I did give it a quick go on an old PC as it has lots of good reviews. Personally I struggled to get a good broadcast FM signal out of it where as SDR++ did a much better job on the same PC. As for the install process, lets just say I’m sticking to my Mac, argh drivers.
 
 # Antenna
 I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an obvius choice it seems to get good signals across a wide spectrum and I happened to have it to hand. I've had it working on the following bands with resnable signal quality:
