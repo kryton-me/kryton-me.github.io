@@ -56,3 +56,6 @@ Not 100% sure this is compatible with the RTL-SDR, I’ve not tried this but it 
 ## [retrogram-rtlsdr](https://github.com/r4d10n/retrogram-rtlsdr)
 I'm a fan of ASCII art however possible lacks a little in detail.
 
+[/](/)
+[licenses](/licenses)
+

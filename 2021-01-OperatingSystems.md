@@ -22,8 +22,8 @@ Below is my list of criteria for an operating system. Items 1 to 5 are critical 
 1. Windows update – good life to each build & easy upgrade path (when it does not brick).
 2. Not sure on this
 3. BitLocker
-4. Windows store bit it’s a bit limited as to what software is in there. No Notepad++ or Cygwin
-5. I’ve still had Windows 10 brick a system during an upgrade and not be able to recover the system with the options the system gives me.
+4. Windows store & winget are a bit limited as to what software is in there. No Notepad++ or Cygwin
+5. I’ve still managed to brick a Windows 10 system just by doing Windows update.
 6. Need to install and maintain Cygwin
 7. Windows used to be very good at this but as of 10 it’s all been down graded and I can’t set things as I like without designing a scheme
 
@@ -94,5 +94,6 @@ Fundamentally would I use iOS: Yes. Decent hardware although I’ve seen better 
 I hate to say it but Apple Software just works, No random system bricking and no needing to use vim / vi commands. I'd love to move away from Apple's tied in eco system but life is just to easy and the lenght of hardware support is great compair to other systems.
 
 [/](/)
+[licenses](/licenses)
 
 Keywords: OS, Mac, Linux, Windows

@@ -18,3 +18,6 @@ This is a tricky one, traditionally you would write them out in your day book. Y
 
 # Capturing design notes / descriptions
 Another tool to consider is markdown. It’s great for documenting designs quickly and offers traceability when used in a repository as it’s plane text.
+
+[/](/)
+[licenses](/licenses)

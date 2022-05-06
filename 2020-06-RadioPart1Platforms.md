@@ -36,4 +36,6 @@ If I’m driving I have my phone bluetooth connected or plugged in to Carplay th
 This is where I’m struggling to find a solution and need to do further research.
 
 [/](/)
+[licenses](/licenses)
+
 Keywords: APPLICATION SOFTWARE, ELECTRONICS ENTERTAINMENTTAGS: AM, DAB, DVB-S, DVB-T, FM, RADIO
