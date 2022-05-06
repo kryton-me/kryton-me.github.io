@@ -56,4 +56,5 @@ Network Card:\tab\protect <Network Card>\protect0\par
 [Octave wiki](https://wiki.octave.org/Octave_for_Microsoft_Windows)
 
 [/](/)
+[license](/LICENSE)
 

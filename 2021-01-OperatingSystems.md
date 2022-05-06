@@ -94,6 +94,6 @@ Fundamentally would I use iOS: Yes. Decent hardware although I’ve seen better 
 I hate to say it but Apple Software just works, No random system bricking and no needing to use vim / vi commands. I'd love to move away from Apple's tied in eco system but life is just to easy and the lenght of hardware support is great compair to other systems.
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: OS, Mac, Linux, Windows

@@ -47,6 +47,6 @@ Other tools I’m aware of but have no experience of / ability to test:
 * Design Spark
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: DIPTRACE, ECAD, KICAD, MACOS

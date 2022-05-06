@@ -33,6 +33,6 @@ First experiment was to wrap it around the outside of a clear plastic tub with t
 My next experiment is to find a sutible section of some kind of pipe to put the strips around the inside. They have a self adhisive on the back so should be easy to apply. 
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: LED, Photography, Macro, Light

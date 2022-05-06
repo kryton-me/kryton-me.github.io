@@ -74,6 +74,6 @@ In with the python script is a windows shortcut file with a key combination alre
 * Press the keyboard combination crtl + ⬆️ + C to have it read back.
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: Dyslexia, TTS, Python

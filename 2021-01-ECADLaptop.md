@@ -38,6 +38,6 @@ Given Apples planned move away from x86 architecture the question of processor A
 So in summary I want a very robust (not crashing or denting) Laptop with lots of RAM that Ideally runs macOS but if needed could run Windows. Firstly I need to buy a crystal Ball to see which companies are going to support ARM builds in the future!
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: APPLICATION SOFTWARE, ELECTRONICS TECHNOLOGIES, UNCATEGORISEDTAGS: ALTIUM, ARM, BASH, GREP, KICAD, LINUX, MACOS, POWERPC, UNIX, WINDOWS 10, X86

@@ -75,6 +75,6 @@ Assuming its from the fridge, if room temp don’t bother
 * Add 100’s & 1000’s on top.
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: cake

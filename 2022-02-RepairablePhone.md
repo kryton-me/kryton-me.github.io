@@ -42,6 +42,6 @@ iFixit score assumed based on iPhone 12 mini & 13 pro both being 6
 For me it’s about security and I need to find our how quickly it’s patched. If it’s close to iOS then it makes Apple hardware look over priced. However there are other things Apple offer such as your phone locked to your account meaning it’s useless if you steel it. I’ve not seen this mentioned and it looks like it’s possible to jail brake.
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: iPhone, Fairphone.

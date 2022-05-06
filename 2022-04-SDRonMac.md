@@ -230,3 +230,4 @@ Not sure I've ever head of anyone who owned the equipment let alone used it, Giv
 [rms' allocation of CB & PRS](https://rrf.rsm.govt.nz/smart-web/smart/page/-smart/domain/licence/LicenceSummary.wdk?id=146140)
 
 [/](/)
+[license](/LICENSE)

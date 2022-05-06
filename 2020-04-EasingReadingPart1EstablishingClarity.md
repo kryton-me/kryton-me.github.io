@@ -49,6 +49,6 @@ I regularly use Audio books and enjoy doing so however they have their limitatio
 I regularly use text to speech to review text I've written but when reading a book it's not really viable. I did play with an early Kindle e-reader which had TTS but the voice was not something I wanted to listen to for 20 hours. Humans are still much better at reading books and certainly add an element by being able to do different voices for different characters. You also need to be in a room on your own / have a set of headphones to hand. I note more recent kindles offer Audible recordings.
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords: DYSLEXIA, IRLEN, APPLICATION SOFTWARE

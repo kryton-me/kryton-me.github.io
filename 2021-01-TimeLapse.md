@@ -135,6 +135,6 @@ ffmpeg -framerate 15 -pattern_type glob -i "*.JPG" -s:v 1920x1080 -c:v libx264 -
 ~~~
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
 Keywords:: FFMPEG, MACOS, MP4, TIME LAPSE

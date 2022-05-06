@@ -57,5 +57,5 @@ Not 100% sure this is compatible with the RTL-SDR, I’ve not tried this but it 
 I'm a fan of ASCII art however possible lacks a little in detail.
 
 [/](/)
-[licenses](/licenses)
+[license](/LICENSE)
 
