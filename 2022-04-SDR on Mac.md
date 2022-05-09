@@ -13,10 +13,12 @@ One thing to note is for anything between 500kHz to 25MHz put the dongle (RTL-SD
 I got 3 Client working on my Mac
 
 ## SDR++
-By far the best, relativly easy to use (as SDR goes) and so far very reliable. the only down side being its on Mac ports not Home Brew so needs sudo to install. I have a rather uneasy feeling every time I use Mac Ports.
+By far the best, relativly easy to use (as SDR goes) and so far very reliable. the only down side being its on Mac ports not Home Brew so needs sudo to install! I have a rather uneasy feeling every time I use Mac Ports.
 I have to say I do like the ability to scrole the spectrum if a signal is a few MHz away.
 
 	sudo port install SDRPlusPlus
+
+**Health warning!** Any package manager that requires "sudo" can be very bad for your systems health!
 
 ## Cubicsdr
 Looks prity comprihensive although both my Mac and dongle got very hot when using it. 
@@ -106,7 +108,9 @@ The SDR software dose a good job of reciving thease signals with very good sound
 SDR plus plus does not pick these up directly however you can install a dedicated piece of DAB software to decode the signals. I used welle.io.
 
 	sudo port install welle.io
-	
+
+**Health warning!** Any package manager that requires "sudo" can be very bad for your systems health!
+
 Worked really well although it listed the configuration of each stream and made it clear why DAB can sound so terrible. 32kHz sample rate on 40kbit/s AAC or 80kbit/s Mpeg 1 layer II any one?
 
 ## VHF / UHF / Satellite TV
