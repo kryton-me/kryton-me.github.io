@@ -1,5 +1,7 @@
-Some of my random toughts, currently being migrated so sorry for the lack of links
+Some of my random thoughts:
 
+* [Software Defined Radio as a Spectrum Analyser](/2022-04-SDR-Spectrum-Analyser)
+* [Software Defined Radio on a Mac](/2022-04-SDRonMac)
 * [Window tools](/2022-04-WindowsTools)
 * [Dictation & Text to Speech](/2021-10-DictationAndTextToSpeech)
 * [eTrex Sync](/2022-01-eTrexSync)
@@ -17,3 +19,7 @@ Some of my random toughts, currently being migrated so sorry for the lack of lin
 * [Electronic saftey standards](/2020-06-ElectroniceSafteyStandards)
 * [Easing Reading - Part 2, Reading books & news](/2020-06-EasingReadingPart2ReadingBooksNews)
 * [Easing Reading - Part 1, Establishing clarity](/2020-04-EasingReadingPart1EstablishingClarity)
+
+Pages not listed here are considered unpublished drafts so don’t rely on them.
+
+[licenses](/licenses)

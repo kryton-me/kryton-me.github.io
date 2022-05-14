@@ -140,5 +140,6 @@ Cook Lab staff
 * IEEE/ANSI C63.4, conducted emission testing, conducting ground plane, digital equipment, electric field measurement, line impedance stabilization network, low-voltage electrical equipment, low-voltage electronic equipment, magnetic field measurement, normalized site attenuation, radiated emission testing, radio-noise emissions, radio-noise power, site attenuation, unintentional radiators
 
 [/](/)
+[license](/LICENSE)
 
 Keywords: CONFORMITY, BS, CE, CISPR, DIN, EN, EU, FDA, STANDARDS

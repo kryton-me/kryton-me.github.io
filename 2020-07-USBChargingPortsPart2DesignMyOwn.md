@@ -92,4 +92,6 @@ Further thoughts
 The design seems feasible to build electrically although without an SMT line I’m not sure I’d be able to fit the 01005 devices by hand so would probable go for 0805 or even PTH. I’ve not done a great deal of analysis of the current limiter chip and would look at this aspect a lot more closely prior to committing to a PCB. Again I may also go for a PTH chip to enable hand soldering. The mechanical design would need a lot of consideration as the AC/DC module is much taller than the connector.
 
 [/](/)
+[license](/LICENSE)
+
 Keywords: ELECTRONICS TECHNOLOGIESTAGS: IEC60320, USB

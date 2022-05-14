@@ -63,5 +63,6 @@ Having done your planned tour now you need to see how you did.
 * Tap "Continue"
 
 [/](/)
+[license](/LICENSE)
 
 Keywords: Garmin, komoot, eTrex

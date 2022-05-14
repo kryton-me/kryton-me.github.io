@@ -71,4 +71,6 @@ Redesigning the USB test lead to make sure D- can’t be accidentally shorted to
 If you’re looking at buying chargers Lygte info has a comprehensive list of reviewed chargers, although this does not cover every possible charger it can give you an idea of what to expect from each manufacturer. I certainly recommend the site.
 
 [/](/)
+[license](/LICENSE)
+
 Keywords: ELECTRONICS TECHNOLOGIESTAGS: ANKER, APPLE, BELKIN, CSC, IPAD, IPHONE, LIGHTNING, SONY, USB, USB DCP

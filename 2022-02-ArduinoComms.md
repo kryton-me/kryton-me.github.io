@@ -17,5 +17,6 @@ This sounds like the simplest but requires specific hardware to be used.
 
 
 [/](/)
+[license](/LICENSE)
 
 Keywords: Garmin, komoot, eTrex

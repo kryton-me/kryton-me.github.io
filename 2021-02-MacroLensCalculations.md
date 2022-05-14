@@ -59,3 +59,4 @@ For my APS-C sensor camera I can obtain a factor of just over 1 with a 16mm lens
 Of course 1.7 sounds better than 1 however it needs to be as a 35mm sensor is 1.5 times bigger than an APS-C. Also for a given number of pixels the 35mm sensor will have bigger pixels so will be less prone to noise.
 
 [/](/)
+[license](/LICENSE)
