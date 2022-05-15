@@ -29,7 +29,7 @@ This is where grep comes in. grep will return all the lines of a file with a mat
 
 This will effectivly give you the path & file name of any matches. This will match not only the file name but any part of the path for each file. So if you hit a directry name you could get a lot of results.
 
-If you want to get funky and search on two factors i.e. looking for all .txt files where wibble is in thepath. Then a simple '|' command can help.
+If you want to get funky and search on two factors i.e. looking for all .txt files where wibble is in thepath. Then a simple pipe command can help.
 
 	grep 'wibble' searchResults.txt | grep '.txt'
 
@@ -39,3 +39,6 @@ if you want to do this on windows cygwin would be a good option. In which case i
 	cd /cygdrive/c
 
 To get to the c drive.
+
+[/](/)
+[license](/LICENSE)
