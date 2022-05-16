@@ -23,4 +23,4 @@ Some of my random thoughts:
 
 Pages not listed here are considered unpublished drafts so don’t rely on them.
 
-[licenses](/licenses)
+[licenses](/LICENSE)
