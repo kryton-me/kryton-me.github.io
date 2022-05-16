@@ -5,10 +5,19 @@ Windows Tools
 If I need to use windows what tools do I need to install to make it more useful. In the Unix / Linux world a lots of this would be built in or available via a package manager. 
 
 # Text Editor - Notepad++
+* GNU 3
 [Download exe here](https://notepad-plus-plus.org/downloads/)
 
 # Shell - cygwin
+* LGPL 3
 [Set up instructions](https://www.cygwin.com/install.html)
+
+Worth adding the following based on other pages
+* grep
+* tree
+* mosh
+* ssh
+* nano - no vim here
 
 # robust remote terminal - mosh
 “mosh” package in cygwin
@@ -25,7 +34,7 @@ Natively in to Windows not via Cygwin
 ## PYPI
 PIP should install with python via the above installer, con firm it's installed
 
-    py -m pip —version
+    py -m pip —-version
 
 Then to install a package use the following:
 
