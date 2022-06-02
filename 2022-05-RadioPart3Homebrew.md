@@ -15,6 +15,22 @@ Some speakers with a 5V power input so it can run on a common power supply with 
 ## Relay
 Use a GPIO pin on the Pi to turn a relay on/off to be able to turn the speakers on/off.
 
+## Buttons
+In order to control the radio I need some buttons. In order to do this I we need to set up the GPIO pins, I used this guide [basic guide to set up GPIO](https://raspberrytips.com/raspberry-pi-gpio-pins/).
+
+Thankfully the pi has pull up or down resistors built in when setting them up which is not menthiond in the above guide:
+
+	GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
+We also need the ability to start the radio stream via the comman line. This is recomended via the subprocess libary:
+
+	import subprocess
+
+Then something like the following:
+
+	bashCommand = "mplayer <stream url>"
+	process = subprocess.Popen(bashCommand)
+
 # Software
 
 ## Operating system
