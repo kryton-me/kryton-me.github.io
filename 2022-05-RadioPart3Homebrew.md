@@ -36,6 +36,9 @@ Then something like the following:
 ## Operating system
 Raspbian Lite set up headless.
 
+## Scripting enviroment
+Python to talk to the [GPIO spec](https://sourceforge.net/p/raspberry-gpio-python/wiki/Inputs/)
+
 ## Player software
 Mplayer, it’s as simple as:
 
