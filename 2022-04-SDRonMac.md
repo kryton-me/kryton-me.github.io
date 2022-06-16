@@ -41,6 +41,15 @@ I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an ob
 
 It has two 1m ish telescopic vertically antennas and a durectional loop antenna. It has a built in amplifier with adjustable gain. I’ve since built some custom antennas which are better but it was a good starting place.
 
+# Sensors & Data
+Fancy using your RTL-SDR to decode data from a 433.92 MHz sensor (Car tyres for example).
+
+## RTL-433
+
+The [RTL repository is here](https://github.com/merbanan/rtl_433). This can be used to decode data from varoius devices and not just on 433MHz.
+
+	brew install rtl_433
+
 # Terestrial Broadcast radio
 For frequenciy allocations see the [ITU Frequency Bands allocated to Terrestrial Broadcasting Services page](https://www.itu.int/en/ITU-R/terrestrial/broadcast/Pages/Bands.aspx)
 
