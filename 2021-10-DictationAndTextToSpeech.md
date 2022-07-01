@@ -42,6 +42,14 @@ Windows has a built in Text To Speech tool but there is no way to access it with
 
 Please see the [README.md](https://github.com/kryton-me/PyWinTTS/blob/main/README.md) file for full instructions on installation and use.
 
+# Windows Dictation 
+Press Windows key + H
+The first time a banner appears at the top of the screen
+it may ask you to enable online speech recognition in the settings and provide a link first time.
+From then just hold windows key + H to stat dictation.
+I generally tap the space bar to stop it.
+
+
 [/](/)
 [license](/LICENSE)
 
