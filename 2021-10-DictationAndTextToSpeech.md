@@ -38,9 +38,28 @@ If you're not the quickest on a keyboard or at reading text here are a couple of
 * Single tap Fn to stop
 
 # Windows TTS
+
+## Operating system wide tool
 Windows has a built in Text To Speech tool but there is no way to access it without using some form of software. To get around this I have released a basic Python script, A copy of the script can be found on [GitHub](https://github.com/kryton-me/PyWinTTS). It has been tested on Windows 10 and MacOS 11. I have released this under the MIT license for maximum compatibility.
 
 Please see the [README.md](https://github.com/kryton-me/PyWinTTS/blob/main/README.md) file for full instructions on installation and use.
+
+## Microsoft Office only
+If you just want to use it in Office tools there is a built in tool, If your not permitted to install python this may also help.
+
+To set up:
+
+* Click on the “Custom Quick Access Toolbar” (top left) of office window)
+* Click on “More commands…”
+* In the “Choose commands from:” drop down select “All Commands”
+* Scroll down to “Speak” and click on it
+* Click “Add>>”
+* Click “OK”
+
+To use:
+
+* Select text
+* click on the square speech bubble with a play button in the top left of the Window.
 
 # Windows Dictation 
 Press Windows key + H
