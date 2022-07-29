@@ -39,6 +39,13 @@ If you're not the quickest on a keyboard or at reading text here are a couple of
 
 # Windows TTS
 
+## Turning off Windows sound enharncement.
+If using any of the tools below you get a very bassy and hard to hear voice it's possible Microsoft has turned on sound enhancement
+* right click the speaker icon in task bar
+* Click "Sounds"
+* "Playback" tab -> right click the speakers / headphones you use -> "Properties"
+* "Advanced" tab -> "Signal enhancements" -> un check "Enable audio enhancements" -> "Apply"
+
 ## Operating system wide tool
 Windows has a built in Text To Speech tool but there is no way to access it without using some form of software. To get around this I have released a basic Python script, A copy of the script can be found on [GitHub](https://github.com/kryton-me/PyWinTTS). It has been tested on Windows 10 and MacOS 11. I have released this under the MIT license for maximum compatibility.
 
