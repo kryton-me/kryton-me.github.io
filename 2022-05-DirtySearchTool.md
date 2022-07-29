@@ -41,4 +41,4 @@ if you want to do this on windows cygwin would be a good option. In which case i
 To get to the c drive.
 
 [/](/)
-[license](/LICENSE)
+[license](/LICENSE.txt)
