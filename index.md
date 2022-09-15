@@ -1,5 +1,6 @@
 Some of my random thoughts:
 
+* [eTrex map install](/2022-09-eTrexMapUpload)
 * [A dirty Search tool](/2022-05-DirtySearchTool)
 * [Software Defined Radio as a Spectrum Analyser](/2022-04-SDR-Spectrum-Analyser)
 * [Software Defined Radio on a Mac](/2022-04-SDRonMac)
