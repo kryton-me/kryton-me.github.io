@@ -16,11 +16,7 @@ Same as the sync process set up, no need to repeat.
 * On your eTrex, press back until you get the main menu
 * Confirm the following settings 
 * "Setup" -> "System" -> "USB Mode" -> Select "Garmin"
-  * This enables access to the GPX files on the eTrex
-* "Setup" -> "Tracks" -> "Auto Archive" -> Select "Daily"
-  * This is optional
-  * This splits the track up each day which is handy for finding a tour by date
-  * If you do more than one tour a day or multi day trips probably best to manage this manually.
+  * This enables access to the Garmin directory on the eTrex.
 
 # Check format of the SD card (do this once)
 * 32GB or less
@@ -32,22 +28,22 @@ Same as the sync process set up, no need to repeat.
 
 # Download a map file
 * a scource of map Data for Garmin devices
-  * [https://www.openfietsmap.nl/](Open Fiets Map) Free to download cycle map based on Open street map.
-  * [https://shop.talkytoaster.me.uk/maps](Talky Toaster) High detail maps based on OSM & NASA. Pay for with free example map.
+  * [Open Fiets Map](https://www.openfietsmap.nl/) Free to download cycle map based on Open street map.
+  * [Talky Toaster](https://shop.talkytoaster.me.uk/maps) genral map based on OSM & NASA. Pay for with free example map.
 * In every case download the "GPS" format (.img) file not the basemap file.
 * This will most likely be in a .zip file.
-* Extract the zipfile.
-* The file will possible be called "gmapsupp.img". This is important on older units but not for etrex20/30 or later so I understand.
-* if you plane to have more than 1 map rename the file.
-* drag the file to the "Garmin" directory of the GPS or the "GARMAN" directory of the SD card.
-* once coppied reboot the GPS unit.
+* Extract the zip file.
+* The file will possible be called "gmapsupp.img". This is important on older units but not for etrex20/30 or later.
+* If you plan to have more than one map rename each file so they can be in the same directory.
+* Copy the file to the "Garmin" directory of the GPS or the "GARMAN" directory of the SD card.
+* Once coppied eject & reboot the GPS unit.
 
 # Display map on GPS
-* Either cycle via the back button or from the main menu open the map page.
-* press Menu 
-* select "Map options"?
-* hope fully your map is on the list
-* enable the map.
+* Open the map page.
+* press Menu -> "Setup Map" -> "Map Information" -> "Select Map"
+* Scroll to a map of intrest
+* click on it, enable or diable it.
+* press back to get back to the map.
 
 [/](/)
 [license](/LICENSE)
