@@ -22,9 +22,9 @@ Same as the sync process set up, no need to repeat.
 * 32GB or less
 * FAT32 format
   * This is all you need the PC or Mac for.
-  * Called "MS-FAT" if formatting on a Mac.
-* Has a directory in root called "GARMIN" 
-  * Although its called "Garmin" on the GPS unit, suspect it's case insensative.
+  * FAT32 is "MS-DOS (FAT)" on a Mac.
+* Has a directory in root called "GARMIN" or “garmin”
+  * Appears to be case insensitive.
 
 # Download a map file
 * a scource of map Data for Garmin devices
