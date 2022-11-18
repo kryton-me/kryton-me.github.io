@@ -30,6 +30,12 @@ Simple and easy to use, possibly a good starting point but lacks the features of
 
 	brew install --cask sdrdx
 
+## SDRangle
+[SDR angle](https://www.sdrangel.org/)
+yet to test it out.
+
+Handy for Amature TV broadcasts
+
 # Antenna
 I use an old (mid 2000's) indoor VHF TV / UHF TV / FM atenna, althouth not an obvius choice it seems to get good signals across a wide spectrum and I happened to have it to hand. I've had it working on the following bands with resnable signal quality:
 

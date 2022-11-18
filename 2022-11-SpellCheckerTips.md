@@ -26,9 +26,15 @@ change from 0 to 1 or 2
 ## Edge
 appears to give you full office spelling & grammer by default. 
 
-# Text editors
+# Text / code editors
 
 ## Notepad++ (Windows)
+### install
+
+   winget install Notepad++
+
+### set up spelling
+
 Plugins -> Plugins Admin -> search "spell" -> tick "DSpellCheck -> Install
 
 click Yes
@@ -44,6 +50,29 @@ Install Selected
 Plugins -> DSpellCheck -> Settings -> Change Current Language -> confirm its set to the required language
 
 ## TextMate (Mac OS)
+### install
+from the command line using homebrew
+
+   brew install --cask textmate
+
+## Emacs (cross platform)
+### install (Windows)
+from the commans line (search -> cmd)
+
+   winget install GNU.Emacs
+
+Then on your desktop creat a shortcut pointing to:
+
+   C:\Program Files\Emacs\emacs-<version number>\bin\runemacs.exe
+
+### install (MacOS)
+from the command line using homebrew
+
+   brew install --cask emacs
+
+### install (Linux)
+You probably already have it installed if not check your mackage manager
+
 
 [/](/)
 [license](/LICENSE)
