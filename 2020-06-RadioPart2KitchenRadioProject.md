@@ -21,7 +21,26 @@ Having seen a video by Techmoan about a Majority radio Hi-Fi separate I thought 
 I then discovered that Majority offer a cheaper alternative called the Robinson and Ocean have a similar device with the catchy name of “DBA03R”. Researching the two I discovered a lot more information regards the the Robinson such as it’s database is based on MediaU. I was then able to check if it had the stations I wanted in advance. I decided to on this basis to get the Majority Robinson.
 
 # Testing the solution
-I got the Majority Robinson and I have to say it’s OK at best. It has two drawbacks the first is liveable with but the second is a bit of a deal breaker for me. Firstly: it takes a long time to turn on but as it comes back to the last station you can just turn it on at the mains and it will start working at some point. I suspect this is going to be an issue that all internet radio equipment is going to have. Secondly: as far as I can tell it only supports the 128kbps MP3 stream from the BBC which is little difference to DAB. According to the BBC this is a “Legacy” stream for “Low end internet radio devices”. If this is genuinly all it can support I suspect it will have a rather short life as the stream was considered “Legacy” as of 2015. I’ve tried programming BBC “AAC-LC” and “HE-AACv1” streams in the the radio via the app but it never gets past 25% buffering. If you’re not too worried about sound quality its a good device with easy to use software. The menus have a lot of options but they are easy to use and offer presets which is handy given the vast list of stations available. The accompanying App is very handy as searching for stations is much easier with a keyboard and it gives you the ability to directly enter station URLs if they are not listed already.
+I got the Majority Robinson and I have to say it’s OK at best. It has two drawbacks the first is liveable with but the second is a bit of a deal breaker for me. 
+Firstly: it takes a long time to turn on but as it comes back to the last station you can just turn it on at the mains and it will start working at some point. I suspect this is going to be an issue that all internet radio equipment is going to have. 
+Secondly: as far as I can tell it only supports the 128kbps MP3 stream from the BBC which is little difference to DAB. According to the BBC this is a “Legacy” stream for “Low end internet radio devices”. If this is genuinly all it can support I suspect it will have a rather short life as the stream was considered “Legacy” as of 2015. I’ve tried programming BBC “AAC-LC” and “HE-AACv1” streams in the the radio via the app but it never gets past 25% buffering. If you’re not too worried about sound quality its a good device with easy to use software. The menus have a lot of options but they are easy to use and offer presets which is handy given the vast list of stations available. The accompanying App is very handy as searching for stations is much easier with a keyboard and it gives you the ability to directly enter station URLs if they are not listed already.
+
+# 2022 BBC migration update
+The BBC have started to broadcast announcements that "Legacy" mp3 streams are being turned off and to contact your manufacturer. So I did and this is what I got back:
+
+   Dear Kryton,
+ 
+   Thank you for your message.
+ 
+   Please note that all of our radios using Magic: Magic M6 products have supported HLS since August 2019. These products will seamlessly transfer to the new internet radio streams in mid-2023.
+ 
+   Therefore, we can confirm that you will have no issues with your radio.
+ 
+   Please let us know if you have any other questions.
+ 
+   Best regards
+   Tech Support
+
 
 # Conclusion
 To be honest if I’d known what I know now I’d have carried on looking for another solution. I may have looked at having an old computer running in the kitchen acting as a radio. Others like it as they worry far less about quality and love the random streams you can listen to on it with ease. I can only hope for what a future software update may bring.
