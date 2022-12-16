@@ -17,7 +17,10 @@ Worth adding the following based on other pages
 * tree
 * mosh
 * ssh
-* nano - no vim here
+* nano
+*   no vim here
+* inetutils
+*   telnet / ftp... clients
 
 # robust remote terminal - mosh
 “mosh” package in cygwin
