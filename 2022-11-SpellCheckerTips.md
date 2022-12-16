@@ -49,6 +49,14 @@ Install Selected
 
 Plugins -> DSpellCheck -> Settings -> Change Current Language -> confirm its set to the required language
 
+### Set up dark mode
+Settings -> Preferences -> Dark Mode -> Enable Dark mode
+
+### Change font
+Settings -> Style Configurator... -> Global Stules -> Global override -> Enable global font
+
+Set the font to your preffrence.
+
 ## TextMate (Mac OS)
 ### install
 from the command line using homebrew
