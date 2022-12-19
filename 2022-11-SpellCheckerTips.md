@@ -63,6 +63,21 @@ from the command line using homebrew
 
    brew install --cask textmate
 
+## Textastic (iOS / iPadOS)
+### install
+use the Apple App store
+
+### Set up spelling
+just Autocorrection when typing.
+
+settings (cog ⚙️) -> Code Editor -> Keyboard-> Autocorection
+
+### Set up Font
+settings (cog ⚙️) -> Code Editor -> Font -> OpenDyslexicMono if installed
+
+### Set up Dark mode
+settings (cog ⚙️) -> UITheam -> Dark (or System if your phone is set to Dark)
+	 
 ## Emacs (cross platform)
 ### install (Windows)
 from the commans line (search -> cmd)
