@@ -1,39 +1,13 @@
-Spell Checker tips
+Dyslexia - Text editor tips
 ===
-This page is mainly looking at check as you type tools
+This page is looking at text editors of various operating systems and how to configure them to have spell checkers, white on black text (often called Dark mode) and change the font to something more friendly. This is aimed at those writing code & want spell checked comments.
 
-# Browers
-
-## Firefox
-Firefox has two options that need to be enabled:
-
-Menu button -> Settings -> General -> Language and Appearance -> Language -> "Check your spelling as you type"
-
-check the above setting is enabled (ticked)
-
-if it's not working try:
-
-   about:config
-
-accept the risk and Contine
-
-search for spellcheck
-
-change from 0 to 1 or 2
-
-   layout.spellcheck.Default  2
-
-## Edge
-appears to give you full office spelling & grammer by default. 
-
-# Text / code editors
-
-## Notepad++ (Windows)
-### install
+# Notepad++ (Windows)
+## install
 
    winget install Notepad++
 
-### set up spelling
+## set up spelling
 
 Plugins -> Plugins Admin -> search "spell" -> tick "DSpellCheck -> Install
 
@@ -49,25 +23,41 @@ Install Selected
 
 Plugins -> DSpellCheck -> Settings -> Change Current Language -> confirm its set to the required language
 
-### Set up dark mode
+## Set up dark mode
 Settings -> Preferences -> Dark Mode -> Enable Dark mode
 
-### Change font
+## Change font
 Settings -> Style Configurator... -> Global Stules -> Global override -> Enable global font
 
 Set the font to your preffrence.
 
-## TextMate (Mac OS)
-### install
+# TextMate (Mac OS)
+## install
 from the command line using homebrew
 
    brew install --cask textmate
 
-## Textastic (iOS / iPadOS)
-### install
+## Spelling
+
+## Dark mode
+
+## Font change
+
+# Pretext (iOS / iPadOS free version)
+Theme and spell checker default to the system standards unless you buy the pro version. I.E. Uses DarkMode if the device is set to that, uses the Operating system spell checker. Not aware of any ability to change the font although it is not a bad sans serif. 
+
+Technically it does lack file support for coding as it only appears to support mark down (.md) and text files (.txt).
+
+## install
 use the Apple App store
 
-### Set up spelling
+# Textastic (iOS / iPadOS)
+Very configurable but no real spellchecker support so a poor choice in my opinion.
+
+## install
+use the Apple App store
+
+## Set up spelling
 just Autocorrection when typing.
 
 settings (cog ⚙️) -> Code Editor -> Keyboard-> Autocorection
@@ -99,4 +89,3 @@ You probably already have it installed if not check your mackage manager
 
 [/](/)
 [license](/LICENSE)
-
