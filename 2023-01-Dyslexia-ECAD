@@ -1,0 +1,17 @@
+Dyslexia & ECAD tools
+---
+
+Looking at ECAD tools and adapting them to make a Dyslexic's life esier
+
+# KiCAD
+
+## Schimatic editor with a black back ground
+
+Preferances -> Prefernces... -> Schematic Editor -> Colors
+
+create a new "Theme" to your liking, basically "Background" is the key colour to change here.
+
+The Symbol editor also uses the same settimgs.
+
+## Spell checker
+Not found in Windows.
