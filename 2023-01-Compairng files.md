@@ -18,5 +18,16 @@ use a check sum to cofirm the file is the same:
 # Diff
 so I get diffrent MD5 reselts whats going on?
 
+## Text files
+
+### Windows
+Notepad++'s Compare or ComparePlus Plugins
+
 ## PDF
+
+### Windows
+
+diff-pdf by vslavik on GitHub
+
+Basic but does the job.
   
