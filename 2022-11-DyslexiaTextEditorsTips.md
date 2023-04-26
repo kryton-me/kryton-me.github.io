@@ -37,7 +37,6 @@ Set the font to your preffrence.
 I started to look at setting up emacs with spell checkers and diffrent fonts and it's quite involved and worthy of a seprate page should I ever get around to doing it.
 
 ## TextMate (Mac OS)
-Yet to be fully tested.
 
 ### Install
 From the command line using homebrew
@@ -45,13 +44,17 @@ From the command line using homebrew
    brew install --cask textmate
 
 ### Spelling
-Yet to look at
+Uses the operating systems tool, to enable:
+
+   Edit -> Spelling > -> Check Spelling While Typing 
 
 ### Dark mode
-Yet to look at
+uses Operating system preffence by default
 
 ### Font change
-Yet to look at
+Change here:
+
+   View -> Font > -> Show Fonts
 
 # Mobile editors 
 I'm focusing on iOS / iPad devices here as I don't personaly run any Android devices. [See my thoughts on operating systems](/2021-01-OperatingSystems)
