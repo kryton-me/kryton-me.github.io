@@ -42,6 +42,11 @@ Appears to be by default, suspect this is related to iOS
 
 # Chrome
 
+## Spell checker (Windows)
+Settings -> Languages -> Spell Check
+
+It has a basic spellchecker and enhanced which sends your text to Google search engine
+
 ## Spell checker (iOS)
 Appears to be by default, suspect this is related to iOS
 
