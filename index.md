@@ -1,5 +1,6 @@
 Some of my random thoughts:
-* [Dyslexia text editor tips](/2022-11-DyslexiaTextEditorsTips)
+* [Dyslexia - BrowserTips](/2022-12-DyslexiaBrowserTips)
+* [Dyslexia - Text editor tips](/2022-11-DyslexiaTextEditorsTips)
 * [eTrex map install](/2022-09-eTrexMapUpload)
 * [A dirty Search tool](/2022-05-DirtySearchTool)
 * [Software Defined Radio as a Spectrum Analyser](/2022-04-SDR-Spectrum-Analyser)
