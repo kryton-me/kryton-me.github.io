@@ -19,7 +19,7 @@ Windows admin approval
 
 Plugins -> DSpellCheck -> Settings -> Change Current Language -> Dowload Lanuages...
 
-Tick the Languag(es) of intrest
+Tick the Language(s) of intrest
 
 Install Selected
 
@@ -29,12 +29,12 @@ Plugins -> DSpellCheck -> Settings -> Change Current Language -> confirm its set
 Settings -> Preferences -> Dark Mode -> Enable Dark mode
 
 ### Change font
-Settings -> Style Configurator... -> Global Stules -> Global override -> Enable global font
+Settings -> Style Configurator... -> Global Styles -> Global override -> Enable global font
 
-Set the font to your preffrence.
+Set the font to your preference.
 
 ## Emacs (cross platform)
-I started to look at setting up emacs with spell checkers and diffrent fonts and it's quite involved and worthy of a seprate page should I ever get around to doing it.
+I started to look at setting up emacs with spell checkers and diffrent fonts and it's quite involved and worthy of a separate page should I ever get around to doing it.
 
 ## TextMate (Mac OS)
 
@@ -46,15 +46,15 @@ From the command line using homebrew
 ### Spelling
 Uses the operating systems tool, to enable:
 
-   Edit -> Spelling > -> Check Spelling While Typing 
+Edit -> Spelling > -> Check Spelling While Typing 
 
 ### Dark mode
-uses Operating system preffence by default
+uses Operating system preference by default
 
 ### Font change
 Change here:
 
-   View -> Font > -> Show Fonts
+View -> Font > -> Show Fonts
 
 # Mobile editors 
 I'm focusing on iOS / iPad devices here as I don't personaly run any Android devices. [See my thoughts on operating systems](/2021-01-OperatingSystems)
