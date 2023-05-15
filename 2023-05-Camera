@@ -1,10 +1,10 @@
 Small Camera
 ---
 
-# Introduction
-I'm looking for a camera to capture video of life as it happans. Something I can grab from my pocketand press go.
-
 # Requirments
+I'm looking for a camera to capture video of life as it happans. Something I can grab from my pocket, press go and point in the genral direction of the action without looking at a screen. I don't want to worry about focus, depth of field, being dropped or a rain shower.
+
+# Specification
 1 One button press to start video recording
 2 Can operate with gloves
 3 Focus should not be a worry
@@ -12,7 +12,7 @@ I'm looking for a camera to capture video of life as it happans. Something I can
 5 Usable low light perfomance
 6 Fits in a pocket with ease
 7 Stead shot technology
-8 Wide point of view
+8 A wide single field of view (24-12mm 35mm equ)
 9 Robust design
 10 Not affraid of rain
 
