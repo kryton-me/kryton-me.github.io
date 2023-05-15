@@ -9,28 +9,47 @@ I'm looking for a camera to capture video of life as it happans. Something I can
 2 Can operate with gloves
 3 Can be left to do a time lapse
 4 A blance more towards a very long depth of field over low light perfomance = small sensor
-5 Fits in a pocket with ease
+5 Fits in a trouser pocket with ease
 6 Stead shot technology
 7 A wide single field of view (24-12mm 35mm equ) not 360.
 8 Robust design
 9 Not affraid of rain
 10 SD card, experince says WiFi is flacky.
 
+As a rough guide to light performace I'm going to calculate an equiverlent biggest apature. Given the vuage manaor sensor sizes are specified (diametire of plubdibunge tube in inches) this figure has a lot of error to it.
+
+Effective largest apature = Largest apature * Crop factor
+
 # Types of camera
 
 ## Action Camera
-A good match to the above requirments, They tend to have fixed 0.5m to infinity focus thanks to a small sensor, although some are bigger now. Most have very good stablisation.
+A good match to the above requirments, They tend to have fixed 0.5m to infinity focus thanks to a small sensor, although some have much bigger sensors now. Most inherently have very good stablisation.
+
+Options to consider:
+1 GoPro Hero 11 (F12.5 or F14?)
+2 DJI Action 3 (F12.6)
+3 DJI Pocket 2 (F8.1)
+4 Insta RS One Boosted (F14.4)
+5 Insta RS One 1" (F9.6)
+6 Sony RX0 (F12.2)
 
 ## Compact Camera
-There are a few compact cameras around that meet most of the requirments. Focus starts to become an issue as a lots are now 1" sensors. There a few rugged models around to help with the weather proofing.
+Looking at the rugged end of the compact market there are options that largely meet the requirments. 
+
+Options to consider:
+1 Olympus TG-6 (F11)
 
 ## Compact System cameras
-This is where physical size becomes a constraint, and given that they're mostly a APS-C/35mm sensors you really need a very good Auto Focus and are not likely to achive the required depth of field. Sadly, at this point, you're also likely to lose shock resistance and water proof. However the low light will be a big step up due to larger sensors.
+Thease are just too physically big to go in a trouser pocket. The APS-C/35mm sensors would be amazing for low light but offer a very narrow depth of field.
 
-Small is not impossible in this type of camera. The early Sony NEX camers (Prior to the NEX-6) with the pancake 16mm lese were very small, but not weather or shock proof.
+Options considered:
+None
 
 ## Smart Phone
-Smart phones do cover a lot of the requirements. However I haven't seen a handset wish a dedicated physicsl camera button since Nokia Symbian phones. Gloves are a pain and I wouldn't like to leave mine unattended while it's doing a Time-lapse!
+Basicaly they would do the job amazingly apart from needing to operate a touch screen and menus just to get it recording.
+
+Options considered:
+None
 
 ## Conclusion on types
 As much as I'd love the low light performance of a 35 mm sensor, compact system camera or the slick operation of a smart phone posting an image. I'm going to leave them at this point.
