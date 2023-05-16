@@ -1,5 +1,5 @@
 Some of my random thoughts:
-* [Comparing files](/2023-01-Compairng files)
+* [Comparing files](/2023-01-CompairngFiles)
 * [Dirty Search tool](/2022-05-DirtySearchTool)
 * [Documenting Electronics](/2022-03-DocumentingElectronics)
 * [Dyslexia - BrowserTips](/2022-12-DyslexiaBrowserTips)
