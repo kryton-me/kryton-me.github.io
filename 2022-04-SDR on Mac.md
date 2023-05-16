@@ -145,6 +145,7 @@ One thing that was of interest was listening in to the FT8 protocol and seeing h
 * Sound flower (audio loopback software)
 	* brew install soundflower
 	* developer needs authorising in the system preferences
+	* This is for Intel / Mac OS 11 (big sur) or earlier  
 * SDR++ (SDR software discussed above)
 	* sudo port install SDRPlusPlus
 	* Need to set to “direct sampling, Q branch”
