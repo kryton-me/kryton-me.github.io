@@ -3,7 +3,7 @@ USB Charging ports – Part 1, Why are some faster?
 I’ve noticed that some devices charge better on certain USB power supplies / charging ports and not others, so I thought I’d try to figure out what’s going on. Just too clarify I’m considering all “USB Chargers” as “USB power supplies” with “Charging ports” as the device plugging in (i.e. a smart phone) has the charger built in to it to charge it’s own battery.
 
 # Initial testing – is there a problem?
-Initially to find out which devices drew what current on which charging ports I modified a USB lead so that the +V wire (normally Red) was Open Circuit (O/C) with both ends exposed. I then used my multimeter in current mode to measure the draw of each device on each charging ports. This confirmed my suspicions that just because it’s a 5V 2A power supply the device in question did not nesacerilly draw 2A even if it did on other charging ports.
+Initially to find out which devices drew what current on which charging ports I modified a USB lead so that the +V wire (normally Red) was Open Circuit (O/C) with both ends exposed. I then used my multimeter in current mode to measure the draw of each device on each charging ports. This confirmed my suspicions that just because it’s a 5V 2A power supply the device in question did not necessary draw 2A even if it did on other charging ports.
 
 
 Basic USB test lead, Current measured with a DMM via the crock clips.
@@ -38,7 +38,7 @@ charges at up to 500mA
 * USB DCP
 * Apple 2A
 * Apple 1A
-* Interestingly Charges at upto 800mA if D+ / D- are open circuit.
+* Interestingly Charges at up to 800mA if D+ / D- are open circuit.
 Lots of devices simply take the current they want regardless and rely on the usb ports current limit to prevent an over load.
 USB power supplies
 

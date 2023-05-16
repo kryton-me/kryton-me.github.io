@@ -3,7 +3,7 @@ ECAD Laptop
 
 I want to set up a solid Electronics Computer Aided Design (ECAD) laptop for designing circuits PCBs
 
-# Hardware requirments
+# Hardware requirements
 
 * Solid reliable Hardware
   * High volume model?

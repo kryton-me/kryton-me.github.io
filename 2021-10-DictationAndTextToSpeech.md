@@ -39,7 +39,7 @@ If you're not the quickest on a keyboard or at reading text here are a couple of
 
 # Windows TTS
 
-## Turning off Windows sound enharncement.
+## Turning off Windows sound enhancement.
 If using any of the tools below you get a very bassy and hard to hear voice it's possible Microsoft has turned on sound enhancement
 * right click the speaker icon in task bar
 * Click "Sounds"

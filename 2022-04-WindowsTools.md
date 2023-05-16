@@ -26,7 +26,7 @@ Worth adding the following based on other pages
 “mosh” package in cygwin
 
 # X client - cygwinX
-[Set up intructions](http://x.cygwin.com/)
+[Set up instructions](http://x.cygwin.com/)
 
 # Scripting - Python
 
@@ -48,7 +48,7 @@ For more help see [the help page](https://packaging.python.org/en/latest/tutoria
 
 
 # Info - BGinfo
-[Instuction & Download](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo)
+[Instruction & Download](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo)
 
 ## BG INFo shut down time stamp
 

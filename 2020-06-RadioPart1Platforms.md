@@ -4,7 +4,7 @@ Whats a good way to get a reasonable selection of radio stations with minimal fu
 
 # Platforms
 
-## Analouge radio
+## Analogue radio
 Although FM is still very much the benchmark a lot of modern digital radio formats are compared to, I always seem to struggle to get a good interference free signal. I’ve had loft mounted aerials on Hi-Fi component tuners and still got interference depending on atmospheric conditions. I’ve also had issues with plugging a USB charger in my car and suddenly having no useable FM signal. FM also lacks a decent choice of stations for me.
 
 As for Amplitude modulated radio stations the small bandwidth really limits the Audio quality to the point of not wanting to listen to it for me.
@@ -15,7 +15,7 @@ It’s well known that the sound quality is rather poor but I work on the princi
 ## SiriusXM US/Canada
 I’ve only listened to this on occasions when rental cars have it left turned on. The choice was excellent to the point of it being a struggle to find what you wanted through the dashboard controls of a Chevy Impala. The sound quality was OK at best but the reception was not a problem unlike DAB.
 
-## DVB-T Freview UK
+## DVB-T Freeview UK
 Although definitely better than DAB / DAB+ due to the use of a better bitrate on the same codec. The choice is rather limited to the point where its hard to find what you want if it’s not BBC. Also the Sound quality is acceptable rather than amazing.
 
 ## DVB-S Freesat or Sky UK

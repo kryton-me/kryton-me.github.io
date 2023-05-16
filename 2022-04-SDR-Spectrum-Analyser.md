@@ -7,7 +7,7 @@ My first pice of research lead me to discover that a pice of software for just t
 
 	rtl_power --help
 
-At the bottom of that help file is a link to a water fall graph tool (do your own Quasi peak by eye any one?) written in python: [http://kmkeen.com/tmp/heatmap.py.txt](http://kmkeen.com/tmp/heatmap.py.txt). When you open that file you will notice (if you're in to Pyhton) that it's been edited to exit giving you a URL for presumably a new and improved tool. [https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/heatmap.py](https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/heatmap.py). Now my security alarm bells start rinigning at this point but I thought it was wroth a look at the URL. The code looked like it was trying to do what is suggested and appears to be written by the rtl_power author so I took a copy.
+At the bottom of that help file is a link to a water fall graph tool (do your own Quasi peak by eye any one?) written in python: [http://kmkeen.com/tmp/heatmap.py.txt](http://kmkeen.com/tmp/heatmap.py.txt). When you open that file you will notice (if you're in to Pyhton) that it's been edited to exit giving you a URL for presumably a new and improved tool. [https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/heatmap.py](https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/heatmap.py). Now my security alarm bells start ringing at this point but I thought it was wroth a look at the URL. The code looked like it was trying to do what is suggested and appears to be written by the rtl_power author so I took a copy.
 
 If I wanted to say scan from 30MHz to 100MHz (because I know thats where the PSU plays havoc with my radiated emissions) in steps of say 10kHz. I then have an integration interval and exit time to consider (or it will carry on for ever). I decided to have an integration of 0.5s and stop it after 2mintes, outputting the data in the file samples.csv.
 
@@ -28,10 +28,10 @@ rtl_power -f 25M:100M:10k -i 0.5s -e 2m $outputData
 open $outputImg
 ~~~
 
-In principle having a highly configurable command line tool sounded amazing but in reality using a heatmap was not very helpfull as you only have the brightness levels of you monitor to indicate if you have an issue. If I could find a different method of plotting the information it would be idea even plotting a quasi peak. I'm not sure I have the skill / imagination to do this myself.
+In principle having a highly configurable command line tool sounded amazing but in reality using a heat map was not very helpfull as you only have the brightness levels of you monitor to indicate if you have an issue. If I could find a different method of plotting the information it would be idea even plotting a quasi peak. I'm not sure I have the skill / imagination to do this myself.
 
 # [rtlSpectrum.jar](https://github.com/dernasherbrezon/rtlSpectrum)
-The next piece of software is a gui for rtl power. Took me a while to get the right version of Java running (I've not wittingly use java for about 20 years). I have to say I stuggled a little with this, to star with the example command to run the tool is windows specific. I guess the "win" should have been the give away, doh.
+The next piece of software is a gui for rtl power. Took me a while to get the right version of Java running (I've not wittingly use java for about 20 years). I have to say I struggled a little with this, to star with the example command to run the tool is windows specific. I guess the "win" should have been the give away, doh.
 
 I'm not sure how to get the tool to run the rtl power command of my choice I need to spend some more time with the documentation. I have been able to load files generated with the above script so it's useful for plotting if nothing else. Interestingly I ran it with an arial attached and the big peaks match the known local transmitters so the data makes sense. In fact I used this to compair the spectrum of two antennas. 
 

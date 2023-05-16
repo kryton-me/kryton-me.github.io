@@ -1,15 +1,15 @@
 Arduino Comms
 ===
-I often work on projects involving Arduino boards and it would be nice to get be able to communicat with them not requiring a laptop and a USB lead. The requirment here is to connect from a phone or tablet idealy with an IDE but a simply serial terminal would be sufficent.
+I often work on projects involving Arduino boards and it would be nice to get be able to communicate with them not requiring a laptop and a USB lead. The requirement here is to connect from a phone or tablet ideally with an IDE but a simply serial terminal would be sufficient.
 
-# Potential methods of conecting to them.
-Theas are my assumptions untill I can probe otherwies. 
+# Potential methods of connecting to them.
+Theas are my assumptions until I can probe otherwise. 
 
 ## USB lead
-Power would potentially be a problem here depending on what output the device could offer here. This may require a tablet over a phone. sadly I've yet to find anysoftware to support this approch.
+Power would potentially be a problem here depending on what output the device could offer here. This may require a tablet over a phone. sadly I've yet to find any software to support this approach.
 
-## Bluetooth serial conection
-There appear to be numerous apps avalable to suport a searial port over BLE.
+## Bluetooth serial convection
+There appear to be numerous apps available to suport a serial port over BLE.
 
 
 ## IOT via Arduino cloud
@@ -19,4 +19,4 @@ This sounds like the simplest but requires specific hardware to be used.
 [/](/)
 [license](/LICENSE)
 
-Keywords: Garmin, komoot, eTrex
+Keywords: Arduino, USB, Bluetooth

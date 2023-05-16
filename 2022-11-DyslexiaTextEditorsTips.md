@@ -17,7 +17,7 @@ click Yes
 
 Windows admin approval
 
-Plugins -> DSpellCheck -> Settings -> Change Current Language -> Dowload Lanuages...
+Plugins -> DSpellCheck -> Settings -> Change Current Language -> Download Languages...
 
 Tick the Language(s) of intrest
 
@@ -57,7 +57,7 @@ Change here:
 View -> Font > -> Show Fonts
 
 # Mobile editors 
-I'm focusing on iOS / iPad devices here as I don't personaly run any Android devices. [See my thoughts on operating systems](/2021-01-OperatingSystems)
+I'm focusing on iOS / iPad devices here as I don't personally run any Android devices. [See my thoughts on operating systems](/2021-01-OperatingSystems)
 
 ## Pretext (free version)
 Theme and spell checker default to the system standards unless you buy the pro version. I.E. Uses DarkMode if the device is set to that, uses the Operating system spell checker. Not aware of any ability to change the font although it is not a bad sans serif. 
@@ -70,7 +70,7 @@ Very configurable but no real spellchecker support so a poor choice in my opinio
 ### Set up spelling
 Just Autocorrection when typing.
 
-settings (cog ⚙️) -> Code Editor -> Keyboard-> Autocorection
+settings (cog ⚙️) -> Code Editor -> Keyboard-> Autocorrection
 
 ### Font
 settings (cog ⚙️) -> Code Editor -> Font -> OpenDyslexicMono if installed
@@ -79,9 +79,9 @@ settings (cog ⚙️) -> Code Editor -> Font -> OpenDyslexicMono if installed
 settings (cog ⚙️) -> UITheam -> Dark (or System if your phone is set to Dark)
 
 ## Working Copy
-Not an editor as such but inclueds a very good one so worthy of note. It's actually a git client  so if your editing code chances are it will be in a git repository. It has lots of formats it can keyword highlight and even preview files such as mark down. To my knowledge it lacks a spellchecker so is not currently a viable option. 
+Not an editor as such but includes a very good one so worthy of note. It's actually a git client  so if your editing code chances are it will be in a git repository. It has lots of formats it can keyword highlight and even preview files such as mark down. To my knowledge it lacks a spellchecker so is not currently a viable option. 
 
-### Chainging font
+### Changing font
 In the editor, in the top right hand corner of the screen you will see the word "Plain text", "C#", "Hexadecimal"... tap this then "Font:". Gives you the option import fonts.
 
 ### Dark mode

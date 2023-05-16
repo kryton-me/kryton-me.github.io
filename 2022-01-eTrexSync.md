@@ -1,6 +1,6 @@
 eTrex sync
 ===
-Syncing an old Garmin eTrex with modern fitness tracker apps. Yes I could buy a modern device but that seems a bit wastefull.
+Syncing an old Garmin eTrex with modern fitness tracker apps. Yes I could buy a modern device but that seems a bit wasteful.
 
 # Needed equipment
 * Garmin eTrex 20/30 or simular 

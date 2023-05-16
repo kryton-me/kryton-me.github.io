@@ -1,5 +1,8 @@
+Emacs tweaked for Dyslexia
+---
+
 # Install (Windows)
-From the commans line (search -> cmd)
+From the command line (search -> cmd)
 
    winget install GNU.Emacs
 
@@ -13,7 +16,7 @@ From the command line using homebrew
    brew install --cask emacs
 
 # Install (Linux)
-Check the distrbutions mackage manager
+Check the distributions package manager
 
 # Spelling
 Yet to look at

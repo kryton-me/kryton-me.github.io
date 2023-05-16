@@ -3,7 +3,7 @@ USB Charging ports – Part 2, Design my own?
 
 Possibly not a good idea, not sure I want to see what airport security would think of my taking a home made USB Power Supply Unit (PSU) on a plane. I’ll do this as a thought exercise.
 
-Working on the principle of the old Engineering addige of “Quality, Time & Cost, pick any two” and the market is flooded with “Time and Cost” examples I’m going with Quality & Time. I.E. I want to be reliable, course few issues and be quick to design because I don’t want this post going on for pages about winding an inductor.
+Working on the principle of the old Engineering adage of “Quality, Time, & Cost, pick any two” and the market is flooded with “Time and Cost” examples I’m going with Quality & Time. I.E. I want to be reliable, course few issues and be quick to design because I don’t want this post going on for pages about winding an inductor.
 
 # Custom PSU Specification:
 

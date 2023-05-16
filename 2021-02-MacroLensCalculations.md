@@ -8,7 +8,7 @@ There are other methods to use non-macro lenses for macro photography however in
 # Terms
 The following are the terms used in the calculations:
 
-## f = [Focal Lenght](https://en.m.wikipedia.org/wiki/Focal_length)
+## f = [Focal Length](https://en.m.wikipedia.org/wiki/Focal_length)
 The measure of how a lens converges / diverges light.
 
 ## U = subject distance
@@ -20,11 +20,11 @@ Distance from the projected image to the to a point in the lens. This is not nec
 ## Mag = Magnification of lens
 To be considered “[macro](https://en.m.wikipedia.org/wiki/Macro_photography)” this needs to be 1 or greater.
 
-## LT = Lenght of Extension tube
+## LT = Length of Extension tube
 The physical length of the extension tube / tubes from flange to flange.
 
 ## MagT = Magnification of lens & Extension tube
-Magnification once a given lenght of extension tube has been applied to a given lens.
+Magnification once a given length of extension tube has been applied to a given lens.
 
 ## I = Image Size
 Size of the image projected on to the sensor of the camera
@@ -37,17 +37,17 @@ Minimum distance the subject can be from the lens, not the same as U / subject d
 
 # Formulas
 
-## Focal Lenght:
-1/f = (1/U) + (1/V)
+## Focal Length:
+$1/f=(1/U)+(1/V)$
 
 ## Magnification:
-Mag = V/U 
+$Mag=V/U$
 
 ## Magnification after adding an extension tube:
-(LT / f ) + Mag = MagT
+$(LT/f)+Mag= MagT$
 
 ## Image size:
-I = Mag x S
+$I=MagxS$
 
 # Conclusion
 Fundamentally the smallest focal length lens will always win however minimum focus distance may also have a factor here. 

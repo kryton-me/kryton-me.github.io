@@ -1,6 +1,6 @@
 Dyslexia and IDEs
 ---
-Which Intigrated Design Environents can be configured for use by Dyslexics
+Which Integrated Design Environments can be configured for use by Dyslexics
 
 # Visual Studio Code
 

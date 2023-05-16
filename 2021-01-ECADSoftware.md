@@ -4,7 +4,7 @@ ECAD Software
 # Cad Software requirements
 
 Runs on Unix(MacOS) or Other Unix-like system
-Supports ODB++ or simular Manufactering outputs
+Supports ODB++ or simular Manufacturing outputs
 Easy to configure
 Good Library availability
 From past experience I’d have the above requirements of any ECAD tools I would want to use.
@@ -29,13 +29,13 @@ Officially supplied with WINE for use on MacOS however MacOS 10.15 does not supp
 
 # Altium
 
-Windows Only, Supports ODB++, is not the easiest to set up documentation templates as can take quite some time to configure. Has a decent library as standard and integrates in to Octparts.
+Windows Only, Supports ODB++, is not the easiest to set up documentation templates as can take quite some time to configure. Has a decent library as standard and integrates in to Octoparts.
 
 # Osmond PCB
 
 MacOS only, PCB only no Schematic capture so a bit Old school not being an intreated tool so I think I’d look elsewhere.
 
-# Zuiken CadStar
+# Zuken CadStar
 
 Windows only, Has ODB++ support, No to bad to use from memory but I’m not sure what the library situation is now days.
 

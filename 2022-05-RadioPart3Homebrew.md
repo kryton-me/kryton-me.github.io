@@ -18,11 +18,11 @@ Use a GPIO pin on the Pi to turn a relay on/off to be able to turn the speakers 
 ## Buttons
 In order to control the radio I need some buttons. In order to do this I we need to set up the GPIO pins, I used this guide [basic guide to set up GPIO](https://raspberrytips.com/raspberry-pi-gpio-pins/).
 
-Thankfully the pi has pull up or down resistors built in when setting them up which is not menthiond in the above guide:
+Thankfully the pi has pull up or down resistors built in when setting them up which is not mentioned in the above guide:
 
 	GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
-We also need the ability to start the radio stream via the comman line. This is recomended via the subprocess libary:
+We also need the ability to start the radio stream via the command line. This is recommended via the subprocess library:
 
 	import subprocess
 
@@ -36,7 +36,7 @@ Then something like the following:
 ## Operating system
 Raspbian Lite set up headless.
 
-## Scripting enviroment
+## Scripting environment
 Python to talk to the [GPIO spec](https://sourceforge.net/p/raspberry-gpio-python/wiki/Inputs/)
 
 ## Player software

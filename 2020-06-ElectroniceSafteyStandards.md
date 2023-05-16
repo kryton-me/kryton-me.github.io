@@ -95,7 +95,7 @@ Type approval for Vehicles
 # Multimedia Equipment
 * IEC/EN62368-1 Audio/video, information and communication technology equipment. Safety requirements
 * UL62368-1 Audio/video, information and communication technology equipment – Part 1: Safety requirements
-* CAN/CSA-C22.2 No. 62368-1-14 Audio/video, information and communication technologyequipment — Part 1: Safety requirements
+* CAN/CSA-C22.2 No. 62368-1-14 Audio/video, information and communication technology equipment — Part 1: Safety requirements
 * EN55024 Superseded by EN55035
 * CISPR 32 / EN55032 Electromagnetic compatibility of multimedia equipment. Emission Requirements
 * CISPR 35 / EN55035 Electromagnetic compatibility of multimedia equipment. Immunity requirements

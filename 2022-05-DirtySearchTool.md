@@ -1,13 +1,13 @@
 Dirty Search tool
 ---
-There have been a few occasions where I need to search through a big pile of data files for a file name or type. Yes I could use the opertaing system's tool but this has proved less than usefull (I'm looking at you Windows) and slows the system down every time you search.
+There have been a few occasions where I need to search through a big pile of data files for a file name or type. Yes I could use the operating system's tool but this has proved less than useful (I'm looking at you Windows) and slows the system down every time you search.
 
 This sounds like a job for a few shell commands.
 
 # Caching a list of files
 The reason I wish to cache and search later is that I can do the cache when the drive is not in use i.e. schedule it at night. Using an operating system search I have noticeably degraded performance of a drive in the past. It also means you need to do it when there has been a change not every search.
 
-To do this I use the tree command, the following options are handy to inclued:
+To do this I use the tree command, the following options are handy to include:
 
 * -d directories only, if your after a directory
 * -a inclued hidden files (starting with a '.')
@@ -27,9 +27,9 @@ This is where grep comes in. grep will return all the lines of a file with a mat
 
 	grep '<search term>' searchResults.txt
 
-This will effectivly give you the path & file name of any matches. This will match not only the file name but any part of the path for each file. So if you hit a directry name you could get a lot of results.
+This will effectively give you the path & file name of any matches. This will match not only the file name but any part of the path for each file. So if you hit a directory name you could get a lot of results.
 
-If you want to get funky and search on two factors i.e. looking for all .txt files where wibble is in thepath.
+If you want to get funky and search on two factors i.e. looking for all .txt files where wibble is in the path.
 
 	grep 'wibble.*txt' searchResults.txt
 

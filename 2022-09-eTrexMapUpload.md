@@ -27,16 +27,16 @@ Same as the sync process set up, no need to repeat.
   * Appears to be case insensitive.
 
 # Download a map file
-* a scource of map Data for Garmin devices
+* a source of map Data for Garmin devices
   * [Open Fiets Map](https://www.openfietsmap.nl/) Free to download cycle map based on Open street map.
-  * [Talky Toaster](https://shop.talkytoaster.me.uk/maps) genral map based on OSM & NASA. Pay for with free example map.
+  * [Talky Toaster](https://shop.talkytoaster.me.uk/maps) general map based on OSM & NASA. Pay for with free example map.
 * In every case download the "GPS" format (.img) file not the basemap file.
 * This will most likely be in a .zip file.
 * Extract the zip file.
 * The file will possible be called "gmapsupp.img". This is important on older units but not for etrex20/30 or later.
 * If you plan to have more than one map rename each file so they can be in the same directory.
 * Copy the file to the "Garmin" directory of the GPS or the "GARMAN" directory of the SD card.
-* Once coppied eject & reboot the GPS unit.
+* Once copied eject & reboot the GPS unit.
 
 # Display map on GPS
 * Open the map page.

@@ -24,7 +24,7 @@ if it's not working try:
 
    about:config
 
-accept the risk and Contine
+accept the risk and Continue
 
 search for spellcheck
 
