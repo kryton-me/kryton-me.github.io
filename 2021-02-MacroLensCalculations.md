@@ -38,16 +38,16 @@ Minimum distance the subject can be from the lens, not the same as U / subject d
 # Formulas
 
 ## Focal Length:
-$1/f=(1/U)+(1/V)$
+1 / f = ( 1 / U ) + ( 1 / V )
 
 ## Magnification:
-$Mag=V/U$
+Mag = V / U
 
 ## Magnification after adding an extension tube:
-$(LT/f)+Mag= MagT$
+( LT / f ) + Mag= MagT
 
 ## Image size:
-$I=MagxS$
+I = Mag x S
 
 # Conclusion
 Fundamentally the smallest focal length lens will always win however minimum focus distance may also have a factor here. 

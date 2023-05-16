@@ -23,6 +23,9 @@ so I get diffrent MD5 results whats going on?
 ### Windows
 Notepad++'s Compare or ComparePlus Plugins
 
+### Mac
+TextMate: Bundles -> Diff 
+
 ## PDF
 
 ### Windows

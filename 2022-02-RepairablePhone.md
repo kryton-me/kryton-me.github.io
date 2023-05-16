@@ -13,9 +13,9 @@ In the table below I’ve added iPhone models resealed the same month or prior t
 | Fairphone 2 | 2015-12 | Android 10 | 2022-02 | 7+ years |
 | iPhone 6S | 2015-09 | iOS 15.3.1 | 2022-02 | 7+ years
 | Shift6m | 2018-05 | Android 8 | 2021-04 | 3 years |
-| iPhone X | 2017-11 | iOS 15.3.1 | 2022-02 | 7+ Years
+| iPhone X | 2017-11 | iOS 15.3.1 | 2022-02 | 7+ Years |
 | Fairphone 3 | 2019-09 | Android 10 | 2022-02 | 4+ years |
-| iPhone 11 | 2019-09 | iOS 15.3.1 | 2022-02 | 2+ years
+| iPhone 11 | 2019-09 | iOS 15.3.1 | 2022-02 | 2+ years |
 | Fairphone 4 | 2021-09 | Android 11 | 2025-09 | 4 years |
 
 Sources: Wikipedia & manufacturers websites.

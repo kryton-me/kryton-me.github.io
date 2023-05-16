@@ -10,7 +10,7 @@ The reason I wish to cache and search later is that I can do the cache when the 
 To do this I use the tree command, the following options are handy to include:
 
 * -d directories only, if your after a directory
-* -a inclued hidden files (starting with a '.')
+* -a include hidden files (starting with a '.')
 * -R Recursively go down the tree
 * -L how many levels to go down if using -R
 * -f local path for each file, this is very important
