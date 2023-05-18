@@ -6,6 +6,7 @@ Some of my random thoughts:
 
 # Dyslexia & Reading
 * [Dyslexia - BrowserTips](/2022-12-DyslexiaBrowserTips)
+* [Dyslexia - ECAD tips](/2023-01-Dyslexia-ECAD)
 * [Dyslexia - Dictation & Text to Speech](/2021-10-DictationAndTextToSpeech)
 * [Dyslexia - Text editor tips](/2022-11-DyslexiaTextEditorsTips)
 * [Easing Reading - Part 1, Establishing clarity](/2020-04-EasingReadingPart1EstablishingClarity)
