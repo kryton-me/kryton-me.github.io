@@ -63,7 +63,7 @@ Options considered:
 None
 
 ## Smart Phone
-Basically they would do the job amazingly apart from needing to operate a touch screen and menus just to get it recording.
+Basically they would do the job amazingly apart from needing to operate a touch screen and menus just to get it recording. I've even considered a ShiftCam SnapGrip but this offers no help as you still need to go throught menus to get the camera recording. I'd assumed pressing the shutter button might load the camera app but sadly this is not the case. I fear this is a lack suport at the operating system level rather than a reflection on ShiftCam & their products.
 
 Options considered:
 None
