@@ -26,12 +26,12 @@ Effective largest apature = Largest apature * Crop factor
 A good match to the above requirements, They tend to have fixed 0.5m to infinity focus thanks to a small sensor, although some have much bigger sensors now. Most inherently have very good stablisation.
 
 Options to consider:
-1 GoPro Hero 11 (F12.5 or F14?)
-2 DJI Action 3 (F12.6)
-3 DJI Pocket 2 (F8.1)
-4 Insta RS One Boosted (F14.4)
-5 Insta RS One 1" (F9.6)
-6 Sony RX0 (F12.2)
+* GoPro Hero 11 (F12.5 or F14?)
+* DJI Action 3 (F12.6)
+* DJI Pocket 2 (F8.1)
+* Insta RS One Boosted (F14.4)
+* Insta RS One 1" (F9.6)
+* Sony RX0 (F12.2)
 
 ### GoPro Hero 11
 Market leader of Action cameras, has a lot of complaints regards over heating when recording high resolutions / frame rates
