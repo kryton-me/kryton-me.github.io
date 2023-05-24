@@ -41,8 +41,14 @@ On the side-by-side videos I've seen, I don't think it has quite the dynamic ran
 
 Given its lower price, I'd be willing to forgive this however you have to register the handset with a very nosy phone app or it bricks the camera. This feels concerning to me Given DJI are part owned by the Chinese government. May be you think I wear a tin foil hat, but the US government has banned the use of their products. Most camera reviewers seem to ignor this aspect with the exception of EEEvlog.
 
+the app as wants a lot of information from you:
+
+
+
 ### Insta RS One
 Did not seem to get many reviews I could find and those that did seemed to prefer the GoPro / DJI products.
+
+app has intresting data settings
 
 ### Sony RX0
 Great camera with amazing outputs given its 1" sensor. The problem being you need to pre set the focus distance or keep part pressing the shutter button during the shot as it has no AF-C. This means I'm worrying about the focus not enjoying the moment. It's rulled out for this reason. 
