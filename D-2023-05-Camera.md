@@ -81,7 +81,7 @@ Options considered:
 None
 
 # Conclusions
-As much as I'd love the low light performance of a 35 mm sensor compact system camera or the slick operation of a smart phone posting an image. Action cameras are the clear option here and in particular...
+As much as I'd love the low light performance of a 35 mm sensor compact system camera or the slick operation of a smart phone posting an image. Action cameras are the clear option here and in particular the GoPro Hero 11. It's dynamic range is very good snd seems to have a much more sensible approch to what Data it wants.
 
 
 
