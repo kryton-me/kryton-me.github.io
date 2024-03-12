@@ -10,15 +10,37 @@ Working out what factors of a lens / camera body govern the depth of field of an
 
 # Terms
 
-### Apatute
-often know as a "F" Number in photograthry. Also the term "T" number is sometimes used in more cinimatic contexts. To my understanding F numbers are calculated from the lenses design where "T" numbers are measured by sending light though a built lens. The latter being more accurite. For the purposes of the calcilation they will be used interchangeably.
+### Apatute (N)
+Often know as a "F Number" in photograthry. Also the term "T number" is sometimes used in high end cinimatic lenses. To my understanding F numbers are calculated from the lenses design where "T" numbers are measured by sending light though a built lens. The latter being more accurite. For the purposes of the calcilation they will be used interchangeably.
 
-### Focal Lenght
+### Focal Lenght (_f_)
+The focal length of the lens, normall stated in "mm". Commonly a 50mm lense is used with a 35mm film stills or "full frame" camera.
+
+_f_ not to be confised with the "F number".
+
+### Distance to Subject (u)
+How far is the lense from the subject. 
+
+### Circle of confusion diameter (c)
+
+I'll adopt the _d_/1500 calculation to simplify this.
+
+| Sensor Size | CoC |
+| 1" | 11 |
+| 4/3" | 15 |
+| APS-C | 18 |
+| 35mm | 29 |
 
 
-### 
+
 
 # Formulas
+
+### Depth of field
+
+### CoC
+
+
 
 # Conclusion
 
