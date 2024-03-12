@@ -31,12 +31,13 @@ I'll adopt the _d_/1500 calculation to simplify this.
 | APS-C | 18 |
 | 35mm | 29 |
 
-
-
-
 # Formulas
 
 ### Depth of field
+
+DOC = (2* (_u_2) * N * c)/ (_f_2)
+
+This suggests "F" number and Distance to subject have the largest effect.
 
 ### CoC
 
