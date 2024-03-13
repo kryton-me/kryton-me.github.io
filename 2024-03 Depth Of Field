@@ -26,10 +26,10 @@ How far is the lense from the subject.
 I'll adopt the _d_/1500 calculation to simplify this.
 
 | Sensor Size | CoC |
-| 1" | 11 |
-| 4/3" | 15 |
-| APS-C | 18 |
-| 35mm | 29 |
+| 1" | 11μm |
+| 4/3" | 15μm |
+| APS-C | 18μm |
+| 35mm | 29μm |
 
 # Formulas
 
@@ -38,10 +38,6 @@ I'll adopt the _d_/1500 calculation to simplify this.
 DOC = (2* (_u_2) * N * c)/ (_f_2)
 
 This suggests "F" number and Distance to subject have the largest effect.
-
-### CoC
-
-
 
 # Conclusion
 
