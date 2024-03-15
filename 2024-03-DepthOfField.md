@@ -35,10 +35,10 @@ I'll adopt the _d_/1500 calculation to simplify this.
 
 ### Depth of field
 
-DOC = (2* ( _u_  <sup>2</sup>) * N * c)/ ( _f_ <sup>2</sup>)
+DOC = (2 ( _u_  <sup>2</sup>) N c)/ ( _f_ <sup>2</sup>)
 
-This suggests "F" number and Distance to subject have the largest effect.
+This suggests "_f_" focal length and Distance to subject have the largest effect as they are square factors
 
 # Conclusion
-Doing some calculations on a spreadsheet agree with the above statment however _f_ focal lenght is a pritty big factor as well. 
+Doing some calculations on a spreadsheet agrees with the above statment, sensor size also has a noticable effect but not as much as you might think.  
 
