@@ -13,7 +13,7 @@ Working out what factors of a lens / camera body govern the depth of field of an
 ### Apatute (N)
 Often know as a "F Number" in photograthry. Also the term "T number" is sometimes used in high end cinimatic lenses. To my understanding F numbers are calculated from the lenses design where "T" numbers are measured by sending light though a built lens. The latter being more accurite. For the purposes of the calcilation they will be used interchangeably.
 
-### Focal Lenght (_f_)
+### Focal Lenght (_f_ )
 The focal length of the lens, normall stated in "mm". Commonly a 50mm lense is used with a 35mm film stills or "full frame" camera.
 
 _f_ not to be confised with the "F number".
@@ -37,8 +37,8 @@ I'll adopt the _d_/1500 calculation to simplify this.
 
 DOC = (2 ( _u_  <sup>2</sup>) N c)/ ( _f_ <sup>2</sup>)
 
-This suggests "_f_" focal length and Distance to subject have the largest effect as they are square factors
+This suggests _f_ focal length and Distance to subject have the largest effect as they are square factors
 
 # Conclusion
-Doing some calculations on a spreadsheet agrees with the above statment, sensor size also has a noticable effect but not as much as you might think.  
+Doing some calculations on a spreadsheet agrees with the above statment, sensor size also has a noticable effect but not as much as you might think. Also having F Numbers on lenses and reffering to _f_ for focal lenght is very confusing.
 
