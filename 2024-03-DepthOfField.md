@@ -35,9 +35,10 @@ I'll adopt the _d_/1500 calculation to simplify this.
 
 ### Depth of field
 
-DOC = (2* (_u_2) * N * c)/ (_f_2)
+DOC = (2* ( _u_ 2) * N * c)/ ( _f_ 2)
 
 This suggests "F" number and Distance to subject have the largest effect.
 
 # Conclusion
+Doing some calculations on a spreadsheet agree with the above statment however _f_ focal lenght is a pritty big factor as well. 
 
