@@ -26,6 +26,7 @@ How far is the lense from the subject.
 I'll adopt the _d_/1500 calculation to simplify this.
 
 | Sensor Size | CoC |
+| ----------- | --- |
 | 1" | 11μm |
 | 4/3" | 15μm |
 | APS-C | 18μm |
