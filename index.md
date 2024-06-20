@@ -17,6 +17,7 @@ Some of my random thoughts:
 * [ECAD Laptop](/2021-01-ECADLaptop)
 * [ECAD Software](/2021-01-ECADSoftware)
 * [Electronic safety standards](/2020-06-ElectroniceSafteyStandards)
+* [Gerber Viewers](/2024-06-GerberViewers)
 
 # Gadgets
 * [eTrex map install](/2022-09-eTrexMapUpload)
