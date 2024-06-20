@@ -33,6 +33,7 @@ Some of my random thoughts:
 * [LED ring light](/2021-03-LEDRingLight)
 * [Macro Lens Calculations](/2021-02-MacroLensCalculations)
 * [Time Lapse](/2021-01-TimeLapse)
+* [Depth Of Field](/2024-03-DepthOfField)
 
 # Radio
 * [Software Defined Radio as a Spectrum Analyser](/2022-04-SDR-Spectrum-Analyser)
