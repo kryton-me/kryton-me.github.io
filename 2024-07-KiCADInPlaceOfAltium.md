@@ -9,8 +9,7 @@ Since version 8 KiCAD has improved significatly to the point I'm questioning Alt
 # Requirments
 
 ## Manage Assemblies (PCBAs / Varients)
-There is a tool for this:
-(KiVar plugin)[https://github.com/markh-de/KiVar]
+There is the [KiVar plugin](https://github.com/markh-de/KiVar) which offers this ability. 
 
 ## Market data analysis
 This is more for long term maintanave there is the [KiCost plugin](https://github.com/xesscorp/KiCost) however you are open to the whim of Digi-key turning off the ability to scrape the site.
