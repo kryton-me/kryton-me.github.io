@@ -19,4 +19,7 @@ This is more for long term maintanave
 ?
 
 ## Diferential signal tracks
-I'm talking USB1.1 / 2.0 levels here, this coild possibly be done by eye.
+I'm talking USB1.1 / 2.0 levels here, this coild possibly be done by eye or with a simple track lenght measuring tool.
+
+## Design repository
+Just use a Git server much like Altium? native suport?
