@@ -6,5 +6,17 @@ Altium have recently changed license model to a subscription and the bill keeps 
 
 Since version 8 KiCAD has improved significatly to the point I'm questioning Altiums purpose. I don't 
 
+# Requirments
 
-https://github.com/markh-de/KiVar
+## Manage Assemblies (PCBAs)
+There is a tool for this:
+(KiVar plugin)[https://github.com/markh-de/KiVar]
+
+## Market data analysis
+This is more for long term maintanave
+
+## Component selection?
+?
+
+## Diferential signal tracks
+I'm talking USB1.1 / 2.0 levels here, this coild possibly be done by eye.
