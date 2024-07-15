@@ -19,7 +19,7 @@ This is more for long term maintanave there is the [KiCost plugin](https://githu
 ?
 
 ## Diferential signal tracks
-I'm talking USB1.1 / 2.0 levels here, this coild possibly be done by eye or with a simple track lenght measuring tool.
+I'm talking USB1.1 / 2.0 levels here, this coild possibly be done by eye or with a simple track lenght measuring tool. If I wsnted 
 
 ## Design repository
 Just use a Git server much like Altium? native suport?
