@@ -26,7 +26,7 @@ How far is the lense from the subject.
 I'll adopt the _d_/1500 calculation to simplify this.
 
 | Sensor Size | CoC |
-| 1" | 11μm |
+| Type 1 | 11μm |
 | 4/3" | 15μm |
 | APS-C | 18μm |
 | 35mm | 29μm |
@@ -41,3 +41,8 @@ This suggests "F" number and Distance to subject have the largest effect.
 
 # Conclusion
 
+If you want a shallow depth of field, it depends how far you are from your subject and there for focal length possibly more than having a large sensor / "fast glass". 
+
+In my experience a 50mm F1.8 on APS-C is more than adequate enabling you to dial in just the right amount of background blur. This is quite a telephoto view, but also offers the "flattened look" common in portrait lenses without having to get too far away. I often find no need to be at F1.8 because you're only aiming to draw the eye away from the background just enough not make it distractingly blurry.
+
+If you do want to show the whole scene by having a large depth of field then "Stopping Down" to say F16 will easily do this. It's just a matter of having enough light to do this without having a high ISO (More noise / less Dynamic range) or going to a shutter speed that will likely give motion blur. This is where having a short focal length i.e. 16mm on APS-C will and a smaller sensor say type 1 will give you a big advantage. i.e. a smart phone.
