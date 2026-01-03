@@ -1,11 +1,29 @@
-MacBookPro & Linux - Gantu
+Linux on an old MacBook Pro
+---
 
-I have
+# Introduction
+I found an old MacBook Pro hanging around in need of somthing to do.
 
-Fedora 43
+## Specs
+* MacBook Pro 11,1 in Late 2013 spec
+* Model: Number A1502
+* CPU: intel "i5-4258U" 
+* RAM: 8GB "Late 2013"
+
+As it's well out of Apples support Stuck on MacOS 11 for eternity it's basically e-Waste well according to Apple. I however have other plans involving Linux.
+
+# Which Linux?
+Reading around it sounds like it should still be capable of running a current Distro as it's 64bit and a resnable spec. I'm a KDE fan and fancy trying out Fedora.
+
+Distro: Fedora 43 KDE flavour
+
+I set the iso file up on a USB pen drive as a live boot.
+
+# First boot
+Holding down the "Option" key or "alt" as its written on this particular MacBook I pressed the power button. This brought up the USB drive and 
+
 
 # COPR build
-
 Switch to copr build of Fedora? - Not sure I neede to do this.
 
 """sudo dnf copr enable dcaratti/wpa_supplicant sudo dnf update did not work"""
@@ -36,14 +54,6 @@ Tried this using the UEFI method
 Just reboots but does keep everything as is it had worked.
 Assume Mac UEFI Issue.
 
-# Synology NAS
-
-TODO: Need old iPhone Second factor.
-
-#Phone next cloud- Done
-
-<https://murena.io>
-
 # Keyboard
 
 "Apple Aluminium (ANSI) or (ISO)"
@@ -66,22 +76,8 @@ use `sensors`
 sensors | grep -e "Core" -e "temp:" -e "RPM"
 ```
 
-Re-paste CPU  
- 
+# Re-paste CPU 
 
-Benchmarks
-
-CPU Blowfish Single = 9.32
-
-CPU blowfish Multi thread = 26.97
-
-CPU blowfish Muti core = 17.50
-
-CPU Zlib = 34.03
-
-CPU CruptoHash = 12.10
-
-  
 # Hardware video decoder:
 
 [https://fedoraproject.org/wiki/Hardware_Video_Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration#cite_note-2)
