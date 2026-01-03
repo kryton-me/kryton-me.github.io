@@ -13,14 +13,14 @@ I found an old MacBook Pro hanging around in need of somthing to do.
 As it's well out of Apples support Stuck on MacOS 11 for eternity it's basically e-Waste well according to Apple. I however have other plans involving Linux.
 
 # Which Linux?
-Reading around it sounds like it should still be capable of running a current Distro as it's 64bit and a resnable spec. I'm a KDE fan and fancy trying out Fedora.
+Reading around it sounds like it should still be capable of running current mainstream Distros mainly as it's a 64bit CPU and has a still respectable 8GB of RAM. I'm personally keen on KDE so thought I'd use it to try out Fedora.
 
-Distro: Fedora 43 KDE flavour
+Distro: Fedora 43 in KDE flavour
 
-I set the iso file up on a USB pen drive as a live boot.
+I set the iso file up on a USB pen drive as a live boot distro so I could try it out first.
 
 # First boot
-Holding down the "Option" key or "alt" as its written on this particular MacBook I pressed the power button. This brought up the USB drive and 
+Holding down the "Option" key or "alt" as its written on this particular UK MacBook I pressed the power button. This brought up the USB drive and internal SSD. I opten for the USB drive and was soon presented with a KDE desktop. This is where I found the first problem, no WiFi drives! I decided to go ahead as with the current MacOS this thing was effectively a glorified paperweight with an Apple logo. I made a rash assumption that the live kernal may not have all the drivers loaded and some more may become available it install (they don't, well in this case)
 
 
 # COPR build
