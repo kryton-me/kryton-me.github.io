@@ -1,0 +1,108 @@
+MacBookPro & Linux - Gantu
+
+I have
+
+Fedora 43
+
+# COPR build
+
+Switch to copr build of Fedora? - Not sure I neede to do this.
+
+"""sudo dnf copr enable dcaratti/wpa_supplicant sudo dnf update did not work"""
+
+# Get Wifi working - Done
+
+sudo dnf install
+
+<https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm> -E %fedora).noarch.rpm <https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm> -E %fedora).noarch.rpm
+sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
+
+instal broadcom-wl
+
+# Software to get the webcam working: - 
+
+No attempted <https://github.com/patjak/facetimehd/wiki/Installation#get-started-on-fedora>  
+TODO: My head hurts on this.
+
+# VPN - 
+
+just double click the file
+
+# HIBERNATION - TODO Fix reboot issue.
+
+Tried this using the UEFI method
+
+<https://fedoramagazine.org/update-on-hibernation-in-fedora-workstation/>
+Just reboots but does keep everything as is it had worked.
+Assume Mac UEFI Issue.
+
+# Synology NAS
+
+TODO: Need old iPhone Second factor.
+
+#Phone next cloud- Done
+
+<https://murena.io>
+
+# Keyboard
+
+"Apple Aluminium (ANSI) or (ISO)"
+
+delete = Fn + Backspace
+
+€ = right "alt" + 2
+
+\# = Right "alt" + 3
+
+# Thermal issues
+
+install the `lm_sensors` (`sudo dnf install lm_sensors)`
+
+run `sensors-detect` 
+
+use `sensors` 
+
+```
+sensors | grep -e "Core" -e "temp:" -e "RPM"
+```
+
+Re-paste CPU  
+ 
+
+Benchmarks
+
+CPU Blowfish Single = 9.32
+
+CPU blowfish Multi thread = 26.97
+
+CPU blowfish Muti core = 17.50
+
+CPU Zlib = 34.03
+
+CPU CruptoHash = 12.10
+
+  
+# Hardware video decoder:
+
+[https://fedoraproject.org/wiki/Hardware_Video_Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration#cite_note-2)
+
+Upto 4th gen i5 "sudo dnf install libva-intel-driver"
+
+Later "sudo dnf install intel-media-driver"
+
+Software
+
+sudo dnf install ffmpeg-free - already had it
+
+sudo dnf install libavcodec-freeworld - H264
+
+sudo dnf install libva-utils.x86_64
+
+vainfo to confirm VA-API
+
+  
+   
+  
+   
+  
+ 
