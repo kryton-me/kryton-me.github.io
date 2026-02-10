@@ -27,9 +27,8 @@ Open the PCB Editor
 * "Generate Position File"
 * Open "<PCB Name>-all-pos.csv" in a text editor
 * Change the top line as follows;
-
-```Ref``` to ```Designator```
-```PosX``` to ```Mid X```
-```PosY``` to ```Mid Y
-```Rot``` to ```Rotation``` Not entrily sure if "-90" needs to be change to "270"?
-```Side``` to ```Layer``` should "bottom" to "Bottom" is not an issue.
+  * ```Ref``` to ```Designator```
+  * ```PosX``` to ```Mid X```
+  * ```PosY``` to ```Mid Y```
+  * ```Rot``` to ```Rotation``` Not entrily sure if "-90" needs to be change to "270"?
+  * ```Side``` to ```Layer``` should "bottom" to "Bottom" is not an issue.
