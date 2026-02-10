@@ -14,7 +14,8 @@ Set the "Coloumn Label" to match the following:
 | KiCAD | Reference | Designator | 
 | KiCAD | Value | Comment |
 | KiCAD | Footprint | Footprint |
-| Custom | Supplier Part Number | JLCPCB Part # |
+| Custom | Supplier Part Number | LCSC |
+| Custom | Package | JLC |
 | Custom | Manufacturer | Manufacturer |
 | Custom | Manufacturer Product Number | MFR Part # |  
 
