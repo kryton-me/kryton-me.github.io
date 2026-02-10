@@ -32,6 +32,8 @@ Set the "Coloumn Label" to match the following:
 | Custom | Manufacturer | Manufacturer |
 | Custom | Manufacturer Product Number | MFR Part # |  
 
+Once set up this can be saved as a preset. 
+
 # Component locations to 
 
 Open the PCB Editor
@@ -39,7 +41,8 @@ Open the PCB Editor
 * File -> Fabricaltion Outputs -> Component placment 
 * Select the  output location ```../Output/```
 * "Generate Position File"
-* Open "<PCB Name>-all-pos.csv" in a text editor
+* Open "<PCB Name>-<Version>-PAP.csv" in a text editor
+ * Note usinga & in the file name for say Pick & Place brakes the website   
 * Change the top line as follows;
   * ```Ref``` to ```Designator```
   * ```PosX``` to ```Mid X```
@@ -47,5 +50,5 @@ Open the PCB Editor
   * ```Rot``` to ```Rotation``` Not entrily sure if "-90" needs to be change to "270"?
   * ```Side``` to ```Layer``` should "bottom" to "Bottom" is not an issue.
 
-# Links
-* [JLC automated software](https://jlcpcb.com/help/article/How-to-Generate-BOM-and-Centroid-Files-from-KiCad-in-Linux)
+# Further reading:
+[JLC do offer automated software](https://jlcpcb.com/help/article/How-to-Generate-BOM-and-Centroid-Files-from-KiCad-in-Linux) to do this for you, however you still need to set up the LCSC and JLC fields manually. I was also not conviced the software would work if you used a flatplack insulation. I did however use this page to set up all the above feilds along with example BOMs and placement files. 
