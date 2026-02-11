@@ -68,21 +68,46 @@ Inclued things like the following:
   * Reffer to customer
 
 # Outputs
+[There are much better Automated ways of doing this](https://docs.kicad.org/9.0/en/kicad/kicad.html#jobsets) This is a discription of how to get a design out assuming automation has not been set up.
 
 ### SCH
 Print Circuit diagram
 
+Location:
+```../Output/${PROJECTNAME}-1-SCH.csv```
+
 ### BOM
 
 Location
-```../Output/${PROJECTNAME}-<version>-BOM.csv```
+```../Output/${PROJECTNAME}-1-BOM.csv```
 
 Headings
 ```"Reference","Qty","Value","Manufacturer","Manufacturer Part Number"```
 
-### PCB
+### PCB Drawing
+Print PCB
+
+```../Output/${PROJECTNAME}-1-PCB.csv```
 
 ### GERBER
-Yuck
+Yuck (Argh not a good data format)
 
-###
+* PCB Design -> File -> Fabrication Outputs -> Gerbers(.gbr)...
+* Output: ```../Output/${PROJECTNAME}-1-GERB```
+* Check layers
+* Confirm "Use extended X2 format (recomended)" is ticked
+* "Gnerate DRill Files..." --> "Generate"
+* "Close"
+* "Plot"
+* Regenrate zone fills if asked
+
+Go to the "${PROJECTNAME}-1-GERB" folder and compress it as a zip. 
+
+### Pick and Place file
+This is ony needed if using Gerber not ODB++ or IPC files formats
+
+* PCB design -> File -> Fabrication Outputs -> Conponent Placement(.pos,.gbr)... 
+* Output: ```../Output/```
+* Generate Position File
+
+Find the ${PROJECTNAME}-all-pos.csv and rename with "version-PAP". 
