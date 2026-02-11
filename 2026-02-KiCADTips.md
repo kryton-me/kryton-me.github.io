@@ -3,11 +3,17 @@ KiCAD tips
 
 # Project 
 
-## Git
+### Git
 If you using Git, turn off back ups
 * Project -> Preferences -> Prefernces -> Common -> Project Backup -> Turn off "Automatically backup projects
 * Project -> Preferences -> Prefernces -> Version Control -> Turn on "Enable Git Tracking" if not alrady on.
 
+### Drawing sheets
+
+* Comment1: By: kryton, review: J Smtih
+* Comment2: current version, Changes
+* Comment3: previus version, changes
+* Comment4: previus version, changes
 
 # SCH
 
