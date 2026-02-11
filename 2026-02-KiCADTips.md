@@ -1,6 +1,14 @@
 KiCAD tips
 ---
 
+# Project 
+
+## Git
+If you using Git, turn off back ups
+* Project -> Preferences -> Prefernces -> Common -> Project Backup -> Turn off "Automatically backup projects
+* Project -> Preferences -> Prefernces -> Version Control -> Turn on "Enable Git Tracking" if not alrady on.
+
+
 # SCH
 
 ## Net classes Patterns
@@ -9,6 +17,8 @@ KiCAD tips
 
 # PCB
 
+## Net classes
+Set them up before tracksing
 
 # Standard parts
 Set up the following parts in a Global libary:
