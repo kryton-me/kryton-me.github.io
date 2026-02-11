@@ -66,4 +66,23 @@ Inclued things like the following:
   * Reffer to customer
 * Copper errors
   * Reffer to customer
-  
+
+# Outputs
+
+### SCH
+Print Circuit diagram
+
+### BOM
+
+Location
+```../Output/${PROJECTNAME}-<version>-BOM.csv```
+
+Headings
+```"Reference","Qty","Value","Manufacturer","Manufacturer Part Number"```
+
+### PCB
+
+### GERBER
+Yuck
+
+###
