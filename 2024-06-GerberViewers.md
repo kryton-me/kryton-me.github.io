@@ -7,6 +7,8 @@
 * Windows
 * Linux
   * Febora
+   * ```sudo dnf install gerbv```
+   * (not in software / discover
   * Ubuntu
   * Debian
 
