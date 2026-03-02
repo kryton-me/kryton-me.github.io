@@ -61,6 +61,7 @@ Applicable and SCH and PCB and Automated the title block of any drawing.
 #### GERBER
 
 | Name | Value |
+| --- | --- |
 | Output directory: | Output/PCB-${PROJECT#}-${VERSION}-GERB |
 | Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Mechanical Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
@@ -68,6 +69,7 @@ Applicable and SCH and PCB and Automated the title block of any drawing.
 
 #### PCB Drawing / Specification
 | Name | Value |
+| --- | --- |
 | Output directory: | Output/PCB-${PROJECT#}-${VERSION}-SPEC |
 | Inclued Layers: | Top, Bottom, Silkscreens, Document Layer, User Comments & Mechanical Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
