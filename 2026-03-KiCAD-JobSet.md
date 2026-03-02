@@ -37,22 +37,38 @@ Set up the follwoing variables:
 A syntax example:
 ```${PROJECTNAME}``` or ```${CURRENT_DATE}```
 
-### Page Settings for drawings
-Applicable and 
-
-Issue Date: ```${CURRENT_DATE}```
-Revision: ```${VERSION}```
-Title (SCH): ```PCBA-${PROJECT#}-${VERSION}, ${PROJECT-DESCRIPTION}```
-Title (PCB): ```PCB-${PROJECT#}-${VERSION}, ${PROJECT-DESCRIPTION}```
-Company: ```${COMPANY}```
-Comment1: ```${BY}```
-Comment2: ```${VERSION-CURRENT}```
-Comment3: ```${VERSION-LAST}```
-Comment4: ```${VERSION-LAST+1}``` <-- This is the last displayed comment. 
-Comment5: ```${VERSION-LAST+2}```
-Comment6: ```${VERSION-LAST+3}```
-Comment7: ```${VERSION-LAST+4}```
-Comment8: ```${VERSION-LAST+5}```
-Comment9: ```${VERSION-LAST+6}```
+### Page Settings
+Applicable and SCH and PCB and Automated the title block of any drawing. 
+| Variable on Sheets / Drawing | Applicable too | Applicable Variable | Notes |
+| --- | --- | --- | --- |
+| Issue Date: | Both | ```${CURRENT_DATE}``` | |
+| Revision: | Both | ```${VERSION}``` | |
+| Title: | Circuit | ```PCBA-${PROJECT#}-${VERSION}, ${PROJECT-DESCRIPTION}``` | Extra "A" for assembly |
+| Title: | PCB | ```PCB-${PROJECT#}-${VERSION}, ${PROJECT-DESCRIPTION}``` | |
+| Company: | Both | ```${COMPANY}``` | |
+| Comment1: | Both | ```${BY}``` | |
+| Comment2: | Both | ```${VERSION-CURRENT}``` | |
+| Comment3: | Both | ```${VERSION-LAST}``` | |
+| Comment4: | Both | ```${VERSION-LAST+1}``` | This is the last displayed comment. |
+| Comment5: | Both | ```${VERSION-LAST+2}``` | |
+| Comment6: | Both | ```${VERSION-LAST+3}``` | |
+| Comment7: | Both | ```${VERSION-LAST+4}``` | |
+| Comment8: | Both | ```${VERSION-LAST+5}``` | |
+| Comment9: | Both | ```${VERSION-LAST+6}``` | |
 
 ### JobSet settings
+
+#### GERBER
+
+| Name | Value |
+| Output directory: | Output/PCB-${PROJECT#}-${VERSION}-GERB |
+| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Mechanical Layer |
+| General Options: | Plot Drawing sheet, Check zone fills before plotting |
+| Gerber Options: | Use Protel filename extensions, Use extended X2 format |
+
+#### PCB Drawing / Specification
+| Name | Value |
+| Output directory: | Output/PCB-${PROJECT#}-${VERSION}-SPEC |
+| Inclued Layers: | Top, Bottom, Silkscreens, Document Layer, User Comments & Mechanical Layer |
+| General Options: | Plot Drawing sheet, Check zone fills before plotting |
+| PDF Options: | All |
