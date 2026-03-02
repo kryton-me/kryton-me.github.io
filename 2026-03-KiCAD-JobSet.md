@@ -62,7 +62,7 @@ Applicable and SCH and PCB and Automated the title block of any drawing.
 
 | Name | Value |
 | --- | --- |
-| Output directory: | Output/PCB-${PROJECT#}-${VERSION}-GERB |
+| Output directory: | PCB-${PROJECT#}-${VERSION}-GERB |
 | Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Mechanical Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
@@ -70,7 +70,42 @@ Applicable and SCH and PCB and Automated the title block of any drawing.
 #### PCB Drawing / Specification
 | Name | Value |
 | --- | --- |
-| Output directory: | Output/PCB-${PROJECT#}-${VERSION}-SPEC |
+| Output directory: | PCB-${PROJECT#}-${VERSION}-SPEC |
 | Inclued Layers: | Top, Bottom, Silkscreens, Document Layer, User Comments & Mechanical Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | PDF Options: | All |
+
+#### PCB Pick and Place file
+| Name | Value |
+| --- | --- |
+| Output file: | PCB-${PROJECT#}-${VERSION}-PAP.csv |
+| Inclued: | Board edge layer, use drill/place file origin |
+
+This will need manual edits for JLC
+
+#### PCB: 3D Model
+| Name | Value |
+| --- | --- |
+| Format: | STEP |
+| File: | PCB-${PROJECT#}-${VERSION}-3D.step |
+| Board Options: | Export bioard body, export silk screen, Export components (All)|
+| Coordinates | Board center origin |
+| Other Options | Substitute similarly named models, Don't Write P-curves to STEP file |
+
+#### Schemtic (SCH) PDF
+| Output directory: | PCBA-${PROJECT#}-${VERSION}-SCH.pdf |
+| Options | Page Size Schematic size, Plot Drawing sheet, Output mode color, color theme KiCAD classic |
+| PDF Options | Generate property popups, Generate clickable links for hierachical elements |
+
+#### Schematic (SCH) Generate Bill of Materials
+| Output directory: | PCBA-${PROJECT#}-${VERSION}-BOM.csv |
+| Edit | Select View Preset |
+| Export | Format preset: csv |
+
+# Process
+
+* Open schimatic editor
+  * File -> Schematic Setup -> Project -> Text Variables
+* Open Project
+  * Open ".kicad_jobseet"
+* Generate All Destinations
