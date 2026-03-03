@@ -5,6 +5,9 @@ KiCAD-JobSet
 Some basic settings to get set up with Job Set
 
 # Variables
+* Open top level schimatic --> File --> Schematic Setup...
+* Project --> Text Variables
+
 Set up the follwoing variables:
 
 ### Project Defaults
@@ -14,7 +17,9 @@ Set up the follwoing variables:
 | PROJECTNAME | This is the file name of the project so may not that usefull. |
 | CURRENT_DATE | todays date |
 
-### Variables I've defined
+### Variables to defined
+THis is just my suggestion feel free to set it up your own way.
+
 | Name | Description |
 | --- | --- |
 | VERSION | Issue of files being issued
