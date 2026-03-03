@@ -66,6 +66,14 @@ Applicable and SCH and PCB and Automated the title block of any drawing.
 #### Set up a file
 Project tool -> File -> New Jobset File... -> Enter file name -> save
 
+#### Destinations
+Just one Desitination
+
+| Name | Value | notes |
+| --- | --- | --- |
+| Description: | ```Output``` | |
+| Destination path: | ```../Output``` | Exact syntax with dots is impotant (Noty tested on Windows) |
+| inclued jobs: | tick them all | Go back to ckeck this once they are set up |
 
 #### GERBER
 
