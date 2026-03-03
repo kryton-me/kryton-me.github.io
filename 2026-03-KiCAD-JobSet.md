@@ -76,7 +76,7 @@ Just one Desitination for Both PCB & PCBA
 | Inclued jobs: | tick them all | Go back to check this once they are set up |
 
 #### GERBER
-"+" --> "PCB: Export Gerbers" --> "OK" 
+```+``` --> "PCB: Export Gerbers" --> "OK" 
 
 | Name | Value |
 | --- | --- |
@@ -89,7 +89,7 @@ Actions:
 * Compress / zip the folder containing gerbers in to a file called: PCB-${PROJECT#}-${VERSION}-GERB.zip
 
 #### PCB Drawing / Specification
-"+" --> "PCB: Export PDF" --> "OK"
+```+``` --> "PCB: Export PDF" --> "OK"
 
 | Name | Value |
 | --- | --- |
@@ -105,7 +105,7 @@ Actions:
 * Delete directory named "SPEC.pdf"
 
 #### PCB Pick and Place file
-"+" --> "PCB: Export Position Data" --> "OK"
+```+``` --> "PCB: Export Position Data" --> "OK"
 
 | Name | Value |
 | --- | --- |
@@ -116,18 +116,18 @@ Actions
 This may need editing to be compatible with a manufacter [such as JLC](2026-02-KiCADToJLC]
 
 #### PCB: 3D Model
-"+" --> "PCB: Export 3D Model" --> "OK"
+```+``` --> "PCB: Export 3D Model" --> "OK"
   
 | Name | Value |
 | --- | --- |
 | Format: | STEP |
 | File: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-3D.step``` |
-| Board Options: | Export board body, export silk screen, Export components (All)|
+| Board Options: | Export board body, export silk screen, Export components (All) |
 | Coordinates | Board center origin |
 | Other Options | Substitute similarly named models, Don't Write P-curves to STEP file |
 
 #### Schemtic (SCH) PDF
-"+" --> "Schematic: Export PDF" --> "OK"
+```+``` --> "Schematic: Export PDF" --> "OK"
 
 | Name | Value |
 | --- | --- |
@@ -141,13 +141,16 @@ Actions
 * Delete directory named "SPEC.pdf"
 
 #### Bill of Materials (BOM)
-"+" --> "Schematic: Generate Bill of Materials" --> "OK"
+```+``` --> "Schematic: Generate Bill of Materials" --> "OK"
 
 | Name | Value |
 | --- | --- |
 | Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCBA-${PROJECT#}-${VERSION}-BOM.csv``` |
 | Edit | Select View Preset |
 | Export | Format preset: csv |
+
+Actions:
+* None
 
 # Process
 
