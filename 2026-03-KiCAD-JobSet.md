@@ -2,7 +2,7 @@ KiCAD-JobSet
 ---
 
 # Introduction
-Some basic settings to get set up with Job Set
+Some basic settings to get set up with Job Set, Please note this uses Unix / Linux / Mac file paths Windows users need to adjust accordinly
 
 # Variables
 * Open top level schimatic --> File --> Schematic Setup...
@@ -76,46 +76,72 @@ Just one Desitination
 | inclued jobs: | tick them all | Go back to ckeck this once they are set up |
 
 #### GERBER
++ --> PCB: Export Gerbers --> 
 
 | Name | Value |
 | --- | --- |
-| Output directory: | PCB-${PROJECT#}-${VERSION}-GERB |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
 | Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Mechanical Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
 
+Actions:
+* Compress / zip the folder containing gerbers in to a file called: PCB-${PROJECT#}-${VERSION}-GERB.zip
+
 #### PCB Drawing / Specification
++ --> PCB: Export PDF --> OK
+
 | Name | Value |
 | --- | --- |
-| Output directory: | PCB-${PROJECT#}-${VERSION}-SPEC |
-| Inclued Layers: | Top, Bottom, Silkscreens, Document Layer, User Comments & Mechanical Layer |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-SPEC.pdf``` |
+| Inclued Layers: | Document Layer |
+| Plot on All Layers: | Top, Bottom, Silkscreens, User Comments & Mechanical Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | PDF Options: | All |
 
+Actions: 
+* remane the PDF files to the name of the directory it's in
+* move it up a level
+* Delete directory named "SPEC.pdf"
+
 #### PCB Pick and Place file
++ --> PCB: Export Position Data --> OK
+
 | Name | Value |
 | --- | --- |
-| Output file: | PCB-${PROJECT#}-${VERSION}-PAP.csv |
-| Inclued: | Board edge layer, use drill/place file origin |
+| Output file: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-PAP.csv``` |
+| Inclued: | Board edge layer, use drill/place file origin, Generate single file with both front and back positions |
 
-This will need manual edits for JLC
+Actions
+This may need editing to be compatible with a manufacter [such as JLC](2026-02-KiCADToJLC]
 
 #### PCB: 3D Model
++ --> PCB: Export 3D Model --> OK
+  
 | Name | Value |
 | --- | --- |
 | Format: | STEP |
-| File: | PCB-${PROJECT#}-${VERSION}-3D.step |
-| Board Options: | Export bioard body, export silk screen, Export components (All)|
+| File: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-3D.step``` |
+| Board Options: | Export board body, export silk screen, Export components (All)|
 | Coordinates | Board center origin |
 | Other Options | Substitute similarly named models, Don't Write P-curves to STEP file |
 
 #### Schemtic (SCH) PDF
-| Output directory: | PCBA-${PROJECT#}-${VERSION}-SCH.pdf |
++ --> Schematic: Export PDF --> OK
+| Name | Value |
+| --- | --- |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCBA-${PROJECT#}-${VERSION}-SCH.pdf``` |
 | Options | Page Size Schematic size, Plot Drawing sheet, Output mode color, color theme KiCAD classic |
 | PDF Options | Generate property popups, Generate clickable links for hierachical elements |
 
-#### Schematic (SCH) Generate Bill of Materials
-| Output directory: | PCBA-${PROJECT#}-${VERSION}-BOM.csv |
+Actions
+* remane the PDF files to the name of the directory it's in
+* move it up a level
+* Delete directory named "SPEC.pdf"
+
+#### Bill of Materials (BOM)
++ --> Schematic: Generate Bill of Materials --> OK 
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCBA-${PROJECT#}-${VERSION}-BOM.csv``` |
 | Edit | Select View Preset |
 | Export | Format preset: csv |
 
