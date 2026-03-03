@@ -13,6 +13,7 @@ Some of my random thoughts:
 * [Easing Reading - Part 2, Reading books & news](/2020-06-EasingReadingPart2ReadingBooksNews)
 
 # Electronics design
+* [KiCAD Jobsets example](/2026-03-KiCAD-JobSet)
 * [KiCAD output to JLC](/2026-02-KiCADToJLC)
 * [Documenting Electronics](/2022-03-DocumentingElectronics)
 * [ECAD Laptop](/2021-01-ECADLaptop)
