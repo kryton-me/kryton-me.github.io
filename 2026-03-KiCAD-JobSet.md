@@ -58,6 +58,10 @@ Applicable and SCH and PCB and Automated the title block of any drawing.
 
 ### JobSet settings
 
+#### Set up a file
+Project tool -> File -> New Jobset File... -> Enter file name -> save
+
+
 #### GERBER
 
 | Name | Value |
