@@ -110,6 +110,8 @@ Actions:
 | Name | Value |
 | --- | --- |
 | Output file: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-PAP.csv``` |
+| Format: | CSV |
+| Units: | Millimeters |
 | Inclued: | Board edge layer, use drill/place file origin, Generate single file with both front and back positions |
 
 Actions
