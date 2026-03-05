@@ -119,6 +119,7 @@ Actions:
 * Delete directory named "SPEC.pdf"
 
 #### PCB Pick and Place file
+WARNING: Make sure all copper compnents & PCB shapes / specs are marked "Do Not Populate" 
 ```+``` --> "PCB: Export Position Data" --> "OK"
 
 | Name | Value |
