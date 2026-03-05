@@ -120,6 +120,7 @@ Actions:
 
 #### PCB Pick and Place file
 WARNING: Make sure all copper compnents & PCB shapes / specs are marked "Do Not Populate" 
+Components with "180.000000" appear to have the wrong polarity. to many digits? 
 ```+``` --> "PCB: Export Position Data" --> "OK"
 
 | Name | Value |
