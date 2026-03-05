@@ -81,7 +81,7 @@ Just one Desitination for Both PCB & PCBA
 | Name | Value |
 | --- | --- |
 | Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
-| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Mechanical Layer |
+| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Multi Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
 
@@ -94,7 +94,7 @@ Actions:
 | Name | Value |
 | --- | --- |
 | Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
-| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks,& Mechanical Layer |
+| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks,& Multi Layer |
 | General Options: | Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
 
@@ -109,7 +109,7 @@ Actions:
 | --- | --- |
 | Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-SPEC.pdf``` |
 | Inclued Layers: | Document Layer |
-| Plot on All Layers: | Top, Bottom, Silkscreens, User Comments & Mechanical Layer |
+| Plot on All Layers: | Top, Bottom, Silkscreens, User Comments & Multi-Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | PDF Options: | All |
 
@@ -126,7 +126,7 @@ Actions:
 | Output file: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-PAP.csv``` |
 | Format: | CSV |
 | Units: | Millimeters |
-| Inclued: | Board edge layer, use drill/place file origin, Generate single file with both front and back positions |
+| Tick boxes: | Exclued all footprints with the Do Not Populate flag set, Inclued Board edge layer, use drill/place file origin, Generate single file with both front and back positions |
 
 Actions
 This may need editing to be compatible with a manufacter [such as JLC](2026-02-KiCADToJLC]
