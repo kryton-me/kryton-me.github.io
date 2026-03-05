@@ -128,7 +128,7 @@ Components with "180.000000" appear to have the wrong polarity. to many digits?
 | Output file: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-PAP.csv``` |
 | Format: | CSV |
 | Units: | Millimeters |
-| Tick boxes: | Exclued all footprints with the Do Not Populate flag set, Inclued Board edge layer, use drill/place file origin, Generate single file with both front and back positions |
+| Tick boxes: | Exclued all footprints with the Do Not Populate flag set, Inclued Board edge layer, Generate single file with both front and back positions |
 
 Actions
 This may need editing to be compatible with a manufacter [such as JLC](2026-02-KiCADToJLC]
