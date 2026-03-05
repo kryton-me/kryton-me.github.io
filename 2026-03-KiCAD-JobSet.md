@@ -75,7 +75,7 @@ Just one Desitination for Both PCB & PCBA
 | Destination path: | ```../Output``` | Exact syntax with dots is impotant (Not tested on Windows) |
 | Inclued jobs: | tick them all | Go back to check this once they are set up |
 
-#### GERBER
+#### GERBER with drawing
 ```+``` --> "PCB: Export Gerbers" --> "OK" 
 
 | Name | Value |
@@ -87,6 +87,20 @@ Just one Desitination for Both PCB & PCBA
 
 Actions:
 * Compress / zip the folder containing gerbers in to a file called: PCB-${PROJECT#}-${VERSION}-GERB.zip
+
+#### GERBER no Drawing (JLC)
+```+``` --> "PCB: Export Gerbers" --> "OK" 
+
+| Name | Value |
+| --- | --- |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
+| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks,& Mechanical Layer |
+| General Options: | Check zone fills before plotting |
+| Gerber Options: | Use Protel filename extensions, Use extended X2 format |
+
+Actions:
+* Compress / zip the folder containing gerbers in to a file called: PCB-${PROJECT#}-${VERSION}-GERB.zip
+
 
 #### PCB Drawing / Specification
 ```+``` --> "PCB: Export PDF" --> "OK"
