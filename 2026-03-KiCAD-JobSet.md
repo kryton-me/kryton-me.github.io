@@ -111,6 +111,19 @@ Note this uses the gerber folder so it's with the GAERBER data in the same zip f
 Actions:
 * Compress / zip the folder containing gerbers in to a file called: PCB-${PROJECT#}-${VERSION}-GERB.zip
 
+### IPC-2581
+| Name | Value |
+| --- | --- |
+| Output directory: | PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-IPC-2581.xml |
+| Inclued Layers: | Units:mm, Precision: 6, Version C |
+| BOM Columns: | Internal ID: Generate Unigue, Manufacturer P/N: Omit, Manufactrer: N/A, Distribution P/N: Omit, Disibutor: N/A |
+
+### ODB++
+| Name | Value |
+| --- | --- |
+| Output directory: | PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-ODB |
+| Inclued Layers: | Units:mm, Precision: 4, Compression: ZIP |
+
 #### PCB Drawing / Specification
 ```+``` --> "PCB: Export PDF" --> "OK"
 
