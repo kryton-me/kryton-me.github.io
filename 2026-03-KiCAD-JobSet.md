@@ -80,7 +80,7 @@ Just one Desitination for Both PCB & PCBA
 
 | Name | Value |
 | --- | --- |
-| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
 | Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Multi Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
@@ -93,14 +93,23 @@ Actions:
 
 | Name | Value |
 | --- | --- |
-| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
 | Inclued Layers: | Top, Bottom, Silkscreens, Solder masks,& Multi Layer |
 | General Options: | Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
 
+### Drill Data (JLC)
+```+``` --> "PCB: Export drill data" --> "OK" 
+
+Note this uses the gerber folder so it's with the GAERBER data in the same zip file. 
+| Name | Value |
+| --- | --- |
+| Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
+| Fromat: | Excellon, PTH and NPTH in single file, use alternative drill mode for oval holes |
+| Options: | Orgin: Absolute, Units: Millimeters, Zeros: Decimal format (remomended) |
+
 Actions:
 * Compress / zip the folder containing gerbers in to a file called: PCB-${PROJECT#}-${VERSION}-GERB.zip
-
 
 #### PCB Drawing / Specification
 ```+``` --> "PCB: Export PDF" --> "OK"
