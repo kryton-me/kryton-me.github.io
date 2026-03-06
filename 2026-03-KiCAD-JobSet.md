@@ -81,7 +81,7 @@ Just one Desitination for Both PCB & PCBA
 | Name | Value |
 | --- | --- |
 | Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
-| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Document Layer, & Multi Layer |
+| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks,, Past mask, Document Layer, & Multi Layer |
 | General Options: | Plot Drawing sheet, Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
 
@@ -94,7 +94,7 @@ Actions:
 | Name | Value |
 | --- | --- |
 | Output directory: | ```PCB-${PROJECT#}-${VERSION}/PCB-${PROJECT#}-${VERSION}-GERB``` |
-| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks,& Multi Layer |
+| Inclued Layers: | Top, Bottom, Silkscreens, Solder masks, Past mask & Multi Layer |
 | General Options: | Check zone fills before plotting |
 | Gerber Options: | Use Protel filename extensions, Use extended X2 format |
 
