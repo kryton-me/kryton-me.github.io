@@ -20,15 +20,16 @@ Set up the follwoing variables:
 ### Variables to defined
 THis is just my suggestion feel free to set it up your own way.
 
-| Name | Description |
-| --- | --- |
-| VERSION | Issue of files being issued
-| PROJECT# | i.e. PCB-001 |
-| PROJECT-DESCRIPTION | Discription of the project |
-| COMPANY | Company / Organisation responsible |
-| BY | Initals of designer and potentially reviewer |
-| VERSION-CURRENT | Description of changes in that version |
-| VERSION-LAST | Description of changes in that version |
+| Name | Description | Notes |
+| --- | --- | --- |
+| VERSION | Issue of files being issued | |
+| PROJECT# | i.e. PCB-001 | |
+| PROJECT-DESCRIPTION | Discription of the project | |
+| COMPANY | Company / Organisation responsible | Embed in template if possible |
+| BY | Creator: MF or Mic F or M Faraday | |
+| APPROVER | Approver: see above | |
+| VERSION-CURRENT | Description of changes in that version | |
+| VERSION-LAST | Description of changes in that version | |
 | VERSION-LAST+1 | Description of changes in that version |
 | VERSION-LAST+2 | Description of changes in that version |
 | VERSION-LAST+3 | Description of changes in that version |
@@ -42,14 +43,20 @@ THis is just my suggestion feel free to set it up your own way.
 A syntax example:
 ```${PROJECTNAME}``` or ```${CURRENT_DATE}```
 
+I've added Number which is not in the default template to comply with BS8888
+
 ### Page Settings
+THis can be skipped if the correct page templates are set up.
+
 Applicable and SCH and PCB and Automated the title block of any drawing. 
 | Variable on Sheets / Drawing | Applicable too | Applicable Variable | Notes |
 | --- | --- | --- | --- |
 | Issue Date: | Both | ```${CURRENT_DATE}``` | |
 | Revision: | Both | ```${VERSION}``` | |
-| Title: | Circuit | ```PCBA-${PROJECT#}-${VERSION}, ${PROJECT-DESCRIPTION}``` | Extra "A" for assembly |
-| Title: | PCB | ```PCB-${PROJECT#}-${VERSION}, ${PROJECT-DESCRIPTION}``` | |
+| Title: | Circuit | ```${PROJECT-DESCRIPTION} Circuit Diagram``` | Extra "A" for assembly |
+| Title: | PCB | ```${PROJECT-DESCRIPTION} Printed Circuit Board``` | |
+| Number: | Circuit | ```PCBA-${PROJECT#}-${VERSION}``` | Extra "A" for assembly |
+| Number: | PCB | ```PCB-${PROJECT#}-${VERSION}``` | |
 | Company: | Both | ```${COMPANY}``` | |
 | Comment1: | Both | ```${BY}``` | |
 | Comment2: | Both | ```${VERSION-CURRENT}``` | |
