@@ -22,7 +22,8 @@ THis is just my suggestion feel free to set it up your own way.
 
 | Name | Description | Notes |
 | --- | --- | --- |
-| VERSION | Issue of files being issued | |
+| VERSION | Version of PCB deisgn | changes with netlist or coppeer |
+| ISSUE | Issue of documentation | Revision of documents |
 | PROJECT# | i.e. PCB-001 | |
 | PROJECT-DESCRIPTION | Discription of the project | |
 | COMPANY | Company / Organisation responsible | Embed in template if possible |
