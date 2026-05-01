@@ -20,6 +20,7 @@ Some of my random thoughts:
 * [ECAD Software](/2021-01-ECADSoftware)
 * [Electronic safety standards](/2020-06-ElectroniceSafteyStandards)
 * [Gerber Viewers](/2024-06-GerberViewers)
+* [PicoScope7 on Fedora](2026-05-PicoScope7onFedora.md)
 
 # Gadgets
 * [eTrex map install](/2022-09-eTrexMapUpload)
