@@ -28,25 +28,24 @@ Switch to copr build of Fedora? - Not sure I neede to do this.
 
 """sudo dnf copr enable dcaratti/wpa_supplicant sudo dnf update did not work"""
 
-# Get Wifi working - Done
+# Get Wifi working
 
-sudo dnf install
+In the setting tab of "Discover" (KDE) make sure the RPM fusion respoties "Nonfree - Steam" is enabled if you WiFi
 
-<https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm> -E %fedora).noarch.rpm <https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm> -E %fedora).noarch.rpm
-sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
+```sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1```
 
-instal broadcom-wl
+```instal broadcom-wl```
 
-# Software to get the webcam working: - 
+# Software to get the webcam working:
 
 No attempted <https://github.com/patjak/facetimehd/wiki/Installation#get-started-on-fedora>  
 TODO: My head hurts on this.
 
-# VPN - 
+# VPN
 
 just double click the file
 
-# HIBERNATION - TODO Fix reboot issue.
+# HIBERNATION - Not resolved
 
 Tried this using the UEFI method
 
@@ -78,6 +77,8 @@ sensors | grep -e "Core" -e "temp:" -e "RPM"
 
 # Re-paste CPU 
 
+As has been noted by other the CPU paste on Macs tands to dry out leaving the fan running under even light loads, Re-pasting resolves this and increases the perfromance.
+
 # Hardware video decoder:
 
 [https://fedoraproject.org/wiki/Hardware_Video_Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration#cite_note-2)
@@ -88,13 +89,13 @@ Later "sudo dnf install intel-media-driver"
 
 Software
 
-sudo dnf install ffmpeg-free - already had it
+```sudo dnf install ffmpeg-free``` - already had it
 
-sudo dnf install libavcodec-freeworld - H264
+```sudo dnf install libavcodec-freeworld``` - H264
 
-sudo dnf install libva-utils.x86_64
+```sudo dnf install libva-utils.x86_64```
 
-vainfo to confirm VA-API
+```vainfo``` to confirm VA-API
 
   
    
