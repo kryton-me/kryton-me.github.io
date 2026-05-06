@@ -47,7 +47,7 @@ Some of my random thoughts:
 * [Dirty Search tool](/2022-05-DirtySearchTool)
 * [Operating Systems](/2021-01-OperatingSystems)
 * [Window tools](/2022-04-WindowsTools)
-* [Linux Serial ports](/2026-05 Linux Serial port basics)
+* [Linux Serial ports](/2026-05-LinuxSerialportBasics)
 
 Pages not listed here are considered unpublished drafts so don’t rely on them.
 
