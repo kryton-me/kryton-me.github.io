@@ -48,6 +48,7 @@ Some of my random thoughts:
 * [Operating Systems](/2021-01-OperatingSystems)
 * [Window tools](/2022-04-WindowsTools)
 * [Linux Serial ports](/2026-05-LinuxSerialportBasics)
+* [Linux on an old intel Mac](/2026-01-LinuxOnAnOldMac)
 
 Pages not listed here are considered unpublished drafts so don’t rely on them.
 
