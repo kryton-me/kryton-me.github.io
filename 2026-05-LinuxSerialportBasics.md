@@ -5,8 +5,10 @@ Linux Serial port
 
 ## Getting access from the command line:
 
-  sudo usermod -a -G dialout <username>
+```sudo usermod -a -G dialout <username>```
+
+Log out and in to take effect
 
 ## List the serial ports
 
-  ls /dev/tty*
+```ls /dev/tty*```
