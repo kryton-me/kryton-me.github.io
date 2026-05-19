@@ -6,14 +6,24 @@ I quick set up of tools for ECAD on a fresh Windows install.
 
 # Install software witout the faff
 
-Start -> '''CMD'''
+Start -> ```CMD```
 
-'''winget install MartinCliment.UniGetUI''' Winget & otrher repository gui 
-'''winget install KiCad.KiCad''' ECAD tool
-'''winget install TortoiseGit.TortoiseGit''' git Client
-'''winget install Vivaldi.Vivaldi''' Chrome without the bloat, you millage may vary.
+## Nice Gui for Winget & More 
+```winget install MartinCliment.UniGetUI```
 
-# Update the system
+## ECAD tool
+```winget install KiCad.KiCad```
 
-'''winget upgrade''' List avalable upgrades
-'''winget upgrade KiCad.KiCad''' upgrade KiCAD
+## GUI git client for Windows
+```winget install TortoiseGit.TortoiseGit``` 
+
+## Chrome without the AI bloat, you millage may vary.
+```winget install Vivaldi.Vivaldi``` 
+
+# Update software in winget
+
+## List avalable upgrades
+```winget upgrade``` 
+
+## Update KiCAD for example
+```winget upgrade KiCad.KiCad```
