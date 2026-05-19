@@ -36,6 +36,12 @@ It's ".fods" format is ideal for git storeing of design calulations in a spreads
 ## Improved grathics for KiCAD
 ```winget install Microsoft.OpenCLGLVulkanCompatabilityPack```
 
+## Virtio Driver if your using Virtial Machine Manager
+```winget install RedHat.VirtIO```
+
+## Virtual box drivers
+Not in winget just mount from the Virtual box on the host
+
 # Update software in winget
 
 ## List avalable upgrades
