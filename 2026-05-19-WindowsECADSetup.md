@@ -9,7 +9,7 @@ I quick set up of tools for ECAD on a fresh Windows install.
 Start -> ```CMD```
 
 ## Nice Gui for Winget & More 
-```winget install MartinCliment.UniGetUI```
+```winget install MartiCliment.UniGetUI```
 
 ## ECAD tool
 ```winget install KiCad.KiCad```
