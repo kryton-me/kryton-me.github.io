@@ -5,53 +5,40 @@ Linux ECAD Setup
 A quick set up of tools for ECAD on a fresh Linux install.
 
 # Install software witout the faff
-Make sure flatpack / flathub is set up on your system. Most mainstream systems have this set up by default with the exception of Ubuntu.
+flatpacks from flathub are genrally a good cross platform method of installing applications that are sandboxed and often maintained by the app developers so are up to date.
 
-## GUI install of Applications
+in most distros they can be acced via the following Apps:
+* KDE = "discover" application.
+* Gnome = "software" application.
 
-### KDE
-run the "discover" application.
-
-### Gnome
-run the "software" application.
-
-### Ubuntu 
-run the "App Center" application.
+just make sure flathub is set up on (your distro)[https://flathub.org/en/setup] first.
 
 ## ECAD tool
 A professional grade yet free ECAD tool - highly recomended
-```winget install KiCad.KiCad```
+```flatpak install flathub org.kicad.KiCad```
 
-## GUI git client for Windows
-Nice GUI git tool idea for electronics enginners who tend to be more grathical
-```winget install TortoiseGit.TortoiseGit``` 
+## GUI git client for Linux
+Still struggling with this one, I've trued the following:
+* Cola git ```flatpak install flathub com.github.git_cola.git-cola```
+* Desktop plus ```flatpak install flathub io.github.pol_rivero.github-desktop-plus```
+* command line git
+* git Authentication tool.
 
 ## Text editor
-Really nice Text editor with lots of plugints and languige reconginsion
-```winget install Notepad++.Notepad++```
+* KDE comes with Kwrite which is pritty good
+* GNOME kwrite can be installed: ```flatpak install flathub org.kde.kwrite```
 
 ## Chrome without the AI bloat, you millage may vary.
-```winget install Vivaldi.Vivaldi``` 
+It does not have a varified flatpak on flat hub, best follow your distro.
 
 ## Libre Office
 It's ".fods" format is ideal for git storeing of design calulations in a spreadsheet as it's tracable. 
-```winget install TheDocumentFoundation.LibreOffice```
+```flatpak install flathub org.libreoffice.LibreOffice```
 
 # Extensions
-
-## Improved grathics for KiCAD
-```winget install Microsoft.OpenCLGLVulkanCompatabilityPack```
-
-## Virtio Driver if your using Virtial Machine Manager
-```winget install RedHat.VirtIO```
 
 ## Virtual box drivers
 Not in winget just mount from the Virtual box on the host
 
-# Update software in winget
-
-## List avalable upgrades
-```winget upgrade``` 
-
-## Update KiCAD for example
-```winget upgrade KiCad.KiCad```
+# Update softwrae from flathub
+use discover or software, on some distros (ubuntu) you need to use the application you installed to install flat hub in addtion to the distros application.
