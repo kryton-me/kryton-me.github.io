@@ -2,7 +2,10 @@ Linux ECAD Setup
 ---
 
 # Introduction
-A quick set up of tools for ECAD on a fresh Linux install.
+A quick set up of tools for ECAD on a fresh Linux install. I'll assume your are using one of the mainstream KDE / GNOME distros with comercial support options i.e. Redhat / Fedora / SuSE / Ubuntu. I've largly based this on support of the follwing tools: (KiCAD)[https://www.kicad.org/help/system-requirements/] & (PicoScope)[https://www.picotech.com/downloads/linux]
+
+Warning curerently KiCAD still requires X11 and does not mention SuSE, it works in Wayland but often hangs when using dialogs. 
+
 
 # Install software witout the faff
 flatpacks from flathub are genrally a good cross platform method of installing applications that are sandboxed and often maintained by the app developers so are up to date.
@@ -16,6 +19,24 @@ just make sure flathub is set up on (your distro)[https://flathub.org/en/setup] 
 ## ECAD tool
 A professional grade yet free ECAD tool - highly recomended
 ```flatpak install flathub org.kicad.KiCad```
+
+## LTSpice
+Analouge's spice tool
+
+Install wine
+I've not suggested flathub as the Auther is unknown
+* Redhat / fedora ```sudo dnf install wine```
+* Debian / Unbuntu ```sudo apt install wine```
+* SUSE ```sudo zypper install wine```
+
+Download the (windows version of LT spice)[https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html]
+
+Then double click on the LTspice64.msi in your downloads folder.
+
+## Pico Scope
+For Fedora please see (my guide)[/2026-05-PicoScope7onFedora]
+
+For Ubutu and openSUSE (please ses there guide)[https://www.picotech.com/downloads/linux].
 
 ## GUI git client for Linux
 Still struggling with this one, I've trued the following:
