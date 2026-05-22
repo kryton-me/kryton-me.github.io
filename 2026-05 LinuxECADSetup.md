@@ -34,7 +34,7 @@ Download the [windows version of LT spice](https://www.analog.com/en/resources/d
 Then double click on the LTspice64.msi in your downloads folder.
 
 ## Pico Scope
-For Fedora please see [my guide](/2026-05-PicoScope7onFedora)
+For Fedora please see [my guide](/2026-05-PicoScope7onFedora.html)
 
 For Ubutu and openSUSE [please ses there guide](https://www.picotech.com/downloads/linux).
 
