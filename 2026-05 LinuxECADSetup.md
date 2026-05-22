@@ -33,6 +33,21 @@ Download the [windows version of LT spice](https://www.analog.com/en/resources/d
 
 Then double click on the LTspice64.msi in your downloads folder.
 
+To run the program press the supper key (windows) & type ```ltspice``` it should appear on a list
+
+## TINA-TI spice tool
+Assuming wine is already installed
+
+[Go to the TINA-TI webpage](https://www.ti.com/tool/TINA-TI)
+
+You will need an account with TI and to confirm what your using the tool for bofore you can download it. 
+
+Once downloaded extract the zip file Tina90-TIen.X.X.XXX.XXX.zip
+
+Double click the Tina90-TIen.exe file, this will lunch the install wizzard 
+
+To run the program press the supper key (windows) & type ```tina-ti```  it should appear on a list
+
 ## Pico Scope
 For Fedora please see [my guide](/2026-05-PicoScope7onFedora.html)
 
