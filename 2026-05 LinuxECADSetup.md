@@ -56,7 +56,9 @@ For Ubutu and openSUSE [please ses there guide](https://www.picotech.com/downloa
 ## GUI git client for Linux
 Still struggling with this one, I've trued the following:
 * Cola git ```flatpak install flathub com.github.git_cola.git-cola```
+  * Will need [git credential manager](https://github.com/git-ecosystem/git-credential-manager) for a lot of repos
 * Desktop plus ```flatpak install flathub io.github.pol_rivero.github-desktop-plus```
+  * Had mixed results getting this to check out a non-git hub repository.  
 * command line git
 * git Authentication tool.
 
