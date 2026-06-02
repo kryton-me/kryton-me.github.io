@@ -23,17 +23,25 @@ A professional grade yet free ECAD tool - highly recomended
 ## LTSpice
 Analouge's spice tool
 
-Install wine
+Install WINE
 I've not suggested flathub as the Author is unknown
 * Redhat / fedora ```sudo dnf install wine```
 * Debian / Unbuntu ```sudo apt install wine```
 * SUSE ```sudo zypper install wine```
 
-Download the [windows version of LT spice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
+Install LTSpice
+* Download the [windows version of LT spice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
+* double click on the LTspice64.msi in downloads
+* To run, press the supper key (windows) & type ```ltspice```
 
-Then double click on the LTspice64.msi in your downloads folder.
+## LTpowerCAD - Not Working with WINE
+Design tool for power circuits
 
-To run the program press the supper key (windows) & type ```ltspice``` it should appear on a list
+* Assuming you have installed WINE
+* Download the [Windows Installer](https://www.analog.com/en/lp/ltpowercad.html)
+* Un-zip and run setup.exe
+
+```Error 1001. InstallUtilLib.dll:ClrCreateManagedInstance Not implemanted```
 
 ## TINA-TI spice tool
 Assuming wine is already installed
