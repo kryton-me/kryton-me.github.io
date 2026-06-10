@@ -56,4 +56,4 @@ or push to a branch
 ```git switch -c "origin/branch" --track "origin/branch"```
 
 ### Confirm the branch your on
-```git branch```
+```git status```
