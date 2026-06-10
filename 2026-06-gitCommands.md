@@ -7,7 +7,7 @@ Leaning basic git commands:
 # clone a repository
 ```git clone https://gituser@kryton.me.uk/gitrepositories/myMadCodeBase.git```
 
-# Saving bach to the server
+# Saving back to the server
 
 ### Check your status
 ```git status```
