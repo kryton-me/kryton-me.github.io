@@ -1,0 +1,22 @@
+Git Commands
+---
+
+# Introduction
+Leaning basic git commands:
+
+# clone a repository
+```git clone https://gituser@kryton.me.uk/gitrepositories/myMadCodeBase.git```
+
+# Switch to a branch
+
+### List local branches
+```git branch```
+
+### List remote branches
+```git branch -r```
+
+### if you don't have the bracnch you want locally down load it:
+```git fetch --all```
+
+### Create the branch localy & switch tracking to it.
+```git switch -c "origin/branch" --track "origin/branch"
