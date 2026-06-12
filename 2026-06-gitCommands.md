@@ -12,6 +12,10 @@ Leaning basic git commands:
 ### Check your status
 ```git status```
 
+### "Resoring" back to the copy on the server
+```git restore wibble.md```
+
+
 ### Staging files
 Add files in red (unstaged) ready to comit
 ```git add "wibble.md"```
