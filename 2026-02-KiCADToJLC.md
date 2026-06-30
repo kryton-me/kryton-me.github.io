@@ -49,6 +49,11 @@ Open the PCB Editor
   * ```PosY``` to ```Mid Y```
   * ```Rot``` to ```Rotation``` Not entrily sure if "-90" needs to be change to "270"?
   * ```Side``` to ```Layer``` should "bottom" to "Bottom" is not an issue.
+Change the first line:
+```Ref,Val,Package,PosX,PosY,Rot,Side```
+ 
+to:
+```Designator,Val,Package,Mid X,Mid Y,Rotation,Layer```
 
 # Further reading:
 [JLC do offer automated software](https://jlcpcb.com/help/article/How-to-Generate-BOM-and-Centroid-Files-from-KiCad-in-Linux) to do this for you, however you still need to set up the LCSC and JLC fields manually. I was also not conviced the software would work if you used a flatplack insulation. I did however use this page to set up all the above feilds along with example BOMs and placement files. 
