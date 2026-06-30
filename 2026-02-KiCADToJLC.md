@@ -49,6 +49,7 @@ Open the PCB Editor
   * ```PosY``` to ```Mid Y```
   * ```Rot``` to ```Rotation``` Not entrily sure if "-90" needs to be change to "270"?
   * ```Side``` to ```Layer``` should "bottom" to "Bottom" is not an issue.
+ 
 Change the first line:
 ```Ref,Val,Package,PosX,PosY,Rot,Side```
  
