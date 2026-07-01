@@ -51,9 +51,11 @@ Open the PCB Editor
   * ```Side``` to ```Layer``` should "bottom" to "Bottom" is not an issue.
  
 Change the first line:
+
 ```Ref,Val,Package,PosX,PosY,Rot,Side```
  
 to:
+
 ```Designator,Val,Package,Mid X,Mid Y,Rotation,Layer```
 
 # Further reading:
