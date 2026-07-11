@@ -13,7 +13,7 @@ I found an old MacBook Pro hanging around in need of somthing to do.
 As it's well out of Apples support Stuck on MacOS 11 for eternity it's basically e-Waste well according to Apple. I however have other plans involving Linux.
 
 # Which Linux?
-Reading around it sounds like it should still be capable of running current mainstream Distros mainly as it's a 64bit CPU and has a still respectable 8GB of RAM. I'm personally keen on KDE so thought I'd use it to try out Fedora.
+Reading around it sounds like it should still be capable of running current mainstream Distros mainly as it's a 64bit CPU and has a still respectable 8GB of RAM. I'm personally keen on KDE so thought I'd use it to try out Fedora. This worked well and I also tried SUSE Tumbleweed
 
 Distro: Fedora 43 in KDE flavour
 
@@ -35,6 +35,14 @@ In the setting tab of "Discover" (KDE) make sure the RPM fusion respoties "Nonfr
 ```sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1```
 
 ```instal broadcom-wl```
+
+in SuSE I needed to install Pacman 
+
+```sudo zypper ar -cfp 90 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman```
+
+then installed the driver
+
+```sudo zypper install instal broadcom-wl```
 
 # Software to get the webcam working:
 
