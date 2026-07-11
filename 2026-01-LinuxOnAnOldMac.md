@@ -32,10 +32,13 @@ Switch to copr build of Fedora? - Not sure I neede to do this.
 
 In the setting tab of "Discover" (KDE) make sure the RPM fusion respoties "Nonfree - Steam" is enabled if you WiFi
 
+## Fedora
+
 ```sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1```
 
 ```instal broadcom-wl```
 
+## Suse
 in SuSE I needed to install Pacman 
 
 ```sudo zypper ar -cfp 90 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman```
@@ -43,6 +46,8 @@ in SuSE I needed to install Pacman
 then installed the driver
 
 ```sudo zypper install instal broadcom-wl```
+
+note, I had to set the network manually to "WPA2/WPA3 Personal" from just WPA3 as I suspect the card or driver does not support WPA3 as it's relatively recent
 
 # Software to get the webcam working:
 
@@ -53,7 +58,9 @@ TODO: My head hurts on this.
 
 just double click the file
 
-# HIBERNATION - Not resolved
+# HIBERNATION - 
+
+Not resolved on Fedora but seemed to work out the box on SuSE. not 100% sure I have that right.
 
 Tried this using the UEFI method
 
