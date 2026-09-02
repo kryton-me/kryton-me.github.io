@@ -20,7 +20,7 @@ Then pipe the output to a text file.
 
 	tree -a -f -i -R -L 5 > searchResults.txt
 
-If your just after directory names add -d and this will speed things up.
+If your just after directory names add -d and this will speed things up. if your using git remove -a as there are a lot of hidden files. 
 
 # Finding what you want.
 This is where grep comes in. grep will return all the lines of a file with a match a search term and as your working on a local files it's near instant.
@@ -32,6 +32,20 @@ This will effectively give you the path & file name of any matches. This will ma
 If you want to get funky and search on two factors i.e. looking for all .txt files where wibble is in the path.
 
 	grep 'wibble.*txt' searchResults.txt
+
+
+Want a text file that lists all the 'BOM' files with csv extensions? i.e. look for 'BOM' in the path and '.csv' at the end.
+
+	grep 'BOM*.csv' searchResults.txt > listOfBOMs.txt
+
+Now search those BOMs for a given part i.e. that 271 op-amp:
+
+	while IFS="" read -r p || [ -n "$p" ]
+	do
+		if grep -q $1 "$p"; then
+			echo "$p"
+		fi
+	done < listOfBOMS.txt
 
 # Windows considerations
 if you want to do this on windows cygwin would be a good option. In which case it's handy to know the local reference to mapped drives on your system: 
