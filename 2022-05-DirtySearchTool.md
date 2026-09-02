@@ -40,11 +40,19 @@ Want a text file that lists all the 'BOM' files with csv extensions? i.e. look f
 
 Now search those BOMs for a given part i.e. that 271 op-amp:
 
+	# For each file
 	while IFS="" read -r p || [ -n "$p" ]
 	do
-		if grep -q $1 "$p"; then
+		# if you find as search term  
+		if line=$(grep $1 "$p"); then
+			# publish the text file's name
 			echo "$p"
+
+			# publish the line to see the components details
+			echo "$line"
 		fi
+
+	# feed in the file
 	done < listOfBOMS.txt
 
 # Windows considerations
