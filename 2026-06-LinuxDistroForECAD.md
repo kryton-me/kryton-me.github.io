@@ -1,5 +1,4 @@
----
-Title: Linux Distro for ECAD
+Linux Distro for ECAD
 ---
 
 # Introduction
