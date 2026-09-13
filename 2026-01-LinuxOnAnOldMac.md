@@ -22,21 +22,18 @@ I set the iso file up on a USB pen drive as a live boot distro so I could try it
 # First boot
 Holding down the "Option" key or "alt" as its written on this particular UK MacBook I pressed the power button. This brought up the USB drive and internal SSD. I opten for the USB drive and was soon presented with a KDE desktop. This is where I found the first problem, no WiFi drives! I decided to go ahead as with the current MacOS this thing was effectively a glorified paperweight with an Apple logo. I made a rash assumption that the live kernal may not have all the drivers loaded and some more may become available it install (they don't, well in this case)
 
-
-# COPR build
-Switch to copr build of Fedora? - Not sure I neede to do this.
-
-"""sudo dnf copr enable dcaratti/wpa_supplicant sudo dnf update did not work"""
-
 # Get Wifi working
 
 In the setting tab of "Discover" (KDE) make sure the RPM fusion respoties "Nonfree - Steam" is enabled if you WiFi
 
 ## Fedora
+Enable [rpmfusion](rpmfusion.org/Configuration)
 
 ```sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1```
 
 ```instal broadcom-wl```
+
+Restart the system to get the wifi card working. 
 
 ## Suse
 in SuSE I needed to install Pacman 
