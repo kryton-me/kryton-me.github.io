@@ -20,6 +20,27 @@ just make sure flathub is set up on [your distro](https://flathub.org/en/setup) 
 A professional grade yet free ECAD tool - highly recomended
 ```flatpak install flathub org.kicad.KiCad```
 
+## Wire Viz
+Cool tool for documenting wiring looms / cables
+
+### First install "Graphviz"
+
+  sudo dnf install graphviz
+
+or if your so inclined
+
+ sudo apt install graphviz
+
+or for the silicon coniser
+
+ brew instll graphviz
+
+### Then install Wireviz
+
+ pip3 install wireviz
+
+Then use as per [their github page](https://github.com/wireviz/WireViz)
+
 ## LTSpice
 Analouge's spice tool
 
