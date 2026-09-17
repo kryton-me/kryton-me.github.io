@@ -36,6 +36,7 @@ Assuming you have Python 3.7 (at time of publishing) or higher
 ```pip3 install wireviz```
 
 Then use as per [their github page](https://github.com/wireviz/WireViz)
+i.e. ```wireviz YourCableDesign.yml -f p``` to get a .png file.
 
 ## LTSpice
 Analouge's spice tool
