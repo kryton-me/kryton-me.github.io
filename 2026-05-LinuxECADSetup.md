@@ -23,21 +23,17 @@ A professional grade yet free ECAD tool - highly recomended
 ## Wire Viz
 Cool tool for documenting wiring looms / cables
 
+Assuming you have Python 3.7 (at time of publishing) or higher
+
 ### First install "Graphviz"
 
-  sudo dnf install graphviz
-
-or if your so inclined
-
- sudo apt install graphviz
-
-or for the silicon coniser
-
- brew instll graphviz
+* Fedora / Redhat ```sudo dnf install graphviz```
+* Debian / Ubuntu  ```sudo apt install graphviz```
+* Mac & others ```brew instll graphviz```
 
 ### Then install Wireviz
 
- pip3 install wireviz
+```pip3 install wireviz```
 
 Then use as per [their github page](https://github.com/wireviz/WireViz)
 
